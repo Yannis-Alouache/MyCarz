@@ -5,6 +5,13 @@ import LogoHome from "@/app/_assets/LogoHome.png"
 const Navbar = (props) => {
    
   let { contactBtnClass } = props
+
+  if (!contactBtnClass) {
+    return (
+        <h1 className="font-bold text-4xl text-red-600">Povide CONTACT BTN CLASS</h1>
+    )
+  }
+
   return (
     <>
         <nav class="bg-transparent border-gray-200 py-2.5 z-10 relative">
