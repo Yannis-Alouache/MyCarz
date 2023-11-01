@@ -5,13 +5,13 @@ import Badge from "../Badge/Badge"
 
 import HomeBannerCar from "@/app/_assets/HomeBannerCar.png"
 
-const HeroBanner = () => {
+const HomeHeroBanner = () => {
   return (
     <section className="pt-64 z-10 relative">
         <div className="container mx-auto">
             <div className="grid grid-cols-12">
                 <div className="col-span-6">
-                    <Badge className="mb-3" />
+                    <Badge className="mb-3 bg-[#0072FF]" />
                     <span className="font-extrabold">Votre garage tout-en-un</span>
                     <h1 className="text-[80px] leading-none font-extrabold mb-3">
                         Votre partenaire auto {" "}
@@ -38,4 +38,4 @@ const HeroBanner = () => {
   )
 }
 
-export default HeroBanner
+export default HomeHeroBanner
