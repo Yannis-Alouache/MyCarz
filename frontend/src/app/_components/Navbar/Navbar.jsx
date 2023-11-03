@@ -1,14 +1,12 @@
 import Image from "next/image";
 
-import LogoHome from "@/app/_assets/LogoHome.png"
-
 const Navbar = (props) => {
    
-  let { contactBtnClass } = props
+  let { contactBtnClass, logo } = props
 
-  if (!contactBtnClass) {
+  if (!contactBtnClass || !logo) {
     return (
-        <h1 className="font-bold text-4xl text-red-600">Povide CONTACT BTN CLASS</h1>
+        <h1 className="font-bold text-4xl text-red-600">One of props missing</h1>
     )
   }
 
@@ -17,7 +15,7 @@ const Navbar = (props) => {
         <nav class="bg-transparent border-gray-200 py-2.5 z-10 relative">
             <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
                 <a href="/" class="flex items-center">
-                    <Image src={LogoHome} class="h-full" alt="Landwind Logo" />
+                    <Image src={logo} class="h-full" alt="Landwind Logo" />
                 </a>
                 <div class="flex items-center lg:order-2">
                     <div class="hidden mt-2 mr-4 sm:inline-block">
@@ -60,7 +58,7 @@ const Navbar = (props) => {
                                 class="block py-2 pl-3 pr-4 text-black font-bold border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Mécanique</a>
                         </li>
                         <li>
-                            <a href="/covering-detailling"
+                            <a href="/covering-detailing"
                                 class="block py-2 pl-3 pr-4 text-black font-bold border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Covering</a>
                         </li>
                         <li>
