@@ -24,55 +24,55 @@ const Footer = (props) => {
               <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-helvetica">
                   Horaires</h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                <ul className="text-white font-medium">
                   <li className="mb-4">
-                    <Link href="/" className="hover:underline font-gilroy">Falcon Marketing</Link>
+                    <Link href="/" className="hover:underline">Falcon Marketing</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="https://falconacademy.fr/" className="hover:underline font-gilroy">Falcon Academy</Link>
+                    <Link href="https://falconacademy.fr/" className="hover:underline">Falcon Academy</Link>
                   </li>
                   <li className='mb-4'>
-                    <Link href="https://falconenergy.fr/" className="hover:underline font-gilroy">Falcon Energy</Link>
+                    <Link href="https://falconenergy.fr/" className="hover:underline">Falcon Energy</Link>
                   </li>
                   <li className='mb-4'>
-                    <Link href="https://voscontrats.fr/" className="hover:underline font-gilroy">Vos Contrats</Link>
+                    <Link href="https://voscontrats.fr/" className="hover:underline">Vos Contrats</Link>
                   </li>
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-helvetica">Liens
+                <h2 className="mb-6 text-sm font-semibold uppercase text-white">Liens
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                <ul className="text-white font-medium">
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline font-gilroy">Achat Dépôt Revente</Link>
+                    <Link href="/nos-valeurs" className="hover:underline">Achat Dépôt Revente</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline font-gilroy">Mécanique</Link>
+                    <Link href="/nos-valeurs" className="hover:underline">Mécanique</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline font-gilroy">Covering</Link>
+                    <Link href="/nos-valeurs" className="hover:underline">Covering</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline font-gilroy">Wash</Link>
+                    <Link href="/nos-valeurs" className="hover:underline">Wash</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline font-gilroy">Service</Link>
+                    <Link href="/nos-valeurs" className="hover:underline">Service</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline font-gilroy">Promo</Link>
+                    <Link href="/nos-valeurs" className="hover:underline">Promo</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline font-gilroy">Mentions légales</Link>
+                    <Link href="/nos-valeurs" className="hover:underline">Mentions légales</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline font-gilroy">Politique Confidentialité</Link>
+                    <Link href="/nos-valeurs" className="hover:underline">Politique Confidentialité</Link>
                   </li>
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-helvetica">
+                <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                   Contact</h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium font-gilroy">
+                <ul className="text-white font-medium">
                   <li className="flex mb-4 items-center gap-x-3">
                     <BsTelephoneFill className="text-red-600" />
                     <span>+33 6 20 08 12 50</span>
