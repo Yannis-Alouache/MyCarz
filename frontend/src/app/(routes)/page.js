@@ -7,6 +7,7 @@ import LogoHome from "@/app/_assets/LogoHome.png"
 
 import ServicesCarousel from "../_components/ServicesCarousel/ServicesCarousel"
 import HomeHeroBanner from "../_components/HomeHeroBanner/HomeHeroBanner"
+import Footer from "../_components/Footer/Footer"
 
 export default function Home() {
   return (
@@ -16,6 +17,10 @@ export default function Home() {
         <Navbar contactBtnClass="border-[#0072FF]" logo={LogoHome}/>
         <HomeHeroBanner />
         <ServicesCarousel tiretColor="linear-gradient(90deg, #0075FF 0%, #00397B 100%)"/>
+      </div>
+      
+      <div className="">
+        <Footer bgColor="linear-gradient(180deg, #0075FF 0%, #00428F 100%)" logo={LogoHome} />
       </div>
     </>
   )
