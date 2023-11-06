@@ -7,7 +7,7 @@ import ServiceHeroBanner from "@/app/_components/ServiceHeroBanner/ServiceHeroBa
 import ServicesCarousel from "@/app/_components/ServicesCarousel/ServicesCarousel"
 import Footer from "@/app/_components/Footer/Footer"
 
-const Service = () => {
+const ServicePage = () => {
   return (
     <>
         <div className='relative'>
@@ -21,4 +21,4 @@ const Service = () => {
   )
 }
 
-export default Service
+export default ServicePage
