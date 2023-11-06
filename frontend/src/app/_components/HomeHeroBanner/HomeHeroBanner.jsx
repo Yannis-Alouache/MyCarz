@@ -25,7 +25,7 @@ const HomeHeroBanner = () => {
                         <p>Votre solution rapide et abordable pour tous vos besoins automobiles.</p>
                         <p>De l’entretien de routine au detailing, nous proposons une gamme de services express pour prendre soin de votre véhicule sans vider votre portefeuille.</p>
                     </div>
-                    <button className="font-extrabold text-2xl text-white rounded-lg px-16 py-5" style={{background: "linear-gradient(90deg, #00397B 0%, #0075FF 100%);"}}>
+                    <button className="font-extrabold text-2xl text-white rounded-lg px-16 py-5" style={{background: "linear-gradient(90deg, #00397B 0%, #0075FF 100%)"}}>
                         Nos Services
                     </button>
                 </div>

@@ -11,7 +11,7 @@ const Footer = (props) => {
   let { bgColor, logo } = props;
 
   return (
-      <footer style={{background: bgColor, clipPath: "polygon(0 10%, 100% 0, 100% 100%, 0% 100%);"}} className="w-full">
+      <footer style={{background: bgColor, clipPath: "polygon(0 10%, 100% 0, 100% 100%, 0% 100%)"}} className="w-full">
         <div className="mx-auto container px-10 xl:px-0">
           <div className="md:flex md:justify-between xl:pt-32 xl:pb-20 pt-12">
             <div className="mb-6 md:mb-0 xl:block w-96 hidden">
