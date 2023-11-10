@@ -1,23 +1,30 @@
 import Image from "next/image";
 import Arrow from "@/app/_assets/Arrow.webp"
-import BuyService from '@/app/_assets/BuyService.png';
+import Button from "../Button/Button";
 
 const Service = (props) => {
 
-  let { title } = props;
+  let { title, mainColor, secondaryColor, text, mainImage, svg, svgClassName } = props;
 
   return (
-    <div className="relative">
-      <div className="container mx-auto">
+    <div className="relative py-28">
+      <Image src={ svg } className={"absolute z-0 w-auto h-full " + svgClassName } /> 
+      <div className="max-w-screen-xl w-full mx-auto z-10 relative">
         <div className="grid grid-cols-12">
           <div className="col-span-6">
-            <Image src={BuyService} />
+            <div className="relative">
+              <div className={ "absolute w-[240px] h-[240px] -left-8 -bottom-8 z-0 bg-gradient-to-b from-[" + mainColor + "] to-[" + secondaryColor + "]" }></div>
+              <Image className="relative z-10" src={mainImage} />
+            </div>
           </div>
-          <div className="col-span-6">
-            <h2 className="text-4xl uppercase font-extrabold mb-3">{title}</h2>
-            <div className="flex gap-x-10">
-              <Image src={Arrow} className="lg:h-16 w-auto" />
-              <p className="color-gray-800">Spécialisés dans l’achat et le dépôt-vente, nous vous offrons des solutions avantageuses pour renouveler ou vendre votre véhicule sans contrainte financière.</p>
+          <div className="col-span-6 flex flex-col justify-center">
+            <h2 className="text-5xl uppercase font-black mb-3">{ title }</h2>
+            <div className="flex gap-x-10 mb-3">
+              <Image src={ Arrow } className="lg:h-16 w-auto" />
+              <p className="color-gray-800">{ text }</p>
+            </div>
+            <div className="flex justify-end">
+              <Button href="/" className={ 'uppercase float-right font-bold w-fit' } style={{ borderColor: mainColor}}>En savoir plus</Button>
             </div>
           </div>
         </div>

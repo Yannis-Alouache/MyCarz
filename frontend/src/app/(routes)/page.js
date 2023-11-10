@@ -1,9 +1,19 @@
 import Image from "next/image"
 
 import HomeBannerBgCircle from "@/app/_assets/HomeBannerBgCircle.svg"
+import RedWave from "@/app/_assets/RedWave.svg"
+import LightBlueWave from "@/app/_assets/LightBlueWave.svg"
+import BlueRedWave from "@/app/_assets/BlueRedWave.svg"
+import RoseWave from "@/app/_assets/RoseWave.svg"
+import GrayWave from "@/app/_assets/GrayWave.svg"
 
 import Navbar from "../_components/Navbar/Navbar"
 import LogoHome from "@/app/_assets/LogoHome.png"
+import BuyService from '@/app/_assets/BuyService.png';
+import MechanicService from '@/app/_assets/MechanicService.png';
+import CoveringService from '@/app/_assets/CoveringService.png';
+import WashService from '@/app/_assets/WashService.png';
+import AdministratifService from '@/app/_assets/AdministratifService.png';
 
 import ServicesCarousel from "../_components/ServicesCarousel/ServicesCarousel"
 import HomeHeroBanner from "../_components/HomeHeroBanner/HomeHeroBanner"
@@ -20,7 +30,51 @@ export default function Home() {
         <ServicesCarousel tiretColor="linear-gradient(90deg, #0075FF 0%, #00397B 100%)"/>
       </div>
       
-      <Service title="achat / dépôt / vente" />
+      <Service
+        title="achat / dépôt / vente"
+        text="Spécialisés dans l’achat et le dépôt-vente, nous vous offrons des solutions avantageuses pour renouveler ou vendre votre véhicule sans contrainte financière."
+        svg={RedWave}
+        svgClassName="right-0 top-0"
+        mainImage={BuyService}
+        mainColor="#FF0000"
+        secondaryColor="#7B0000"
+      />
+
+      <Service
+        title="mécanique légère"
+        text="De la vidange à la réparation mineure, nous vous offrons un service spécialisé pour assurer le bon fonctionnement de votre véhicule sans alourdir votre budget."
+        svg={LightBlueWave}
+        svgClassName="left-0 top-0"
+        mainImage={MechanicService}
+        mainColor="#00B2FF"
+      />
+
+      <Service
+        title="covering / detailling"
+        text="De la personnalisation par covering à la finition détaillée, nous mettons en valeur votre véhicule tout en respectant votre budget."
+        svg={BlueRedWave}
+        svgClassName="right-0 top-0"
+        mainImage={CoveringService}
+        mainColor="#5392D5"
+      />
+
+      <Service
+        title="lavage auto"
+        text="De la simple rinçage au nettoyage en profondeur, nous redonnons éclat et propreté à votre véhicule sans compromettre votre budget."
+        svg={RoseWave}
+        svgClassName="left-0 top-0"
+        mainImage={WashService}
+        mainColor="#FF69B4"
+      />
+
+      <Service
+        title="administratif"
+        text="De la gestion de paperasse à l’assurance, en passant par les plaques d’immatriculation, nous facilitons vos démarches tout en préservant votre sérénité financière."
+        svg={GrayWave}
+        svgClassName="right-0 top-0"
+        mainImage={AdministratifService}
+        mainColor="#757575"
+      />
 
       <div className="pt-32">
         <Footer bgColor="linear-gradient(180deg, #0075FF 0%, #00428F 100%)" logo={LogoHome} />
