@@ -19,6 +19,7 @@ import ServicesCarousel from "../_components/ServicesCarousel/ServicesCarousel"
 import HomeHeroBanner from "../_components/HomeHeroBanner/HomeHeroBanner"
 import Footer from "../_components/Footer/Footer"
 import Service from "../_components/Service/Service"
+import Contact from "../_components/Contact/Contact"
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
         mainImage={BuyService}
         mainColor="#FF0000"
         secondaryColor="#7B0000"
+        reverse={false}
       />
 
       <Service
@@ -47,6 +49,7 @@ export default function Home() {
         svgClassName="left-0 top-0"
         mainImage={MechanicService}
         mainColor="#00B2FF"
+        reverse={true}
       />
 
       <Service
@@ -56,6 +59,7 @@ export default function Home() {
         svgClassName="right-0 top-0"
         mainImage={CoveringService}
         mainColor="#5392D5"
+        reverse={false}
       />
 
       <Service
@@ -65,6 +69,7 @@ export default function Home() {
         svgClassName="left-0 top-0"
         mainImage={WashService}
         mainColor="#FF69B4"
+        reverse={true}
       />
 
       <Service
@@ -74,7 +79,10 @@ export default function Home() {
         svgClassName="right-0 top-0"
         mainImage={AdministratifService}
         mainColor="#757575"
+        reverse={false}
       />
+
+      <Contact />
 
       <div className="pt-32">
         <Footer bgColor="linear-gradient(180deg, #0075FF 0%, #00428F 100%)" logo={LogoHome} />
