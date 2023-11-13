@@ -30,7 +30,7 @@ const Contact = () => {
                             <textarea className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline resize-none" style={{borderColor: mainColor}} type="text" name="message" placeholder='Message' />
                         </div>
                         <div className="flex items-center justify-between">
-                            <input type="submit" value="envoyer" className={'uppercase text-white font-bold px-10 py-2 rounded-full bg-[' + mainColor + ']'} />
+                            <input type="submit" value="envoyer" className={'uppercase text-white font-bold px-10 py-2 rounded-full'} style={{backgroundColor: mainColor}} />
                             <div className="flex gap-x-10">
                                 <Link href="https://www.tiktok.com/@mycarzfr">
                                     <BiLogoTiktok color={mainColor} className='h-8 w-auto' />
