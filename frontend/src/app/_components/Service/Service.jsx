@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 
 const Service = (props) => {
 
-  let { title, mainColor, secondaryColor, text, mainImage, svg, svgClassName, reverse } = props;
+  let { title, link, mainColor, secondaryColor, text, mainImage, svg, svgClassName, reverse } = props;
 
 
 
@@ -28,7 +28,7 @@ const Service = (props) => {
               <p className="color-gray-800">{ text }</p>
             </div>
             <div className="flex justify-end">
-              <Button href="/" className={ 'uppercase float-right font-bold w-fit' } style={{ borderColor: mainColor}}>En savoir plus</Button>
+              <Button href={link} className={ 'uppercase float-right font-bold w-fit' } style={{ borderColor: mainColor}}>En savoir plus</Button>
             </div>
           </div>
 

@@ -33,6 +33,7 @@ export default function Home() {
       
       <Service
         title="achat / dépôt / vente"
+        link="achat-depot-revente"
         text="Spécialisés dans l’achat et le dépôt-vente, nous vous offrons des solutions avantageuses pour renouveler ou vendre votre véhicule sans contrainte financière."
         svg={RedWave}
         svgClassName="right-0 top-0"
@@ -43,7 +44,8 @@ export default function Home() {
       />
 
       <Service
-        title="mécanique légère"
+        title="mécanique"
+        link="mechanique"
         text="De la vidange à la réparation mineure, nous vous offrons un service spécialisé pour assurer le bon fonctionnement de votre véhicule sans alourdir votre budget."
         svg={LightBlueWave}
         svgClassName="left-0 top-0"
@@ -54,6 +56,7 @@ export default function Home() {
 
       <Service
         title="covering / detailling"
+        link="covering-detailing"
         text="De la personnalisation par covering à la finition détaillée, nous mettons en valeur votre véhicule tout en respectant votre budget."
         svg={BlueRedWave}
         svgClassName="right-0 top-0"
@@ -64,6 +67,7 @@ export default function Home() {
 
       <Service
         title="lavage auto"
+        link="wash"
         text="De la simple rinçage au nettoyage en profondeur, nous redonnons éclat et propreté à votre véhicule sans compromettre votre budget."
         svg={RoseWave}
         svgClassName="left-0 top-0"
@@ -74,6 +78,7 @@ export default function Home() {
 
       <Service
         title="administratif"
+        link="service"
         text="De la gestion de paperasse à l’assurance, en passant par les plaques d’immatriculation, nous facilitons vos démarches tout en préservant votre sérénité financière."
         svg={GrayWave}
         svgClassName="right-0 top-0"
