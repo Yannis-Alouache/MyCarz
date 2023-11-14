@@ -3,9 +3,9 @@ import GoogleMap from "@/app/_assets/GoogleMap.webp"
 import { BiLogoTiktok, BiLogoSnapchat, BiLogoFacebookCircle, BiLogoInstagramAlt } from 'react-icons/bi'
 import Link from 'next/link';
 
-const Contact = () => {
+const Contact = (props) => {
 
-  let mainColor = "#00054B";
+  let { mainColor } = props
 
   return (
     <>
