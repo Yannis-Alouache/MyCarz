@@ -7,6 +7,7 @@ import LogoBuy from "@/app/_assets/LogoBuy.png"
 import BuyBannerBgCircle from "@/app/_assets/BuyBannerBgCircle.svg"
 import Footer from "@/app/_components/Footer/Footer"
 import Contact from "@/app/_components/Contact/Contact"
+import OurMission from "@/app/_components/OurMission/OurMission"
 
 const AchatDepotRevente = () => {
   return (
@@ -15,6 +16,7 @@ const AchatDepotRevente = () => {
         <Navbar contactBtnClass="border-[#F00]" logo={LogoBuy} />
         <BuyHeroBanner />
         <ServicesCarousel tiretColor="linear-gradient(90deg, #F00 0%, #7B0000 100%)" />
+        <OurMission />
         <Contact mainColor="#620000" />
         <Footer bgColor="linear-gradient(180deg, #F00 0%, #7D0000 100%)" logo={LogoBuy} />
     </div>
