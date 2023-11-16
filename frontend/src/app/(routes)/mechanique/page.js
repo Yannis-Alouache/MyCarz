@@ -11,7 +11,7 @@ import Contact from "@/app/_components/Contact/Contact"
 const Mechanique = () => {
   return (
     <div className="relative">
-        <Image src={MechanicBannerBgCircle} className="absolute right-0 z-0" />
+        <Image src={MechanicBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#00B2FF]" logo={LogoMechanic} />
         <MechanicHeroBanner />
         <ServicesCarousel tiretColor="linear-gradient(90deg, #00B2FF 0%, #005B83 100%)"/>

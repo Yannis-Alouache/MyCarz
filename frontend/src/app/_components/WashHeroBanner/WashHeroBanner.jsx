@@ -25,7 +25,7 @@ const WashHeroBanner = () => {
                     </button>
                 </div>
                 <div className="col-span-6 pl-7">
-                    <Image src={WashBannerCar} className="w-full" />
+                    <Image src={WashBannerCar} alt="" className="w-full" />
                 </div>
             </div>
         </div>

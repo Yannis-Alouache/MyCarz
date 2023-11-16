@@ -30,7 +30,7 @@ const HomeHeroBanner = () => {
                     </button>
                 </div>
                 <div className="col-span-6 pl-7">
-                    <Image src={HomeBannerCar} className="w-full" />
+                    <Image src={HomeBannerCar} alt="" className="w-full" />
                 </div>
             </div>
         </div>

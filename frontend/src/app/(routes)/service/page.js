@@ -12,7 +12,7 @@ const ServicePage = () => {
   return (
     <>
         <div className='relative'>
-            <Image src={ServiceBannerBgCircle} className="absolute right-0 z-0" />
+            <Image src={ServiceBannerBgCircle} alt="" className="absolute right-0 z-0" />
             <Navbar contactBtnClass="border-[#757575]" logo={LogoService} />
             <ServiceHeroBanner />
             <ServicesCarousel tiretColor="linear-gradient(90deg, #757575 0%, #393939 100%)"/>

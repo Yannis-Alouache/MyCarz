@@ -12,7 +12,7 @@ const Contact = (props) => {
         <div className='container mx-auto'>
             <div className="grid grid-cols-12">
                 <div className="col-span-4">
-                    <Image src={GoogleMap} className='rounded-tr-lg rounded-bl-lg' />
+                    <Image src={GoogleMap} alt='' className='rounded-tr-lg rounded-bl-lg' />
                 </div>
                 <div className="col-span-8 flex flex-col justify-center">
                     <h2 className={"text-5xl font-extrabold mb-10"} style={{color: mainColor}}>Contactez-nous !</h2>

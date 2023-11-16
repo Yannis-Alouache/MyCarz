@@ -9,7 +9,7 @@ const Covering = () => {
   return (
     <>
         <div className="relative">
-            <Image src={CoveringBannerBgCircle} className="absolute right-0 z-0" />
+            <Image src={CoveringBannerBgCircle} alt="" className="absolute right-0 z-0" />
             <Navbar contactBtnClass="border-[#5392D5]" logo={LogoCovering} />
             <CoveringHeroBanner />
             <ServicesCarousel tiretColor="linear-gradient(90deg, #5392D5 0%, #9E2442 100%)"/>

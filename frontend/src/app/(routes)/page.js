@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <div className="relative pb-32">
-        <Image src={HomeBannerBgCircle} className="absolute right-0 z-0" />
+        <Image src={HomeBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#0072FF]" logo={LogoHome}/>
         <HomeHeroBanner />
         <ServicesCarousel tiretColor="linear-gradient(90deg, #0075FF 0%, #00397B 100%)"/>

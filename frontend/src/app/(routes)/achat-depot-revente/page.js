@@ -17,7 +17,7 @@ const AchatDepotRevente = () => {
   return (
     <>
       <div className="relative">
-        <Image src={BuyBannerBgCircle} className="absolute right-0 z-0" />
+        <Image src={BuyBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#F00]" logo={LogoBuy} />
         <BuyHeroBanner />
         <ServicesCarousel tiretColor="linear-gradient(90deg, #F00 0%, #7B0000 100%)" />

@@ -8,7 +8,7 @@ const OurMission = () => {
         <div className='container mx-auto pt-32 pb-32'>
             <div className="grid grid-cols-12">
                 <div className="col-span-6">
-                    <Image src={OurMissionIllustration} />
+                    <Image alt="" src={OurMissionIllustration} />
                 </div>
                 <div className="col-span-6 flex flex-col justify-center">
                     <span className="uppercase mb-2 font-extrabold text-red-800 tracking-widest">Notre mission</span>
@@ -17,19 +17,19 @@ const OurMission = () => {
                     
                     <div className="grid grid-cols-2 gap-y-2 mt-5 font-medium">
                         <div className="flex gap-x-6 items-center">
-                            <Image src={Check} />
+                            <Image alt="" src={Check} />
                             <span>Rapidité</span>
                         </div>
                         <div className="flex gap-x-6 items-center">
-                            <Image src={Check} />
+                            <Image alt="" src={Check} />
                             <span>Abordable</span>
                         </div>
                         <div className="flex gap-x-6 items-center">
-                            <Image src={Check} />
+                            <Image alt="" src={Check} />
                             <span>Transparence</span>
                         </div>
                         <div className="flex gap-x-6 items-center">
-                            <Image src={Check} />
+                            <Image alt="" src={Check} />
                             <span>Qualité</span>
                         </div>
                     </div>

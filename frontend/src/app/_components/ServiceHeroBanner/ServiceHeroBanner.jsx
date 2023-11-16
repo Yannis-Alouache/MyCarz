@@ -24,7 +24,7 @@ const ServiceHeroBanner = () => {
                     </button>
                 </div>
                 <div className="col-span-6 pl-7">
-                    <Image src={ServiceBannerCar} className="w-full" />
+                    <Image src={ServiceBannerCar} alt="" className="w-full" />
                 </div>
             </div>
         </div>

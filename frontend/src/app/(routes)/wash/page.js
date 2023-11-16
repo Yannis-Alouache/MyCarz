@@ -10,7 +10,7 @@ import Contact from "@/app/_components/Contact/Contact"
 const Wash = () => {
   return (
     <div className="relative">
-        <Image src={WashBannerBgCircle} className="absolute right-0 z-0" />
+        <Image src={WashBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#FF69B4]" logo={LogoWash} />
         <WashHeroBanner />
         <ServicesCarousel tiretColor="linear-gradient(90deg, #FF69B4 0%, #BC4E85 100%)"/>
