@@ -12,8 +12,7 @@ const Service = (props) => {
     <div className="relative py-28">
       <Image src={ svg } alt="" className={"absolute z-0 w-auto h-full " + svgClassName } /> 
       <div className="max-w-screen-xl w-full mx-auto z-10 relative">
-        <div className="grid grid-cols-12">
-          
+        <div className="grid grid-cols-12 gap-x-10">
           <div className={"col-span-6 " + (reverse === true ? 'order-last' : '')}>
             <div className="relative">
               <div className={ "absolute w-[240px] h-[240px] z-0 " + (reverse === true ? "-right-8 -top-8" : "-left-8 -bottom-8" )} style={{ backgroundImage: "linear-gradient(" + mainColor + "," + secondaryColor + ")" }}></div>

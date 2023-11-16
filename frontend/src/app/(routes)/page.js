@@ -2,7 +2,7 @@ import Image from "next/image"
 
 import HomeBannerBgCircle from "@/app/_assets/HomeBannerBgCircle.svg"
 import RedWave from "@/app/_assets/RedWave.svg"
-import LightBlueWave from "@/app/_assets/LightBlueWave.svg"
+import LightBlueWaveReverse from "@/app/_assets/LightBlueWaveReverse.svg"
 import BlueRedWave from "@/app/_assets/BlueRedWave.svg"
 import RoseWave from "@/app/_assets/RoseWave.svg"
 import GrayWave from "@/app/_assets/GrayWave.svg"
@@ -48,7 +48,7 @@ export default function Home() {
         title="mécanique"
         link="mechanique"
         text="De la vidange à la réparation mineure, nous vous offrons un service spécialisé pour assurer le bon fonctionnement de votre véhicule sans alourdir votre budget."
-        svg={LightBlueWave}
+        svg={LightBlueWaveReverse}
         svgClassName="left-0 top-0"
         mainImage={MechanicService}
         mainColor="#00B2FF"
