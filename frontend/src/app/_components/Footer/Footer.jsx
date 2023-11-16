@@ -25,17 +25,18 @@ const Footer = (props) => {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-helvetica">
                   Horaires</h2>
                 <ul className="text-white font-medium">
-                  <li className="mb-4">
-                    <Link href="/" className="hover:underline">Falcon Marketing</Link>
+                  <li className="mb-4 flex flex-col">
+                    <span className="mb-2">Lundi - Jeudi</span>
+                    <span className="text-gray-300">10h - 18h</span>
                   </li>
-                  <li className="mb-4">
-                    <Link href="https://falconacademy.fr/" className="hover:underline">Falcon Academy</Link>
+                  <li className="mb-4 flex flex-col">
+                    <span className="mb-2">Vendredi</span>
+                    <span className="text-gray-300">10h - 12h</span>
+                    <span className="text-gray-300">14h - 18h</span>
                   </li>
-                  <li className='mb-4'>
-                    <Link href="https://falconenergy.fr/" className="hover:underline">Falcon Energy</Link>
-                  </li>
-                  <li className='mb-4'>
-                    <Link href="https://voscontrats.fr/" className="hover:underline">Vos Contrats</Link>
+                  <li className="mb-4 flex flex-col">
+                    <span className="mb-2">Samedi</span>
+                    <span className="text-gray-300">10h - 19h</span>
                   </li>
                 </ul>
               </div>
