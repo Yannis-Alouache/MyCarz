@@ -14,11 +14,11 @@ const ServicePage = () => {
         <div className='relative'>
             <Image src={ServiceBannerBgCircle} alt="" className="absolute right-0 z-0" />
             <Navbar contactBtnClass="border-[#757575]" logo={LogoService} />
-            <ServiceHeroBanner />
-            <ServicesCarousel tiretColor="linear-gradient(90deg, #757575 0%, #393939 100%)"/>
-            <Contact mainColor="#575757" />
-            <Footer bgColor="linear-gradient(180deg, #757575 0%, #3E3E3E 100%)" logo={LogoService} />
         </div>
+          <ServiceHeroBanner />
+          <ServicesCarousel tiretColor="linear-gradient(90deg, #757575 0%, #393939 100%)"/>
+          <Contact mainColor="#575757" />
+          <Footer bgColor="linear-gradient(180deg, #757575 0%, #3E3E3E 100%)" logo={LogoService} />
     </>
   )
 }

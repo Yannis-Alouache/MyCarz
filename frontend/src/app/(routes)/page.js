@@ -15,7 +15,7 @@ import CoveringService from '@/app/_assets/CoveringService.png';
 import WashService from '@/app/_assets/WashService.png';
 import AdministratifService from '@/app/_assets/AdministratifService.png';
 
-import ServicesCarousel from "../_components/ServicesCarousel/ServicesCarousel"
+import ServiceCarouselWithLogo from "../_components/ServiceCarouselWithLogo/ServiceCarouselWithLogo"
 import HomeHeroBanner from "../_components/HomeHeroBanner/HomeHeroBanner"
 import Footer from "../_components/Footer/Footer"
 import Service from "../_components/Service/Service"
@@ -28,7 +28,7 @@ export default function Home() {
         <Image src={HomeBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#0072FF]" logo={LogoHome}/>
         <HomeHeroBanner />
-        <ServicesCarousel tiretColor="linear-gradient(90deg, #0075FF 0%, #00397B 100%)"/>
+        <ServiceCarouselWithLogo tiretColor="linear-gradient(90deg, #0075FF 0%, #00397B 100%)"/>
       </div>
       
       <Service
