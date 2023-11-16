@@ -12,10 +12,10 @@ const MechanicHeroBanner = () => {
                     <Badge className="mb-3 bg-[#00B2FF]" />
                     <span className="font-extrabold">Votre garage tout-en-un</span>
                     <h1 className="text-[80px] leading-none font-extrabold mb-3">
-                        Mécanique légère
+                        Mécanique
                     </h1>
                     <div className="font-bold mb-5">
-                        <p>Votre expert en mécanique légère automobile.</p>
+                        <p>Votre expert en mécanique automobile.</p>
                         <p>De la vidange à la réparation mineure, nous vous offrons un service spécialisé pour assurer le bon fonctionnement de votre véhicule sans alourdir votre budget.</p>
                     </div>
                     <button className="font-extrabold text-2xl text-white rounded-lg px-16 py-5"
