@@ -51,6 +51,7 @@ export default function Home() {
         svgClassName="left-0 top-0"
         mainImage={MechanicService}
         mainColor="#00B2FF"
+        secondaryColor="#005B83"
         reverse={true}
       />
 
@@ -62,6 +63,7 @@ export default function Home() {
         svgClassName="right-0 top-0"
         mainImage={CoveringService}
         mainColor="#5392D5"
+        secondaryColor="#9E2442"
         reverse={false}
       />
 
@@ -73,6 +75,7 @@ export default function Home() {
         svgClassName="left-0 top-0"
         mainImage={WashService}
         mainColor="#FF69B4"
+        secondaryColor="#B5477F"
         reverse={true}
       />
 
@@ -84,6 +87,7 @@ export default function Home() {
         svgClassName="right-0 top-0"
         mainImage={AdministratifService}
         mainColor="#757575"
+        secondaryColor="#393939"
         reverse={false}
       />
 

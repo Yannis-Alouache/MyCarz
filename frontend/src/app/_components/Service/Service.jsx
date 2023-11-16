@@ -16,7 +16,7 @@ const Service = (props) => {
           
           <div className={"col-span-6 " + (reverse === true ? 'order-last' : '')}>
             <div className="relative">
-              <div className={ "absolute w-[240px] h-[240px] -left-8 -bottom-8 z-0 bg-gradient-to-b from-[" + mainColor + "] to-[" + secondaryColor + "]" }></div>
+              <div className={ "absolute w-[240px] h-[240px] z-0 " + (reverse === true ? "-right-8 -top-8" : "-left-8 -bottom-8" )} style={{ backgroundImage: "linear-gradient(" + mainColor + "," + secondaryColor + ")" }}></div>
               <Image className={"relative z-10 " + (reverse === true ? 'float-right' : '')} src={mainImage} />
             </div>
           </div>
