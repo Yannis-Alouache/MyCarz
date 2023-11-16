@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 
 const Service = (props) => {
 
-  let { title, link, mainColor, secondaryColor, text, mainImage, svg, svgClassName, reverse } = props;
+  let { title, link, mainColor, secondaryColor, text, mainImage, svg, svgClassName, showBtn, reverse } = props;
 
 
 
@@ -27,7 +27,7 @@ const Service = (props) => {
               <Image src={ Arrow } alt="" className={"lg:h-16 w-auto " + (reverse === true ? 'rotate-90': '') } />
               <p className="color-gray-800">{ text }</p>
             </div>
-            <div className="flex justify-end">
+            <div className={"flex justify-end " + (showBtn === true ? "": "hidden") }>
               <Button href={link} className={ 'uppercase float-right font-bold w-fit' } style={{ borderColor: mainColor}}>En savoir plus</Button>
             </div>
           </div>

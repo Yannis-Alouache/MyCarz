@@ -40,6 +40,7 @@ export default function Home() {
         mainImage={BuyService}
         mainColor="#FF0000"
         secondaryColor="#7B0000"
+        showBtn={true}
         reverse={false}
       />
 
@@ -52,6 +53,7 @@ export default function Home() {
         mainImage={MechanicService}
         mainColor="#00B2FF"
         secondaryColor="#005B83"
+        showBtn={true}
         reverse={true}
       />
 
@@ -64,6 +66,7 @@ export default function Home() {
         mainImage={CoveringService}
         mainColor="#5392D5"
         secondaryColor="#9E2442"
+        showBtn={true}
         reverse={false}
       />
 
@@ -76,6 +79,7 @@ export default function Home() {
         mainImage={WashService}
         mainColor="#FF69B4"
         secondaryColor="#B5477F"
+        showBtn={true}
         reverse={true}
       />
 
@@ -88,6 +92,7 @@ export default function Home() {
         mainImage={AdministratifService}
         mainColor="#757575"
         secondaryColor="#393939"
+        showBtn={true}
         reverse={false}
       />
 

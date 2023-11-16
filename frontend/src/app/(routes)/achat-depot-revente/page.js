@@ -25,13 +25,13 @@ const AchatDepotRevente = () => {
 
         <Service
           title="achat rapide"
-          link="achat-depot-revente"
           text="Vous souhaitez vendre votre voiture sans les complications habituelles ?  Notre service dédié d’Achat Rapide est la solution. Recevez rapidement une évaluation en temps réel et une offre compétitive en quelques minutes. Un service rapide, efficace et fiable pour ceux qui cherchent à vendre sans tracas."
           svg={RedWave}
           svgClassName="right-0 top-0"
           mainImage={FastBuy}
           mainColor="#FF0000"
           secondaryColor="#7B0000"
+          showBtn={false}
           reverse={false}
         />
 
@@ -44,6 +44,7 @@ const AchatDepotRevente = () => {
           mainImage={BuyService}
           mainColor="#FF0000"
           secondaryColor="#7B0000"
+          showBtn={false}
           reverse={true}
         />
 
@@ -56,6 +57,7 @@ const AchatDepotRevente = () => {
           mainImage={BuyService}
           mainColor="#FF0000"
           secondaryColor="#7B0000"
+          showBtn={false}
           reverse={false}
         />
 
