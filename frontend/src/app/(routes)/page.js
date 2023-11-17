@@ -4,7 +4,7 @@ import HomeBannerBgCircle from "@/app/_assets/HomeBannerBgCircle.svg"
 import RedWave from "@/app/_assets/RedWave.svg"
 import LightBlueWaveReverse from "@/app/_assets/LightBlueWaveReverse.svg"
 import BlueRedWave from "@/app/_assets/BlueRedWave.svg"
-import RoseWave from "@/app/_assets/RoseWave.svg"
+import RoseWaveReverse from "@/app/_assets/RoseWaveReverse.svg"
 import GrayWave from "@/app/_assets/GrayWave.svg"
 
 import Navbar from "../_components/Navbar/Navbar"
@@ -74,7 +74,7 @@ export default function Home() {
         title="lavage auto"
         link="wash"
         text="De la simple rinçage au nettoyage en profondeur, nous redonnons éclat et propreté à votre véhicule sans compromettre votre budget."
-        svg={RoseWave}
+        svg={RoseWaveReverse}
         svgClassName="left-0 top-0"
         mainImage={WashService}
         mainColor="#FF69B4"
