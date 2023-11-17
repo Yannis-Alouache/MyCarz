@@ -9,7 +9,11 @@ import Footer from "@/app/_components/Footer/Footer"
 import Contact from "@/app/_components/Contact/Contact"
 import Service from "@/app/_components/Service/Service"
 import LightBlueWave from "@/app/_assets/LightBlueWave.svg"
+import LightBlueWaveReverse from "@/app/_assets/LightBlueWaveReverse.svg"
+
 import Filter from "@/app/_assets/filtres.jpg"
+import Disquettes from "@/app/_assets/disquettes.jpg"
+import EntretienMoteur from "@/app/_assets/entretienMoteur.jpg"
 
 const Mechanique = () => {
   return (
@@ -27,11 +31,36 @@ const Mechanique = () => {
         svg={LightBlueWave}
         svgClassName="right-0 top-0"
         mainImage={Filter}
-        mainColor="#FF0000"
-        secondaryColor="#7B0000"
+        mainColor="#00B2FF"
+        secondaryColor="#005B83"
         showBtn={false}
         reverse={false}
       />
+
+      <Service
+        title="disquettes"
+        text="L’état de vos disques de frein a un impact direct sur la distance d’arrêt de votre véhicule et donc sur votre sécurité. Chez nous, remplacez vos disques de frein avec rapidité et efficacité, sans compromettre la qualité. Une manière simple et économique de renforcer votre sécurité routière et celle de vos passagers."
+        svg={LightBlueWaveReverse}
+        svgClassName="left-0 top-0"
+        mainImage={Disquettes}
+        mainColor="#00B2FF"
+        secondaryColor="#005B83"
+        showBtn={false}
+        reverse={true}
+      />
+
+      <Service
+        title="entretien moteur"
+        text="Un entretien régulier du moteur est crucial pour la longévité de votre véhicule. Avec nos services express et à petits prix, assurez-vous que votre moteur tourne comme une horloge, tout en évitant les problèmes coûteux à long terme. Ne négligez pas cette étape fondamentale pour une conduite sûre et économique."
+        svg={LightBlueWave}
+        svgClassName="right-0 top-0"
+        mainImage={EntretienMoteur}
+        mainColor="#00B2FF"
+        secondaryColor="#005B83"
+        showBtn={false}
+        reverse={false}
+      />
+
 
       <Contact mainColor="#0088C3" />
       <Footer bgColor="linear-gradient(180deg, #00B2FF 0%, #003248 100%)" logo={LogoMechanic} />
