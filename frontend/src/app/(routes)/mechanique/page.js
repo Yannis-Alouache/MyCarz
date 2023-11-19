@@ -18,12 +18,12 @@ import EntretienMoteur from "@/app/_assets/entretienMoteur.jpg"
 const Mechanique = () => {
   return (
     <>
-      <div className="relative">
+      <div className="relative pb-32">
         <Image src={MechanicBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#00B2FF]" logo={LogoMechanic} />
+        <MechanicHeroBanner />
+        <ServicesCarousel tiretColor="linear-gradient(90deg, #00B2FF 0%, #005B83 100%)"/>
       </div>
-      <MechanicHeroBanner />
-      <ServicesCarousel tiretColor="linear-gradient(90deg, #00B2FF 0%, #005B83 100%)"/>
 
       <Service
         title="filtres"

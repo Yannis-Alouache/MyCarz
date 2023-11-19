@@ -18,12 +18,12 @@ import Footer from "@/app/_components/Footer/Footer"
 const Covering = () => {
   return (
     <>
-        <div className="relative">
-            <Image src={CoveringBannerBgCircle} alt="" className="absolute right-0 z-0" />
-            <Navbar contactBtnClass="border-[#5392D5]" logo={LogoCovering} />
+        <div className="relative pb-32">
+          <Image src={CoveringBannerBgCircle} alt="" className="absolute right-0 z-0" />
+          <Navbar contactBtnClass="border-[#5392D5]" logo={LogoCovering} />
+          <CoveringHeroBanner />
+          <ServicesCarousel tiretColor="linear-gradient(90deg, #5392D5 0%, #9E2442 100%)"/>
         </div>
-        <CoveringHeroBanner />
-        <ServicesCarousel tiretColor="linear-gradient(90deg, #5392D5 0%, #9E2442 100%)"/>
 
         <Service
           title="basique"
