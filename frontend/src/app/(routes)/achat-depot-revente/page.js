@@ -12,8 +12,42 @@ import Footer from "@/app/_components/Footer/Footer"
 import Contact from "@/app/_components/Contact/Contact"
 import OurMission from "@/app/_components/OurMission/OurMission"
 import Service from "@/app/_components/Service/Service"
+import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 
 const AchatDepotRevente = () => {
+  const pricingInfos = [
+    {
+      title: "Express Complet",
+      catchPhrase: "Enter your description",
+      price: "25",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Ecologique",
+      catchPhrase: "Enter your description",
+      price: "35",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Premium",
+      catchPhrase: "Enter your description",
+      price: "50",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+  ]
+
   return (
     <>
       <div className="relative pb-32">
@@ -62,6 +96,9 @@ const AchatDepotRevente = () => {
       />
 
         <OurMission mainColor="text-red-800" />
+
+        <PricingWrapper pricingInfos={pricingInfos} mainColor="#FF0000" />
+
         <Contact mainColor="#620000" />
         <Footer bgColor="linear-gradient(180deg, #F00 0%, #7D0000 100%)" logo={LogoBuy} />
     </>

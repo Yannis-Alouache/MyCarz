@@ -13,9 +13,43 @@ import Complet from "@/app/_assets/complet.jpg"
 import Premium from "@/app/_assets/premium.jpg"
 import Contact from "@/app/_components/Contact/Contact"
 import Footer from "@/app/_components/Footer/Footer"
+import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 
 
 const Covering = () => {
+  const pricingInfos = [
+    {
+      title: "Express Complet",
+      catchPhrase: "Enter your description",
+      price: "25",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Ecologique",
+      catchPhrase: "Enter your description",
+      price: "35",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Premium",
+      catchPhrase: "Enter your description",
+      price: "50",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+  ]
+
   return (
     <>
         <div className="relative pb-32">
@@ -60,6 +94,8 @@ const Covering = () => {
           showBtn={false}
           reverse={false}
         />
+
+        <PricingWrapper pricingInfos={pricingInfos} mainColor="#5392D5" />
 
         <Contact mainColor="#192C41" />
 

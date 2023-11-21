@@ -14,8 +14,42 @@ import LightBlueWaveReverse from "@/app/_assets/LightBlueWaveReverse.svg"
 import Filter from "@/app/_assets/filtres.jpg"
 import Disquettes from "@/app/_assets/disquettes.jpg"
 import EntretienMoteur from "@/app/_assets/entretienMoteur.jpg"
+import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 
 const Mechanique = () => {
+  const pricingInfos = [
+    {
+      title: "Express Complet",
+      catchPhrase: "Enter your description",
+      price: "25",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Ecologique",
+      catchPhrase: "Enter your description",
+      price: "35",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Premium",
+      catchPhrase: "Enter your description",
+      price: "50",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+  ]
+
   return (
     <>
       <div className="relative pb-32">
@@ -60,7 +94,8 @@ const Mechanique = () => {
         showBtn={false}
         reverse={false}
       />
-
+      
+      <PricingWrapper pricingInfos={pricingInfos} mainColor="#00B2FF" />
 
       <Contact mainColor="#0088C3" />
       <Footer bgColor="linear-gradient(180deg, #00B2FF 0%, #003248 100%)" logo={LogoMechanic} />

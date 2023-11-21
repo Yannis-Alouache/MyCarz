@@ -12,10 +12,43 @@ import RoseWaveReverse from "@/app/_assets/RoseWaveReverse.svg"
 import Express from "@/app/_assets/express.jpg"
 import Ecologique from "@/app/_assets/ecologique.jpg"
 import WashPremium from "@/app/_assets/washPremium.jpg"
-import Pricing from "@/app/_components/Pricing/Pricing"
+import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 
 
 const Wash = () => {
+  const pricingInfos = [
+    {
+      title: "Express Complet",
+      catchPhrase: "Enter your description",
+      price: "25",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Ecologique",
+      catchPhrase: "Enter your description",
+      price: "35",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Premium",
+      catchPhrase: "Enter your description",
+      price: "50",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+  ]
+
   return (
     <>
       <div className="relative">
@@ -61,9 +94,9 @@ const Wash = () => {
         reverse={false}
       />
 
-      <Pricing />
+      <PricingWrapper pricingInfos={pricingInfos} mainColor="#D65796" />
 
-      <Contact mainColor="#D65796" />
+      <Contact mainColor="#FF69B4" />
       <Footer bgColor="linear-gradient(180deg, #FF69B4 0%, #783E5B 100%)" logo={LogoWash} />
     </>
   )

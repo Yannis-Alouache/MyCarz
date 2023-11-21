@@ -14,8 +14,43 @@ import AssuranceAuto from "@/app/_assets/assuranceAuto.jpg"
 import CarteGrise from "@/app/_assets/carteGrise.jpg"
 import Service from "@/app/_components/Service/Service"
 import OurMission from "@/app/_components/OurMission/OurMission"
+import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 
 const ServicePage = () => {
+
+  const pricingInfos = [
+    {
+      title: "Express Complet",
+      catchPhrase: "Enter your description",
+      price: "25",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Ecologique",
+      catchPhrase: "Enter your description",
+      price: "35",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Premium",
+      catchPhrase: "Enter your description",
+      price: "50",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+  ]
+
   return (
     <>
         <div className='relative pb-32'>
@@ -62,6 +97,9 @@ const ServicePage = () => {
         />
 
         <OurMission mainColor="text-gray-700" />
+
+        <PricingWrapper pricingInfos={pricingInfos} mainColor="#757575" />
+
 
         <Contact mainColor="#575757" />
         <Footer bgColor="linear-gradient(180deg, #757575 0%, #3E3E3E 100%)" logo={LogoService} />
