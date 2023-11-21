@@ -12,6 +12,7 @@ import RoseWaveReverse from "@/app/_assets/RoseWaveReverse.svg"
 import Express from "@/app/_assets/express.jpg"
 import Ecologique from "@/app/_assets/ecologique.jpg"
 import WashPremium from "@/app/_assets/washPremium.jpg"
+import Pricing from "@/app/_components/Pricing/Pricing"
 
 
 const Wash = () => {
@@ -59,6 +60,8 @@ const Wash = () => {
         showBtn={false}
         reverse={false}
       />
+
+      <Pricing />
 
       <Contact mainColor="#D65796" />
       <Footer bgColor="linear-gradient(180deg, #FF69B4 0%, #783E5B 100%)" logo={LogoWash} />
