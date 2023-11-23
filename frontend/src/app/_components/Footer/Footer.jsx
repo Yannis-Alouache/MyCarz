@@ -63,7 +63,7 @@ const Footer = (props) => {
                     <Link href="/nos-valeurs" className="hover:underline">Promo</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline">Mentions légales</Link>
+                    <Link href="/mentions-legales" className="hover:underline">Mentions légales</Link>
                   </li>
                   <li className="mb-4">
                     <Link href="/nos-valeurs" className="hover:underline">Politique Confidentialité</Link>
