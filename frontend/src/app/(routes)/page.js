@@ -20,6 +20,7 @@ import HomeHeroBanner from "../_components/HomeHeroBanner/HomeHeroBanner"
 import Footer from "../_components/Footer/Footer"
 import Service from "../_components/Service/Service"
 import Contact from "../_components/Contact/Contact"
+import OurValues from "../_components/OurValues/OurValues"
 
 export default function Home() {
   return (
@@ -95,6 +96,8 @@ export default function Home() {
         showBtn={true}
         reverse={false}
       />
+
+      <OurValues />
 
       <Contact mainColor="#00054B" />
 
