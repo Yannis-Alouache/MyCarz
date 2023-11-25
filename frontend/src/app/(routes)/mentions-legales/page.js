@@ -8,7 +8,7 @@ const MentionsLegales = () => {
     <>
       <Navbar contactBtnClass="border-[#6E260E]" logo={LogoHome} />
       <ImageBanner title="Mentions légales" />
-      <div className='container mx-auto mb-20'>
+      <div className='max-w-screen-lg mx-auto mb-20'>
         <h4 className='font-bold mb-2'>1. Editeur du site</h4>
         <p className='mb-6'>CENTRE AUTO 4M, société par actions simplifiée au capital social de 1000 €, dont le siège social est situé au 121 BD GAMBETTA 59100 ROUBAIX, immatriculée au Registre du Commerce et des Sociétés de Lille Métropole sous le numéro 977 684 190.</p>
 

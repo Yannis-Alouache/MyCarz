@@ -13,6 +13,7 @@ import Express from "@/app/_assets/express.jpg"
 import Ecologique from "@/app/_assets/ecologique.jpg"
 import WashPremium from "@/app/_assets/washPremium.jpg"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
+import OurMission from "@/app/_components/OurMission/OurMission"
 
 
 const Wash = () => {
@@ -95,6 +96,9 @@ const Wash = () => {
       />
 
       <PricingWrapper pricingInfos={pricingInfos} mainColor="#D65796" />
+
+      <OurMission mainColor="text-[#D65796]" />
+
 
       <Contact mainColor="#FF69B4" />
       <Footer bgColor="linear-gradient(180deg, #FF69B4 0%, #783E5B 100%)" logo={LogoWash} />

@@ -9,7 +9,7 @@ const PolitiqueConfidentialite = () => {
     <>
       <Navbar contactBtnClass="border-[#6E260E]" logo={LogoHome} />
       <ImageBanner title="Politique de confidentialité" />
-      <div className='container mx-auto mb-20'>
+      <div className='max-w-screen-lg mx-auto mb-20'>
         <h4 className='font-bold mb-2'>1. Préambule</h4>
         <p className='mb-6'>Cette politique de confidentialité définit et vous informe de la manière dont CENTRE AUTO 4M utilise et protège les informations que vous nous transmettez.</p>
 
