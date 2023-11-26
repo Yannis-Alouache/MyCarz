@@ -1,14 +1,14 @@
 import Navbar from '@/app/_components/Navbar/Navbar'
 import Footer from '@/app/_components/Footer/Footer'
 import LogoHome from "@/app/_assets/LogoHome.png"
-import ImageBanner from '@/app/_components/ImageBanner/ImageBanner'
+import LegalImageBanner from '@/app/_components/LegalImageBanner/LegalImageBanner'
 
 
 const PolitiqueConfidentialite = () => {
   return (
     <>
       <Navbar contactBtnClass="border-[#6E260E]" logo={LogoHome} />
-      <ImageBanner title="Politique de confidentialité" />
+      <LegalImageBanner title="Politique de confidentialité" />
       <div className='max-w-screen-lg mx-auto mb-20'>
         <h4 className='font-bold mb-2'>1. Préambule</h4>
         <p className='mb-6'>Cette politique de confidentialité définit et vous informe de la manière dont CENTRE AUTO 4M utilise et protège les informations que vous nous transmettez.</p>

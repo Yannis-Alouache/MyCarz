@@ -1,13 +1,13 @@
 import Navbar from '@/app/_components/Navbar/Navbar'
 import LogoHome from "@/app/_assets/LogoHome.png"
 import Footer from '@/app/_components/Footer/Footer'
-import ImageBanner from '@/app/_components/ImageBanner/ImageBanner'
+import LegalImageBanner from '@/app/_components/LegalImageBanner/LegalImageBanner'
 
 const MentionsLegales = () => {
   return (
     <>
       <Navbar contactBtnClass="border-[#6E260E]" logo={LogoHome} />
-      <ImageBanner title="Mentions légales" />
+      <LegalImageBanner title="Mentions légales" />
       <div className='max-w-screen-lg mx-auto mb-20'>
         <h4 className='font-bold mb-2'>1. Editeur du site</h4>
         <p className='mb-6'>CENTRE AUTO 4M, société par actions simplifiée au capital social de 1000 €, dont le siège social est situé au 121 BD GAMBETTA 59100 ROUBAIX, immatriculée au Registre du Commerce et des Sociétés de Lille Métropole sous le numéro 977 684 190.</p>

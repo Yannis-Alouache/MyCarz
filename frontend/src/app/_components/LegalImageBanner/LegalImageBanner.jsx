@@ -1,6 +1,6 @@
 import Legal from "@/app/_assets/Legal.jpg";
 
-const ImageBanner = (props) => {
+const LegalImageBanner = (props) => {
   let { title } = props;
 
   return (
@@ -15,4 +15,4 @@ const ImageBanner = (props) => {
   )
 }
 
-export default ImageBanner
+export default LegalImageBanner
