@@ -20,29 +20,49 @@ import OurMission from "@/app/_components/OurMission/OurMission"
 const Mechanique = () => {
   const pricingInfos = [
     {
-      title: "Express Complet",
-      catchPhrase: "Enter your description",
-      price: "25",
-      services : [
-        "Express en 30 min",
-        "Rapport qualité prix imbattable",
-        "Finitions manuelles de qualité"
-      ]
-    },
-    {
-      title: "Ecologique",
-      catchPhrase: "Enter your description",
-      price: "35",
-      services : [
-        "Express en 30 min",
-        "Rapport qualité prix imbattable",
-        "Finitions manuelles de qualité"
-      ]
-    },
-    {
-      title: "Premium",
+      title: "Vidange huile & changement filtre à huile",
       catchPhrase: "Enter your description",
       price: "50",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Changement plaquette avant OU arrière",
+      catchPhrase: "Enter your description",
+      price: "50",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Changement disque avant OU arrière",
+      catchPhrase: "Enter your description",
+      price: "60",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Contrôle et mise à niveau des fluides",
+      catchPhrase: "Enter your description",
+      price: "30",
+      services : [
+        "Express en 30 min",
+        "Rapport qualité prix imbattable",
+        "Finitions manuelles de qualité"
+      ]
+    },
+    {
+      title: "Autre Prestation",
+      catchPhrase: "Enter your description",
+      price: "Sur devis",
       services : [
         "Express en 30 min",
         "Rapport qualité prix imbattable",
