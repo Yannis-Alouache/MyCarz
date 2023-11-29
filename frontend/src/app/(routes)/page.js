@@ -21,6 +21,7 @@ import Footer from "../_components/Footer/Footer"
 import Service from "../_components/Service/Service"
 import Contact from "../_components/Contact/Contact"
 import OurValues from "../_components/OurValues/OurValues"
+import ServiceCarouselNew from "../_components/ServiceCarouselNew/ServiceCarouselNew"
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <Navbar contactBtnClass="border-[#0072FF]" logo={LogoHome}/>
         <HomeHeroBanner />
         <ServiceCarouselWithLogo tiretColor="linear-gradient(90deg, #0075FF 0%, #00397B 100%)"/>
+        <ServiceCarouselNew />
       </div>
       
       <Service

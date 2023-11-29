@@ -4,7 +4,7 @@ const Pricing = (props) => {
     let { title, price, services, catchPhrase, mainColor } = props
   return (
     <>
-        <div className={"flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border shadow-xl xl:p-8"} style={{borderColor: mainColor}}>
+        <div className={"flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg w-full border shadow-xl xl:p-8"} style={{borderColor: mainColor}}>
             <h3 className="mb-4 text-2xl font-semibold">{title}</h3>
             <p className="font-light text-gray-500 sm:text-lg">{catchPhrase}</p>
             <div className="flex justify-center items-baseline my-8">

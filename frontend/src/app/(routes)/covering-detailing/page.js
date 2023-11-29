@@ -14,6 +14,7 @@ import Premium from "@/app/_assets/premium.jpg"
 import Contact from "@/app/_components/Contact/Contact"
 import Footer from "@/app/_components/Footer/Footer"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
+import OurMission from "@/app/_components/OurMission/OurMission"
 
 
 const Covering = () => {
@@ -96,6 +97,8 @@ const Covering = () => {
         />
 
         <PricingWrapper pricingInfos={pricingInfos} mainColor="#5392D5" />
+
+        <OurMission mainColor="text-[#5392D5]" />
 
         <Contact mainColor="#192C41" />
 
