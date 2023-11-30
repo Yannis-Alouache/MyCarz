@@ -22,8 +22,7 @@ const Footer = (props) => {
             </div>
             <div className="grid xl:grid-cols-3 gap-8 sm:gap-6 sm:grid-cols-3 grid-cols-1">
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase font-helvetica">
-                  Horaires</h2>
+                <h2 className="mb-6 text-sm font-semibold uppercase text-white">Horaires</h2>
                 <ul className="text-white font-medium">
                   <li className="mb-4 flex flex-col">
                     <span className="mb-2">Lundi - Jeudi</span>
