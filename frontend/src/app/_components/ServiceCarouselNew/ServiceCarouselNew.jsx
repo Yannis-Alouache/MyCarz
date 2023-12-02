@@ -10,44 +10,44 @@ import Image from "next/image";
 const ServiceCarouselNew = () => {
   return (
     <>
-        <div class="slider">
-            <div class="slide-track">
-                <div class="slide p-5">
+        <div className="slider">
+            <div className="slide-track">
+                <div className="slide p-5">
                     <Image src={LogoHome} height={100} width={250} alt="" />
                 </div>
-                <div class="slide p-5">
+                <div className="slide p-5">
                     <Image src={LogoBuy} height="100" width="250" alt="" />
                 </div>
-                <div class="slide p-5">
+                <div className="slide p-5">
                     <Image src={LogoMechanic} height="100" width="250" alt="" />
                 </div>
-                <div class="slide p-5">
+                <div className="slide p-5">
                     <Image src={LogoCovering} height="100" width="250" alt="" />
                 </div>
-                <div class="slide p-5">
+                <div className="slide p-5">
                     <Image src={LogoWash} height="100" width="250" alt="" />
                 </div>
-                <div class="slide p-5">
+                <div className="slide p-5">
                     <Image src={LogoService} height="100" width="250" alt="" />
                 </div>
 
 
-                <div class="slide p-5">
+                <div className="slide p-5">
                     <Image src={LogoHome} height={100} width={250} alt="" />
                 </div>
-                <div class="slide p-5">
+                <div className="slide p-5">
                     <Image src={LogoBuy} height="100" width="250" alt="" />
                 </div>
-                <div class="slide p-5">
+                <div className="slide p-5">
                     <Image src={LogoMechanic} height="100" width="250" alt="" />
                 </div>
-                <div class="slide p-5">
+                <div className="slide p-5">
                     <Image src={LogoCovering} height="100" width="250" alt="" />
                 </div>
-                <div class="slide p-5">
+                <div className="slide p-5">
                     <Image src={LogoWash} height="100" width="250" alt="" />
                 </div>
-                <div class="slide p-5">
+                <div className="slide p-5">
                     <Image src={LogoService} height="100" width="250" alt="" />
                 </div>
             </div>
