@@ -4,7 +4,6 @@ import ServiceBannerBgCircle from "@/app/_assets/ServiceBannerBgCircle.svg"
 import Navbar from "@/app/_components/Navbar/Navbar"
 import LogoService from "@/app/_assets/LogoService.png"
 import ServiceHeroBanner from "@/app/_components/ServiceHeroBanner/ServiceHeroBanner"
-import ServicesCarousel from "@/app/_components/ServicesCarousel/ServicesCarousel"
 import Footer from "@/app/_components/Footer/Footer"
 import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
 import GrayWave from "@/app/_assets/GrayWave.svg"
@@ -15,6 +14,7 @@ import CarteGrise from "@/app/_assets/carteGrise.jpg"
 import Service from "@/app/_components/Service/Service"
 import OurMission from "@/app/_components/OurMission/OurMission"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
+import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 
 const ServicePage = () => {
 
@@ -54,10 +54,10 @@ const ServicePage = () => {
   return (
     <>
         <div className='relative pb-32'>
-            <Image src={ServiceBannerBgCircle} alt="" className="absolute right-0 z-0" />
-            <Navbar contactBtnClass="border-[#757575]" logo={LogoService} />
-            <ServiceHeroBanner />
-            <ServicesCarousel tiretColor="linear-gradient(90deg, #757575 0%, #393939 100%)"/>
+          <Image src={ServiceBannerBgCircle} alt="" className="absolute right-0 z-0" />
+          <Navbar contactBtnClass="border-[#757575]" logo={LogoService} />
+          <ServiceHeroBanner />
+          <ServiceCarouselNew />
         </div>
 
         <Service

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import GoogleMap from "@/app/_assets/GoogleMap.webp"
-import { BiLogoTiktok, BiLogoSnapchat, BiLogoFacebookCircle, BiLogoInstagramAlt } from 'react-icons/bi'
+import { BiLogoTiktok, BiLogoSnapchat, BiLogoFacebookCircle, BiLogoInstagramAlt, BiLogoYoutube } from 'react-icons/bi'
 import Link from 'next/link';
 
 const Contact = (props) => {
@@ -35,14 +35,17 @@ const Contact = (props) => {
                                 <Link href="https://www.tiktok.com/@mycarzfr">
                                     <BiLogoTiktok color={mainColor} className='h-8 w-auto' />
                                 </Link>
-                                <Link href="">
+                                <Link href="https://www.snapchat.com/add/mycarzfr">
                                     <BiLogoSnapchat color={mainColor} className='h-8 w-auto' />
                                 </Link>
-                                <Link href="">
+                                <Link href="https://www.facebook.com/mycarzfr">
                                     <BiLogoFacebookCircle color={mainColor} className='h-8 w-auto' />
                                 </Link>
-                                <Link href="">
+                                <Link href="https://www.instagram.com/mycarzfr/">
                                     <BiLogoInstagramAlt color={mainColor} className='h-8 w-auto' />
+                                </Link>
+                                <Link href="https://www.youtube.com/channel/UCHBrNQofk_t62s3-2hQe9fQ">
+                                    <BiLogoYoutube color={mainColor} className='h-8 w-auto' />
                                 </Link>
                             </div>
                         </div>

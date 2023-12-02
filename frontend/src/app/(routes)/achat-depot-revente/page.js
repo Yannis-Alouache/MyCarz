@@ -1,6 +1,5 @@
 import BuyHeroBanner from "@/app/_components/BuyHeroBanner/BuyHeroBanner"
 import Navbar from "@/app/_components/Navbar/Navbar"
-import ServicesCarousel from "@/app/_components/ServicesCarousel/ServicesCarousel"
 import RedWave from "@/app/_assets/RedWave.svg"
 import RedWaveReverse from "@/app/_assets/RedWaveReverse.svg"
 import FastBuy from "@/app/_assets/FastBuy.png"
@@ -13,6 +12,7 @@ import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
 import OurMission from "@/app/_components/OurMission/OurMission"
 import Service from "@/app/_components/Service/Service"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
+import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 
 const AchatDepotRevente = () => {
   const pricingInfos = [
@@ -54,7 +54,7 @@ const AchatDepotRevente = () => {
         <Image src={BuyBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#F00]" logo={LogoBuy} />
         <BuyHeroBanner />
-        <ServicesCarousel tiretColor="linear-gradient(90deg, #F00 0%, #7B0000 100%)" />
+        <ServiceCarouselNew />
       </div>
 
       <Service

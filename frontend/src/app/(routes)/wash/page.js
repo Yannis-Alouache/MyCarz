@@ -3,7 +3,6 @@ import WashBannerBgCircle from "@/app/_assets/WashBannerBgCircle.svg"
 import Navbar from "@/app/_components/Navbar/Navbar"
 import LogoWash from "@/app/_assets/LogoWash.png"
 import WashHeroBanner from "@/app/_components/WashHeroBanner/WashHeroBanner"
-import ServicesCarousel from "@/app/_components/ServicesCarousel/ServicesCarousel"
 import Footer from "@/app/_components/Footer/Footer"
 import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
 import Service from "@/app/_components/Service/Service"
@@ -14,6 +13,7 @@ import Ecologique from "@/app/_assets/ecologique.jpg"
 import WashPremium from "@/app/_assets/washPremium.jpg"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 import OurMission from "@/app/_components/OurMission/OurMission"
+import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 
 
 const Wash = () => {
@@ -52,12 +52,12 @@ const Wash = () => {
 
   return (
     <>
-      <div className="relative">
+      <div className="relative pb-32">
         <Image src={WashBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#FF69B4]" logo={LogoWash} />
+        <WashHeroBanner />
+        <ServiceCarouselNew />
       </div>
-      <WashHeroBanner />
-      <ServicesCarousel tiretColor="linear-gradient(90deg, #FF69B4 0%, #BC4E85 100%)"/>
       
       <Service
         title="express"

@@ -3,7 +3,6 @@ import Navbar from "@/app/_components/Navbar/Navbar"
 import LogoCovering from "@/app/_assets/LogoCovering.png"
 import CoveringBannerBgCircle from "@/app/_assets/CoveringBannerBgCircle.svg"
 import CoveringHeroBanner from "@/app/_components/CoveringHeroBanner/CoveringHeroBanner"
-import ServicesCarousel from "@/app/_components/ServicesCarousel/ServicesCarousel"
 import Service from "@/app/_components/Service/Service"
 
 import BlueRedWave from "@/app/_assets/BlueRedWave.svg"
@@ -15,6 +14,7 @@ import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
 import Footer from "@/app/_components/Footer/Footer"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 import OurMission from "@/app/_components/OurMission/OurMission"
+import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 
 
 const Covering = () => {
@@ -57,7 +57,7 @@ const Covering = () => {
           <Image src={CoveringBannerBgCircle} alt="" className="absolute right-0 z-0" />
           <Navbar contactBtnClass="border-[#5392D5]" logo={LogoCovering} />
           <CoveringHeroBanner />
-          <ServicesCarousel tiretColor="linear-gradient(90deg, #5392D5 0%, #9E2442 100%)"/>
+          <ServiceCarouselNew />
         </div>
 
         <Service

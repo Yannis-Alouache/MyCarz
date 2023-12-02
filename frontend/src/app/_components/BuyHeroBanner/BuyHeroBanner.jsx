@@ -4,7 +4,7 @@ import BuyBannerCar from "@/app/_assets/BuyBannerCar.png"
 
 const BuyHeroBanner = () => {
   return (
-    <section className="pt-64 z-10 relative">
+    <section className="pt-64 z-10 relative mb-24">
         <div className="container mx-auto">
             <div className="grid grid-cols-12">
                 <div className="col-span-6">

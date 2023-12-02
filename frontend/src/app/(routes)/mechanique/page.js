@@ -4,7 +4,6 @@ import MechanicBannerBgCircle from "@/app/_assets/MechanicBannerBgCircle.svg"
 import Navbar from "@/app/_components/Navbar/Navbar"
 import LogoMechanic from "@/app/_assets/LogoMechanic.png"
 import MechanicHeroBanner from "@/app/_components/MechanicHeroBanner/MechanicHeroBanner"
-import ServicesCarousel from "@/app/_components/ServicesCarousel/ServicesCarousel"
 import Footer from "@/app/_components/Footer/Footer"
 import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
 import Service from "@/app/_components/Service/Service"
@@ -16,6 +15,7 @@ import Disquettes from "@/app/_assets/disquettes.jpg"
 import EntretienMoteur from "@/app/_assets/entretienMoteur.jpg"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 import OurMission from "@/app/_components/OurMission/OurMission"
+import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 
 const Mechanique = () => {
   const pricingInfos = [
@@ -77,7 +77,7 @@ const Mechanique = () => {
         <Image src={MechanicBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#00B2FF]" logo={LogoMechanic} />
         <MechanicHeroBanner />
-        <ServicesCarousel tiretColor="linear-gradient(90deg, #00B2FF 0%, #005B83 100%)"/>
+        <ServiceCarouselNew />
       </div>
 
       <Service
