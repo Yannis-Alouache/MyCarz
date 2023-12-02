@@ -18,7 +18,7 @@ import AdministratifService from '@/app/_assets/AdministratifService.png';
 import HomeHeroBanner from "../_components/HomeHeroBanner/HomeHeroBanner"
 import Footer from "../_components/Footer/Footer"
 import Service from "../_components/Service/Service"
-import Contact from "../_components/Contact/Contact"
+import Contact from "../_components/ContactFormWithMap/ContactFormWithMap"
 import OurValues from "../_components/OurValues/OurValues"
 import ServiceCarouselNew from "../_components/ServiceCarouselNew/ServiceCarouselNew"
 
