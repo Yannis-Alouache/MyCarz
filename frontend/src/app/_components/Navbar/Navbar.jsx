@@ -22,7 +22,7 @@ const Navbar = (props) => {
                         <span></span>
                     </div>
 
-                    <a href="https://themesberg.com/product/tailwind-css/landing-page"
+                    <a href="contact"
                         className={"text-black bg-white font-extrabold rounded-full text-sm border-4 uppercase px-4 lg:px-10 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 " + contactBtnClass }>
                             Contact
                     </a>
