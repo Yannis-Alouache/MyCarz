@@ -1,4 +1,5 @@
 import SocialSidebar from './_components/SocialSidebar/SocialSidebar'
+import WhatsappBadge from './_components/WhatsappBadge/WhatsappBadge'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="fr">
       <body className={inter.className}>
         <SocialSidebar />
+        <WhatsappBadge />
         {children}
       </body>
     </html>
