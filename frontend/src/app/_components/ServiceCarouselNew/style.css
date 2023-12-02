@@ -23,7 +23,7 @@
 }
 
 .slider::after {
-	right: 0;
+	right: -1px;
 	top: 0;
 	transform: rotateZ(180deg);
 }
