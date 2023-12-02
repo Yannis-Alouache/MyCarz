@@ -20,6 +20,7 @@ const PricingWrapper = (props) => {
                     catchPhrase={pricingInfo.catchPhrase}
                     services={pricingInfo.services}
                     mainColor={mainColor}
+                    noEuroSign={pricingInfo.noEuroSign}
                     key={pricingInfo.title}
                   />
                 )

@@ -67,7 +67,8 @@ const Mechanique = () => {
         "Express en 30 min",
         "Rapport qualité prix imbattable",
         "Finitions manuelles de qualité"
-      ]
+      ],
+      noEuroSign: true
     },
   ]
 
