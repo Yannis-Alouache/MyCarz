@@ -50,20 +50,20 @@ const Navbar = (props) => {
                                 aria-current="page">Accueil</a>
                         </li>
                         <li>
-                            <a href="/achat-depot-revente"
-                                className="block py-2 pl-3 pr-4 text-black font-bold border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0">Achat Dépôt Revente</a>
-                        </li>
-                        <li>
                             <a href="/mechanique"
                                 className="block py-2 pl-3 pr-4 text-black font-bold border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0">Mécanique</a>
                         </li>
                         <li>
-                            <a href="/covering-detailing"
-                                className="block py-2 pl-3 pr-4 text-black font-bold border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0">Covering</a>
-                        </li>
-                        <li>
                             <a href="/wash"
                                 className="block py-2 pl-3 pr-4 text-black font-bold border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0">Wash</a>
+                        </li>
+                        <li>
+                            <a href="/achat-depot-revente"
+                                className="block py-2 pl-3 pr-4 text-black font-bold border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0">Achat Dépôt Revente</a>
+                        </li>
+                        <li>
+                            <a href="/covering-detailing"
+                                className="block py-2 pl-3 pr-4 text-black font-bold border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0">Covering</a>
                         </li>
                         <li>
                             <a href="/service"

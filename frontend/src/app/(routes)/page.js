@@ -1,11 +1,11 @@
 import Image from "next/image"
 
 import HomeBannerBgCircle from "@/app/_assets/HomeBannerBgCircle.svg"
-import RedWave from "@/app/_assets/RedWave.svg"
-import LightBlueWaveReverse from "@/app/_assets/LightBlueWaveReverse.svg"
-import BlueRedWave from "@/app/_assets/BlueRedWave.svg"
-import RoseWaveReverse from "@/app/_assets/RoseWaveReverse.svg"
-import GrayWave from "@/app/_assets/GrayWave.svg"
+import RedWave from "@/app/_assets/RedWave.png"
+import LightBlueWaveReverse from "@/app/_assets/LightBlueWaveReverse.png"
+import BlueRedWave from "@/app/_assets/BlueRedWave.png"
+import RoseWaveReverse from "@/app/_assets/RoseWaveReverse.png"
+import GrayWave from "@/app/_assets/GrayWave.png"
 
 import Navbar from "../_components/Navbar/Navbar"
 import LogoHome from "@/app/_assets/LogoHome.png"
