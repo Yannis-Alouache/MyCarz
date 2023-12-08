@@ -61,8 +61,8 @@ const Covering = () => {
         </div>
 
         <Service
-          title="basique"
-          text="Vous souhaitez donner un coup de jeune à votre véhicule sans vider votre portefeuille ? Notre service de detailing basique est fait pour vous. En un temps record, nous prenons soin des surfaces intérieures et extérieures de votre voiture. Faites confiance à notre expertise pour un résultat qui étonnera sans coûter une fortune."
+          title="Covering"
+          text="Transformez l'apparence de votre voiture selon vos envies avec notre service de covering, offrant une personnalisation créative et une protection contre les griffes. Chez MyCarz, vous pouvez embellir une partie ou la totalité de votre véhicule ou poser un Covering publicitaire."
           svg={BlueRedWave}
           svgClassName="right-0 top-0"
           mainImage={Basique}
@@ -73,8 +73,8 @@ const Covering = () => {
         />
 
         <Service
-          title="complet"
-          text="Envie d’une remise à neuf complète de votre véhicule ? Notre service de detailing complet est la solution. Du nettoyage des sièges en cuir au traitement des jantes, chaque détail compte pour nous. En plus, nos tarifs compétitifs font de ce service une option accessible pour tous ceux qui veulent combiner qualité et abordabilité."
+          title="Polissage/Lustrage"
+          text="Restaurez l'éclat d'origine de votre voiture en éliminant les imperfections avec notre service de polissage, suivi d'un lustrage pour une brillance éclatante. Redonnez vie à la carrosserie de votre véhicule."
           svg={BlueRedWaveReverse}
           svgClassName="left-0 top-0"
           mainImage={Complet}
@@ -85,8 +85,8 @@ const Covering = () => {
         />
 
         <Service
-          title="covering premium"
-          text="Pour ceux qui cherchent à personnaliser leur véhicule à l’extrême, notre service de covering premium offre une transformation totale. Choisissez parmi une large gamme de finitions et de matériaux pour donner à votre voiture un look unique. Et ne vous inquiétez pas pour le prix, nous avons des options pour tous les budgets."
+          title="Vitre teinté"
+          text="De l’obtention de la carte grise à l’assurance auto, en passant par les plaques d’immatriculation, nous sommes présent pour faciliter toute vos démarches."
           svg={BlueRedWave}
           svgClassName="right-0 top-0"
           mainImage={Premium}

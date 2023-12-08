@@ -21,7 +21,7 @@ const Mechanique = () => {
   const pricingInfos = [
     {
       title: "Vidange huile & changement filtre à huile",
-      catchPhrase: "Enter your description",
+      catchPhrase: "HORS PIÈCES",
       price: "50",
       services : [
         "Express en 30 min",
@@ -31,7 +31,7 @@ const Mechanique = () => {
     },
     {
       title: "Changement plaquette avant OU arrière",
-      catchPhrase: "Enter your description",
+      catchPhrase: "HORS PIÈCES",
       price: "50",
       services : [
         "Express en 30 min",
@@ -41,7 +41,7 @@ const Mechanique = () => {
     },
     {
       title: "Changement disque avant OU arrière",
-      catchPhrase: "Enter your description",
+      catchPhrase: "HORS PIÈCES",
       price: "60",
       services : [
         "Express en 30 min",
@@ -51,7 +51,7 @@ const Mechanique = () => {
     },
     {
       title: "Contrôle et mise à niveau des fluides",
-      catchPhrase: "Enter your description",
+      catchPhrase: "HORS PIÈCES",
       price: "30",
       services : [
         "Express en 30 min",
@@ -61,7 +61,7 @@ const Mechanique = () => {
     },
     {
       title: "Autre Prestation",
-      catchPhrase: "Enter your description",
+      catchPhrase: "HORS PIÈCES",
       price: "Sur devis",
       services : [
         "Express en 30 min",
@@ -82,8 +82,8 @@ const Mechanique = () => {
       </div>
 
       <Service
-        title="filtres"
-        text="Ne sous-estimez jamais l’importance de filtres propres pour la performance et la longévité. Des filtres en bon état garantissent une meilleure qualité de l’air dans l’habitacle, protègent votre moteur des impuretés et optimisent la consommation de carburant. Nos interventions sont rapides et abordables."
+        title="Entretien"
+        text="Ne sous-estimez jamais l’importance des entretiens périodiques. Des filtres en bon état et une huile propre garantissent une meilleure qualité de l’air dans l’habitacle, protègent votre moteur des impuretés et optimisent la consommation de carburant. Confiez votre véhicule à MyCarz pour un entretien rapide  et abordable."
         svg={LightBlueWave}
         svgClassName="right-0 top-0"
         mainImage={Filter}
@@ -94,8 +94,8 @@ const Mechanique = () => {
       />
 
       <Service
-        title="disquettes"
-        text="L’état de vos disques de frein a un impact direct sur la distance d’arrêt de votre véhicule et donc sur votre sécurité. Chez nous, remplacez vos disques de frein avec rapidité et efficacité, sans compromettre la qualité. Une manière simple et économique de renforcer votre sécurité routière et celle de vos passagers."
+        title="Réparation"
+        text="Vous souhaitez remplacer un kit de distribution, un embrayage ou un moteur complet ? Chez MyCarz, nos experts peuvent s’occuper de tout les problèmes de votre véhicule, dans le respect des préconisations constructeurs."
         svg={LightBlueWaveReverse}
         svgClassName="left-0 top-0"
         mainImage={Disquettes}
@@ -106,8 +106,8 @@ const Mechanique = () => {
       />
 
       <Service
-        title="entretien moteur"
-        text="Un entretien régulier du moteur est crucial pour la longévité de votre véhicule. Avec nos services express et à petits prix, assurez-vous que votre moteur tourne comme une horloge, tout en évitant les problèmes coûteux à long terme. Ne négligez pas cette étape fondamentale pour une conduite sûre et économique."
+        title="Diagnostic"
+        text="Vous avez besoin d'un diagnostic, que ce soit électronique ou visuel ? Notre équipement dernier cri nous permet de réaliser tous les types de diagnostics sur votre véhicule, de supprimer les voyants gênants et de vous fournir des informations fiables pour valider les réparations nécessaires."
         svg={LightBlueWave}
         svgClassName="right-0 top-0"
         mainImage={EntretienMoteur}

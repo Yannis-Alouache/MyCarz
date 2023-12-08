@@ -15,7 +15,7 @@ const CoveringHeroBanner = () => {
                     </h1>
                     <div className="font-bold mb-5">
                         <p>Votre spécialiste en covering et detailing automobile.</p>
-                        <p>De la personnalisation par covering à la finition détaillée, nous mettons en valeur votre véhicule tout en respectant votre budget.</p>
+                        <p>De la personnalisation par covering à la pose de vitre teintée nous mettons en valeur votre véhicule pour un résultat unique.</p>
                     </div>
                     <button className="font-extrabold text-2xl text-white rounded-lg px-16 py-5"
                         style={{background: "linear-gradient(90deg, #5392D5 0%, #00618B 0.01%, #9E2442 100%)"}}>

@@ -16,7 +16,7 @@ const MechanicHeroBanner = () => {
                     </h1>
                     <div className="font-bold mb-5">
                         <p>Votre expert en mécanique automobile.</p>
-                        <p>De la vidange à la réparation mineure, nous vous offrons un service spécialisé pour assurer le bon fonctionnement de votre véhicule sans alourdir votre budget.</p>
+                        <p>De la vidange au kit de distribution, nous vous proposons notre expertise pour assurer le bon fonctionnement de votre véhicule sans alourdir votre budget.</p>
                     </div>
                     <button className="font-extrabold text-2xl text-white rounded-lg px-16 py-5"
                         style={{background: "linear-gradient(90deg, #005B83 0%, #00618B 0.01%, #00B2FF 100%)"}}>

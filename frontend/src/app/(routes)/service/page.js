@@ -61,8 +61,8 @@ const ServicePage = () => {
         </div>
 
         <Service
-          title="carte grise"
-          text="Fini les longues heures d’attente en préfecture ou les sites compliqués. nous nous occupons de toutes les démarches pour vous fournir votre carte grise rapidement et sans encombre."
+          title="Cartes grises"
+          text="Facilitez votre vie administrative ! Profitez de notre service rapide et efficace pour l'obtention de votre carte grise, évitant les tracas bureaucratiques et assurant une immatriculation sans souci."
           svg={GrayWave}
           svgClassName="right-0 top-0"
           mainImage={CarteGrise}
@@ -73,8 +73,8 @@ const ServicePage = () => {
         />
 
         <Service
-          title="assurance auto"
-          text="Protégez votre véhicule avec notre service d’assurance auto. Nous collaborons avec les meilleures compagnies d’assurance pour vous offrir des offres compétitives adaptées à vos besoins."
+          title="Plaques immatriculation"
+          text="Simplifiez l'immatriculation de votre véhicule avec nos plaques d’immatriculation/ Obtenez vos plaques d’immatriculations sans tracas  en un temps record."
           svg={GrayWaveReverse}
           svgClassName="left-0 top-0"
           mainImage={AssuranceAuto}
@@ -85,8 +85,8 @@ const ServicePage = () => {
         />
 
         <Service
-          title="plaques d'immatriculation"
-          text="Besoin de nouvelles plaques d’immatriculation ? Que ce soit pour un changement de domicile, suite à des dommages ou pour une personnalisation, nous vous proposons un service rapide et de qualité."
+          title="Assurance auto"
+          text="Protégez votre véhicule en toute tranquillité avec notre service d'assurance auto, collaborant avec des partenaires de confiance pour vous offrir les meilleures options. Bénéficiez de tarifs compétitifs et d'une couverture fiable en quelques étapes simples."
           svg={GrayWave}
           svgClassName="right-0 top-0"
           mainImage={Plaques}
