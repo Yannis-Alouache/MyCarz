@@ -22,7 +22,7 @@ const OurValues = () => {
                             <Image src={OurValuesDeco1} className="h-4" />
                             <span className="uppercase mb-1">nos valeurs</span>
                         </div>
-                        <h2 className='text-3xl mb-10 font-bold'>Une qualité de service de garantie</h2>
+                        <h2 className='text-3xl mb-10 font-bold'>Le meilleurs rapport qualité prix</h2>
                         <p className="mb-6">Notre équipe d’experts vous garantit des services de qualité à des prix abordables. Chez Mycarz, vous trouverez le meilleur rapport qualité prix pur vos prestations.</p>
                         <p className="mb-6">Nous misons sur des pièces et produits reconnus, sélectionnés pour leur durabilité, sans faire grimper la facture. Rapidité, efficacité et économies sont notre engagement.</p>
                         <p className="mb-6">Votre satisfaction est notre priorité numéro un. Nous nous engageons à dépasser vos attentes à chaque étape du processus, du premier contact à la restitution du véhicule.</p>
