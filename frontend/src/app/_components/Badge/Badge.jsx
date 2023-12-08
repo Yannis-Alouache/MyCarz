@@ -6,7 +6,7 @@ const Badge = (props) => {
     <div className={"rounded-xl px-20 py-1 text-white flex items-center justify-center w-fit " + className}>
         <div className="flex justify-center items-center gap-x-[10px]">
             <BsTelephoneFill />
-            <span className="font-extrabold">06 20 08 12 50</span>
+            <span className="font-extrabold">03 76 11 59 59</span>
         </div>
     </div>
   )

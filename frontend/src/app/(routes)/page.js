@@ -35,7 +35,7 @@ export default function Home() {
       <Service
         title="achat / dépôt / vente"
         link="achat-depot-revente"
-        text="Spécialisés dans l’achat et le dépôt-vente, nous vous offrons des solutions avantageuses pour renouveler ou vendre votre véhicule sans contrainte financière."
+        text="Spécialisés dans l’achat et le dépôt-vente, nous vous offrons des solutions simple et rapide pour acheter ou vendre votre véhicule en étant accompagné."
         svg={RedWave}
         svgClassName="right-0 top-0"
         mainImage={BuyService}
@@ -48,7 +48,7 @@ export default function Home() {
       <Service
         title="mécanique"
         link="mechanique"
-        text="De la vidange à la réparation mineure, nous vous offrons un service spécialisé pour assurer le bon fonctionnement de votre véhicule sans alourdir votre budget."
+        text="De la vidange au kit de distribution, nous vous proposons notre expertise pour assurer le bon fonctionnement de votre véhicule sans alourdir votre budget."
         svg={LightBlueWaveReverse}
         svgClassName="left-0 top-0"
         mainImage={MechanicService}
@@ -61,7 +61,7 @@ export default function Home() {
       <Service
         title="covering / detailling"
         link="covering-detailing"
-        text="De la personnalisation par covering à la finition détaillée, nous mettons en valeur votre véhicule tout en respectant votre budget."
+        text="De la personnalisation par covering à la pose de vitre teintée nous mettons en valeur votre véhicule pour un résultat unique."
         svg={BlueRedWave}
         svgClassName="right-0 top-0"
         mainImage={CoveringService}
@@ -74,7 +74,7 @@ export default function Home() {
       <Service
         title="lavage auto"
         link="wash"
-        text="De la simple rinçage au nettoyage en profondeur, nous redonnons éclat et propreté à votre véhicule sans compromettre votre budget."
+        text="Un nettoyage express complet avant une sortie ou un grand nettoyage de printemps, nous sommes la pour vous satisfaire."
         svg={RoseWaveReverse}
         svgClassName="left-0 top-0"
         mainImage={WashService}
@@ -87,7 +87,7 @@ export default function Home() {
       <Service
         title="administratif"
         link="service"
-        text="De la gestion de paperasse à l’assurance, en passant par les plaques d’immatriculation, nous facilitons vos démarches tout en préservant votre sérénité financière."
+        text="De l’obtention de la carte grise à l’assurance auto, en passant par les plaques d’immatriculation, nous sommes présent pour faciliter toute vos démarches."
         svg={GrayWave}
         svgClassName="right-0 top-0"
         mainImage={AdministratifService}

@@ -19,33 +19,60 @@ import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCaro
 const Wash = () => {
   const pricingInfos = [
     {
-      title: "Express Complet",
-      catchPhrase: "Enter your description",
-      price: "25",
+      title: "Express",
+      catchPhrase: "30-45min",
+      price: "28",
       services : [
-        "Express en 30 min",
-        "Rapport qualité prix imbattable",
-        "Finitions manuelles de qualité"
+        "Intérieur",
+        "Extérieur",
+        "Jantes",
+        "Aspiration",
+        "Vitres",
+        "Parfum d’ambiance",
       ]
     },
     {
-      title: "Ecologique",
-      catchPhrase: "Enter your description",
-      price: "35",
+      title: "Confort",
+      catchPhrase: "1h-1h30",
+      price: "49",
       services : [
-        "Express en 30 min",
-        "Rapport qualité prix imbattable",
-        "Finitions manuelles de qualité"
+        "Intérieur",
+        "Extérieur",
+        "Jantes",
+        "Aspiration",
+        "Vitres",
+        "Parfum d’ambiance",
+        "Nettoyage Coffre",
+        "Shampouineuse Siège",
+        "Teinture Tapis Noir",
+        "Parfum d’ambiance",
+        "Destructeur D’odeur",
+        "Speed Polish",
       ]
     },
     {
-      title: "Premium",
-      catchPhrase: "Enter your description",
-      price: "50",
+      title: "Nettoyage Luxe",
+      catchPhrase: "+2h",
+      price: "99",
       services : [
-        "Express en 30 min",
-        "Rapport qualité prix imbattable",
-        "Finitions manuelles de qualité"
+        "Intérieur",
+        "Extérieur",
+        "Jantes",
+        "Aspiration",
+        "Vitres",
+        "Parfum d’ambiance",
+        "Nettoyage Coffre",
+        "Shampouineuse Siège",
+        "Teinture Tapis Noir",
+        "Parfum d’ambiance",
+        "Destructeur D’odeur",
+        "Speed Polish",
+        "Shampoing Brillance Extrême",
+        "Décontaminent Ferreux",
+        "Traitement Cuir",
+        "Traitement Plastique",
+        "Lustrage Chrome",
+        "Rénovation Phare",
       ]
     },
   ]
@@ -61,7 +88,7 @@ const Wash = () => {
       
       <Service
         title="express"
-        text="Vous êtes pressé mais votre voiture mérite tout de même le meilleur ? Optez pour notre service de lavage basique express. En quelques minutes, notre équipe utilise des produits de qualité et des techniques éprouvées pour redonner à votre véhicule tout son éclat. Et le meilleur dans tout ça ?"
+        text="Vous êtes pressé mais votre voiture mérite tout de même le meilleur. Optez pour notre service de lavage express. En 30min, notre équipe utilise des produits de qualité et des techniques éprouvées pour redonner à votre véhicule tout son éclat."
         svg={RoseWave}
         svgClassName="right-0 top-0"
         mainImage={Express}
@@ -73,7 +100,7 @@ const Wash = () => {
 
       <Service
         title="écologique"
-        text="Soucieux de l’environnement ?Notre lavage écologique utilise des produits biodégradables et des méthodes respectueuses de la planète, sans sacrifier la qualité du résultat.Rapide, efficace et respectueux de l’environnement, ce service a tout pour plaire aux conducteurs éco-responsables."
+        text="Soucieux de l’environnement ? Notre service utilise des produits biodégradables et des méthodes respectueuses de la planète, sans sacrifier la qualité du résultat. Rapide, efficace et respectueux de l’environnement, ce service a tout pour plaire aux conducteurs éco-responsables."
         svg={RoseWaveReverse}
         svgClassName="left-0 top-0"
         mainImage={Ecologique}

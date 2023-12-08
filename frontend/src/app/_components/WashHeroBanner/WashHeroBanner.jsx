@@ -16,8 +16,7 @@ const WashHeroBanner = () => {
                         Lavage Auto
                     </h1>
                     <div className="font-bold mb-5">
-                        <p>De la simple rinçage au nettoyage en profondeur, nous redonnons éclat et propreté à votre
-                            véhicule sans compromettre votre budget.</p>
+                        <p>Un nettoyage express complet avant une sortie ou un grand nettoyage de printemps, nous sommes la pour vous satisfaire.</p>
                     </div>
                     <button className="font-extrabold text-2xl text-white rounded-lg px-16 py-5"
                         style={{background: "linear-gradient(90deg, #FF69B4 0%, #FF69B4 0.01%, #C14E88 100%)"}}>

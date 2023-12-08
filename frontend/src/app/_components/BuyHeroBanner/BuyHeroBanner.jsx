@@ -15,7 +15,7 @@ const BuyHeroBanner = () => {
                     </h1>
                     <div className="font-bold mb-5">
                         <p>Votre référence en achat et dépôt-vente automobile.</p>
-                        <p>Spécialisés dans l’achat et le dépôt-vente, nous vous offrons des solutions avantageuses pour renouveler ou vendre votre véhicule sans contrainte financière.</p>
+                        <p>Spécialisés dans l’achat et le dépôt-vente, nous vous offrons des solutions simple et rapide pour acheter ou vendre votre véhicule en étant accompagné.</p>
                     </div>
                     <button className="font-extrabold text-2xl text-white rounded-lg px-16 py-5" style={{background: "linear-gradient(90deg, #7B0000 0%, #F00 100%)"}}>
                         Nos Services
