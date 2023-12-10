@@ -12,7 +12,7 @@ import Complet from "@/app/_assets/complet.jpg"
 import Premium from "@/app/_assets/premium.jpg"
 import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
 import Footer from "@/app/_components/Footer/Footer"
-import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
+import PricingWrapper from "@/app/_components/PricingSvgWrapper/PricingSvgWrapper"
 import OurMission from "@/app/_components/OurMission/OurMission"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 

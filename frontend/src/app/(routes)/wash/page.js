@@ -11,7 +11,7 @@ import RoseWaveReverse from "@/app/_assets/RoseWaveReverse.svg"
 import Express from "@/app/_assets/express.jpg"
 import Ecologique from "@/app/_assets/ecologique.jpg"
 import WashPremium from "@/app/_assets/washPremium.jpg"
-import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
+import PricingWrapper from "@/app/_components/PricingSvgWrapper/PricingSvgWrapper"
 import OurMission from "@/app/_components/OurMission/OurMission"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 

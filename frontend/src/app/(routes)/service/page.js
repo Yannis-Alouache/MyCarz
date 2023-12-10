@@ -13,7 +13,7 @@ import AssuranceAuto from "@/app/_assets/assuranceAuto.jpg"
 import CarteGrise from "@/app/_assets/carteGrise.jpg"
 import Service from "@/app/_components/Service/Service"
 import OurMission from "@/app/_components/OurMission/OurMission"
-import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
+import PricingWrapper from "@/app/_components/PricingSvgWrapper/PricingSvgWrapper"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 
 const ServicePage = () => {

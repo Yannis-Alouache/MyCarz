@@ -13,13 +13,14 @@ import OurMission from "@/app/_components/OurMission/OurMission"
 import Service from "@/app/_components/Service/Service"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
+import Pricing from "@/app/_components/Pricing/Pricing"
 
 const AchatDepotRevente = () => {
   const pricingInfos = [
     {
       title: "Dépôt-Vente",
-      catchPhrase: "Enter your description",
-      price: "25",
+      catchPhrase: "A partir de",
+      price: "10% de la valeur du véhicule",
       services : [
         "Lavage",
         "Entretien",
@@ -77,12 +78,31 @@ const AchatDepotRevente = () => {
         reverse={false}
       />
 
-        <OurMission mainColor="text-red-800" />
+      <OurMission mainColor="text-red-800" />
 
-        <PricingWrapper pricingInfos={pricingInfos} mainColor="#FF0000" />
+      <section className="bg-white">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-32 lg:px-0">
+            <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Les Prix</h2>
+            </div>
+            {pricingInfos.map(pricingInfo => {
+                return (
+                <Pricing
+                    title={pricingInfo.title}
+                    price={pricingInfo.price}
+                    catchPhrase={pricingInfo.catchPhrase}
+                    services={pricingInfo.services}
+                    mainColor="#FF0000"
+                    noEuroSign={true}
+                    key={pricingInfo.title}
+                />
+                )
+            })}
+        </div>
+      </section>
 
-        <Contact mainColor="#620000" />
-        <Footer bgColor="linear-gradient(180deg, #F00 0%, #7D0000 100%)" logo={LogoBuy} />
+      <Contact mainColor="#620000" />
+      <Footer bgColor="linear-gradient(180deg, #F00 0%, #7D0000 100%)" logo={LogoBuy} />
     </>
   )
 }
