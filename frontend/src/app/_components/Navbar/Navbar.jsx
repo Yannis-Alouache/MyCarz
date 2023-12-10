@@ -46,7 +46,7 @@ const Navbar = (props) => {
                     <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-12 lg:mt-0">
                         <li>
                             <a href="/"
-                                className="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0"
+                                className="block py-2 pl-3 pr-4 text-black font-bold border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0"
                                 aria-current="page">Accueil</a>
                         </li>
                         <li>
