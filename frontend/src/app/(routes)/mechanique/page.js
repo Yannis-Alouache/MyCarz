@@ -13,7 +13,7 @@ import LightBlueWaveReverse from "@/app/_assets/LightBlueWaveReverse.svg"
 import Filter from "@/app/_assets/filtres.jpg"
 import Disquettes from "@/app/_assets/disquettes.jpg"
 import EntretienMoteur from "@/app/_assets/entretienMoteur.jpg"
-import PricingWrapper from "@/app/_components/PricingSvgWrapper/PricingSvgWrapper"
+import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 import OurMission from "@/app/_components/OurMission/OurMission"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 
