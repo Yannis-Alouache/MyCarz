@@ -14,8 +14,8 @@ import Filter from "@/app/_assets/filtres.jpg"
 import Disquettes from "@/app/_assets/disquettes.jpg"
 import EntretienMoteur from "@/app/_assets/entretienMoteur.jpg"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
-import OurMission from "@/app/_components/OurMission/OurMission"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
+import OurValues from "@/app/_components/OurValues/OurValues"
 
 const Mechanique = () => {
   const pricingInfos = [
@@ -119,7 +119,7 @@ const Mechanique = () => {
       
       <PricingWrapper pricingInfos={pricingInfos} mainColor="#00B2FF" />
 
-      <OurMission mainColor="text-[#0088C3]" />
+      <OurValues mainColor="text-[#0088C3]" />
 
       <Contact mainColor="#0088C3" />
       <Footer bgColor="linear-gradient(180deg, #00B2FF 0%, #003248 100%)" logo={LogoMechanic} />

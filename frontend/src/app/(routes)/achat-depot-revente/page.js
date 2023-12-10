@@ -9,11 +9,10 @@ import LogoBuy from "@/app/_assets/LogoBuy.png"
 import BuyBannerBgCircle from "@/app/_assets/BuyBannerBgCircle.svg"
 import Footer from "@/app/_components/Footer/Footer"
 import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
-import OurMission from "@/app/_components/OurMission/OurMission"
 import Service from "@/app/_components/Service/Service"
-import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 import Pricing from "@/app/_components/Pricing/Pricing"
+import OurValues from "@/app/_components/OurValues/OurValues"
 
 const AchatDepotRevente = () => {
   const pricingInfos = [
@@ -78,7 +77,7 @@ const AchatDepotRevente = () => {
         reverse={false}
       />
 
-      <OurMission mainColor="text-red-800" />
+      <OurValues mainColor="text-red-800" />
 
       <section className="bg-white">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-32 lg:px-0">

@@ -1,4 +1,5 @@
 import OurValuesImage from "@/app/_assets/ourValues.png"
+import Check from "@/app/_assets/check.svg"
 
 import OurValuesDeco1 from "@/app/_assets/ourValuesDeco.png"
 import OurValuesDeco2 from "@/app/_assets/ourValuesDeco2.png"
@@ -26,6 +27,24 @@ const OurValues = () => {
                         <p className="mb-6">Notre équipe d’experts vous garantit des services de qualité à des prix abordables. Chez Mycarz, vous trouverez le meilleur rapport qualité prix pur vos prestations.</p>
                         <p className="mb-6">Nous misons sur des pièces et produits reconnus, sélectionnés pour leur durabilité, sans faire grimper la facture. Rapidité, efficacité et économies sont notre engagement.</p>
                         <p className="mb-6">Votre satisfaction est notre priorité numéro un. Nous nous engageons à dépasser vos attentes à chaque étape du processus, du premier contact à la restitution du véhicule.</p>
+                        <div className="grid grid-cols-2 gap-y-3 mt-5 font-medium">
+                            <div className="flex gap-x-6 items-center">
+                                <Image alt="" src={Check} />
+                                <span>Rapidité</span>
+                            </div>
+                            <div className="flex gap-x-6 items-center">
+                                <Image alt="" src={Check} />
+                                <span>Abordable</span>
+                            </div>
+                            <div className="flex gap-x-6 items-center">
+                                <Image alt="" src={Check} />
+                                <span>Transparence</span>
+                            </div>
+                            <div className="flex gap-x-6 items-center">
+                                <Image alt="" src={Check} />
+                                <span>Qualité</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

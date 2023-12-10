@@ -13,8 +13,8 @@ import Premium from "@/app/_assets/premium.jpg"
 import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
 import Footer from "@/app/_components/Footer/Footer"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
-import OurMission from "@/app/_components/OurMission/OurMission"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
+import OurValues from "@/app/_components/OurValues/OurValues"
 
 
 const Covering = () => {
@@ -374,7 +374,7 @@ const Covering = () => {
 
         <PricingWrapper pricingInfos={pricingInfos} mainColor="#5392D5" withoutHeaderText={true} />
 
-        <OurMission mainColor="text-[#5392D5]" />
+        <OurValues mainColor="text-[#5392D5]" />
 
         <Contact mainColor="#192C41" />
 
