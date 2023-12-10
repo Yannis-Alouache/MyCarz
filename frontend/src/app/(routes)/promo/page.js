@@ -16,7 +16,7 @@ const Promo = () => {
 
       <div className='container mx-auto'>
         <div className='text-center'>
-          <h1 className='text-6xl font-black text-gray-800 pt-24'>Promo d’ouverture !</h1>
+          <h1 className='text-6xl font-black text-gray-900 pt-24'>Promo d’ouverture !</h1>
         </div>
         <div className='grid grid-cols-1 gap-y-7 pt-24'>
           <div className='grid grid-cols-3 gap-x-5'>
