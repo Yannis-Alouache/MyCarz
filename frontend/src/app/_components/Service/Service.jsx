@@ -8,7 +8,7 @@ const Service = (props) => {
 
   return (
     <div className="relative py-28">
-      <Image src={ svg } alt="" className={"absolute z-0 w-auto h-full " + svgClassName } />
+      {/* <Image src={ svg } alt="" className={"absolute z-0 w-auto h-full " + svgClassName } /> */}
       <div className="max-w-screen-xl w-full mx-auto z-10 relative">
         <div className="grid grid-cols-12 gap-x-10">
           <div className={"col-span-6 " + (reverse === true ? 'order-last' : '')}>
@@ -25,7 +25,7 @@ const Service = (props) => {
               <p className="color-gray-800">{ text }</p>
             </div>
             <div className={"flex justify-end " + (showBtn === true ? "": "hidden") }>
-              <Button href={link} className={ 'uppercase float-right font-bold w-fit' } style={{ borderColor: mainColor}}>En savoir plus</Button>
+              <Button href={link} className={ 'uppercase float-right font-bold w-fit' } style={{ borderColor: mainColor }}>En savoir plus</Button>
             </div>
           </div>
 

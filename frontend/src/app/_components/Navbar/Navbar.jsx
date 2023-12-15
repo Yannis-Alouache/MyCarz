@@ -1,14 +1,22 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from 'react';
+
 
 const Navbar = (props) => {
    
   let { contactBtnClass, logo } = props
+  
+  const [isOpen, setIsOpen] = useState(false);
 
   if (!contactBtnClass || !logo) {
     return (
         <h1 className="font-bold text-4xl text-red-600">One of props missing</h1>
     )
   }
+
+
 
   return (
     <>
@@ -28,7 +36,8 @@ const Navbar = (props) => {
                     </a>
                     <button data-collapse-toggle="mobile-menu-2" type="button"
                         className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
-                        aria-controls="mobile-menu-2" aria-expanded="true">
+                        aria-controls="mobile-menu-2" aria-expanded="true"
+                        onClick={() => {setIsOpen(!isOpen); console.log(isOpen)}}>
                         <span className="sr-only">Open main menu</span>
                         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd"
@@ -42,7 +51,7 @@ const Navbar = (props) => {
                         </svg>
                     </button>
                 </div>
-                <div className="items-center justify-between w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                <div className={"items-center justify-between w-full lg:flex lg:w-auto lg:order-1 "}  id="mobile-menu-2">
                     <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-12 lg:mt-0">
                         <li>
                             <a href="/"

@@ -15,6 +15,7 @@ import Service from "@/app/_components/Service/Service"
 import OurMission from "@/app/_components/OurMission/OurMission"
 import PricingWrapper from "@/app/_components/PricingSvgWrapper/PricingSvgWrapper"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
+import OurValues from "@/app/_components/OurValues/OurValues"
 
 const ServicePage = () => {
 
@@ -96,9 +97,9 @@ const ServicePage = () => {
           reverse={false}
         />
 
-        <OurMission mainColor="text-gray-700" />
+        <OurValues mainColor="text-gray-700" />
 
-        <PricingWrapper pricingInfos={pricingInfos} mainColor="#757575" />
+        {/* <PricingWrapper pricingInfos={pricingInfos} mainColor="#757575" /> */}
 
 
         <Contact mainColor="#575757" />
