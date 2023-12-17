@@ -25,7 +25,7 @@ import ServiceCarouselNew from "../_components/ServiceCarouselNew/ServiceCarouse
 export default function Home() {
   return (
     <>
-      <div className="relative pb-32">
+      <div className="relative lg:pb-32 pb-10">
         <Image src={HomeBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#0072FF]" logo={LogoHome}/>
         <HomeHeroBanner />
