@@ -16,7 +16,7 @@ const Navbar = (props) => {
     )
   }
 
-
+  console.log(isOpen)
 
   return (
     <>
@@ -35,7 +35,7 @@ const Navbar = (props) => {
                             Contact
                     </a>
                     <button data-collapse-toggle="mobile-menu-2" type="button"
-                        className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                        className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden"
                         aria-controls="mobile-menu-2" aria-expanded="true"
                         onClick={() => {setIsOpen(!isOpen); console.log(isOpen)}}>
                         <span className="sr-only">Open main menu</span>
@@ -51,7 +51,7 @@ const Navbar = (props) => {
                         </svg>
                     </button>
                 </div>
-                <div className={"items-center justify-between w-full lg:flex lg:w-auto lg:order-1 "}  id="mobile-menu-2">
+                <div className={"items-center justify-between w-full lg:flex lg:w-auto lg:order-1 " + (isOpen ? 'show' : 'hidden')}  id="mobile-menu-2">
                     <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-12 lg:mt-0">
                         <li>
                             <a href="/"
