@@ -24,9 +24,8 @@ const Mechanique = () => {
       catchPhrase: "HORS PIÈCES",
       price: "50",
       services : [
-        "Express en 30 min",
-        "Rapport qualité prix imbattable",
-        "Finitions manuelles de qualité"
+        "Express",
+        "Garantie",
       ]
     },
     {
@@ -34,9 +33,8 @@ const Mechanique = () => {
       catchPhrase: "HORS PIÈCES",
       price: "50",
       services : [
-        "Express en 30 min",
-        "Rapport qualité prix imbattable",
-        "Finitions manuelles de qualité"
+        "Express",
+        "Garantie"
       ]
     },
     {
@@ -44,9 +42,8 @@ const Mechanique = () => {
       catchPhrase: "HORS PIÈCES",
       price: "60",
       services : [
-        "Express en 30 min",
-        "Rapport qualité prix imbattable",
-        "Finitions manuelles de qualité"
+        "Express",
+        "Garantie"
       ]
     },
     {
@@ -54,19 +51,26 @@ const Mechanique = () => {
       catchPhrase: "HORS PIÈCES",
       price: "30",
       services : [
-        "Express en 30 min",
-        "Rapport qualité prix imbattable",
-        "Finitions manuelles de qualité"
+        "Express",
+        "Garantie"
+      ]
+    },
+    {
+      title: "Diagnostique éléctronique",
+      catchPhrase: "HORS PIÈCES",
+      price: "30",
+      services : [
+        "Express",
+        "Garantie"
       ]
     },
     {
       title: "Autre Prestation",
-      catchPhrase: "HORS PIÈCES",
+      catchPhrase: "",
       price: "Sur devis",
       services : [
-        "Express en 30 min",
-        "Rapport qualité prix imbattable",
-        "Finitions manuelles de qualité"
+        "Express",
+        "Garantie"
       ],
       noEuroSign: true
     },
