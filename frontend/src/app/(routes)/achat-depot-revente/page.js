@@ -13,6 +13,7 @@ import Service from "@/app/_components/Service/Service"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 import Pricing from "@/app/_components/Pricing/Pricing"
 import OurValues from "@/app/_components/OurValues/OurValues"
+import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 
 const AchatDepotRevente = () => {
   const pricingInfos = [
@@ -26,7 +27,20 @@ const AchatDepotRevente = () => {
         "Photo",
         "Mise en ligne",
         "Démarche administratif"
-      ]
+      ],
+      noEuroSign: true
+    },
+    {
+      title: "Achat ou Vente",
+      price: "Sur devis",
+      services : [
+        "Lavage",
+        "Entretien",
+        "Photo",
+        "Mise en ligne",
+        "Démarche administratif"
+      ],
+      noEuroSign: true
     }
   ]
 
@@ -79,26 +93,7 @@ const AchatDepotRevente = () => {
 
       <OurValues mainColor="text-red-800" />
 
-      <section className="bg-white">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-32 lg:px-0">
-            <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Les Prix</h2>
-            </div>
-            {pricingInfos.map(pricingInfo => {
-                return (
-                <Pricing
-                    title={pricingInfo.title}
-                    price={pricingInfo.price}
-                    catchPhrase={pricingInfo.catchPhrase}
-                    services={pricingInfo.services}
-                    mainColor="#FF0000"
-                    noEuroSign={true}
-                    key={pricingInfo.title}
-                />
-                )
-            })}
-        </div>
-      </section>
+      <PricingWrapper pricingInfos={pricingInfos} mainColor={"#FF0000"} />
 
       <Contact mainColor="#620000" />
       <Footer bgColor="linear-gradient(180deg, #F00 0%, #7D0000 100%)" logo={LogoBuy} />
