@@ -14,7 +14,7 @@ const HomeHeroBanner = () => {
                     <Badge className="mb-3 bg-[#0072FF]" />
                     <span className="font-extrabold">Votre garage automobile à Roubaix</span>
                     <h1 className="lg:text-[70px] text-5xl leading-none font-extrabold mb-3">
-                        Le meilleurs rapport qualité-prix pour tout vos besoin {" "}
+                        Le meilleurs rapport qualité-prix pour vos besoin {" "}
                         <span
                             className="lg:clip-text"
                         >
