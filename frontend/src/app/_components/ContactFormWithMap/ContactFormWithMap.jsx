@@ -2,6 +2,7 @@ import Image from 'next/image'
 import GoogleMap from "@/app/_assets/GoogleMap.webp"
 import { BiLogoTiktok, BiLogoSnapchat, BiLogoFacebookCircle, BiLogoInstagramAlt, BiLogoYoutube } from 'react-icons/bi'
 import Link from 'next/link';
+import ContactVideo from "@/app/_assets/contactVideo.webm"
 
 const Contact = (props) => {
 
@@ -10,13 +11,17 @@ const Contact = (props) => {
   return (
     <>
         <div className='container mx-auto'>
-            <div className="grid grid-cols-12">
-                <div className="col-span-4">
-                    <Image src={GoogleMap} alt='' className='rounded-tr-lg rounded-bl-lg' />
+            <div className="grid grid-cols-12 gap-x-10">
+                <div className="col-span-4 relative">
+                    <video autoPlay loop muted playsInline webkit-playsinline="true" className='absolute top-0 left-0 object-cover w-full h-full rounded-tr-3xl rounded-bl-3xl'>
+                        <source src={ContactVideo} type="video/webm" />
+                        Votre navigateur ne prend pas en charge les vidéos
+                    </video>     
+                    {/* <Image src={GoogleMap} alt='' className='rounded-tr-lg rounded-bl-lg' /> */}
                 </div>
-                <div className="col-span-8 flex flex-col justify-center">
+                <div className="col-span-8 flex flex-col justify-center py-12">
                     <h2 className={"text-5xl font-extrabold mb-10"} style={{color: mainColor}}>Contactez-nous !</h2>
-                    <form>
+                    <form className='pb-10'>
                         <div className="mb-4">
                             <input className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="text" name="name" placeholder='Nom Prénom' />
                         </div>
@@ -50,9 +55,37 @@ const Contact = (props) => {
                             </div>
                         </div>
                     </form>
-                    <div className="flex flex-col mt-5" style={{color: mainColor}}>
-                        <span className='font-extrabold text-xl'>E-mail</span>
-                        <span>contact@mycarz.fr</span>
+                    <div className='grid grid-cols-2 mt-10'>
+                        <div className=''>
+                            <span className='font-extrabold text-xl pb-5 underline decoration-blue-400 decoration-4'>Horaire</span>
+                            <div className='flex flex-col mt-5'>
+                                <span className='font-bold'>Lundi - Jeudi</span>
+                                <span>10h - 18h</span>
+                            </div>
+                            <div className='flex flex-col mt-5'>
+                                <span className='font-bold'>Vendredi</span>
+                                <span>10h - 12h</span>
+                                <span>14h - 18h</span>
+                            </div>
+                            <div className='flex flex-col mt-5'>
+                                <span className='font-bold'>Samedi</span>
+                                <span>10h - 19h</span>
+                            </div>
+                        </div>
+                        <div>
+                        <div className="flex flex-col mt-5" style={{color: mainColor}}>
+                            <span className='font-extrabold text-xl'>E-mail</span>
+                            <Link className='bg-[#0072FF] w-fit px-5 py-1 rounded-full text-white font-bold' href="mailto:contact@mycarz.fr">contact@mycarz.fr</Link>
+                        </div>
+                        <div className="flex flex-col mt-5" style={{color: mainColor}}>
+                            <span className='font-extrabold text-xl'>Téléphone</span>
+                            <Link className='bg-[#0072FF] w-fit px-5 py-1 rounded-full text-white font-bold' href='tel:0376115959'>03 76 11 59 59</Link>
+                        </div>
+                        <div className="flex flex-col mt-5" style={{color: mainColor}}>
+                            <span className='font-extrabold text-xl'>Adresse</span>
+                            <Link className='bg-[#0072FF] w-fit px-5 py-1 rounded-full text-white font-bold' href="https://maps.app.goo.gl/RC5kyvMhERw5egmCA">121 Boulevard Gambetta à Roubaix</Link>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>

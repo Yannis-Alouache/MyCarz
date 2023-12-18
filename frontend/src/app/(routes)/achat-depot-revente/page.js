@@ -40,7 +40,7 @@ const AchatDepotRevente = () => {
       </div>
 
       <Service
-        title="achat rapide"
+        title="achat"
         text="Vous souhaitez acheter un véhicule en toute sérénité ? Notre équipe vous propose à la vente des arrivage réguliers de véhicule, entretenus et sous garantie."
         svg={RedWave}
         svgClassName="right-0 top-0"
@@ -52,7 +52,7 @@ const AchatDepotRevente = () => {
       />
 
       <Service
-        title="dépôt sécurisé"
+        title="dépôt"
         link="achat-depot-revente"
         text="Vous souhaitez vendre votre voiture sans les complications habituelles ? Notre service dédié est la solution. Recevez rapidement une évaluation et une offre compétitive en quelques minutes. Un service rapide, efficace et fiable pour ceux qui cherchent à vendre sans tracas."
         svg={RedWaveReverse}
@@ -65,7 +65,7 @@ const AchatDepotRevente = () => {
       />
 
       <Service
-        title="vente assistée"
+        title="dépôt-vente"
         link="achat-depot-revente"
         text="Vous avez un véhicule à vendre et vous souhaitez déléguer cette mission ? Lavage, entretien, photo, mise en ligne sur les sites d’annonces et carte grise, MyCarz s’occupe de tout."
         svg={RedWave}
