@@ -24,6 +24,40 @@ const PricingSvgWrapper = (props) => {
                 )
               })}
             </div>
+            <div className={'mt-10 w-fit bg-white rounded-xl p-10'} style={{borderColor: mainColor, borderWidth: "1px"}}>
+              <ul>
+                <li className="flex items-center space-x-3 pt-2">
+                    <span className="font-bold">Options :</span>
+                </li>                
+                <li className="flex items-center space-x-3">
+                    <span>Brillant pneus et lavage passage de roue : <strong>5€</strong></span>
+                </li>
+                <li className="flex items-center space-x-3">
+                    <span>Shampouineuse siège avant OU arrière : <strong>15€</strong></span>
+                </li>
+                <li className="flex items-center space-x-3">
+                    <span>Traitement cuir siège avant OU arrière  : <strong>15€</strong></span>
+                </li>
+                <li className="flex items-center space-x-3">
+                    <span>Traitement cuir siège avant OU arrière  : <strong>15€</strong></span>
+                </li>
+                <li className="flex items-center space-x-3">
+                    <span>Aspiration coffre : <strong>5€</strong></span>
+                </li>
+                <li className="flex items-center space-x-3">
+                    <span>Décontamination ferreuse  : <strong>15€</strong></span>
+                </li>
+                <li className="flex items-center space-x-3">
+                    <span>Teinture moquette et tapis : <strong>20€</strong></span>
+                </li>
+                <li className="flex items-center space-x-3">
+                    <span>Lustrage des chrome : <strong>40€</strong></span>
+                </li>
+                <li className="flex items-center space-x-3">
+                    <span>Nettoyage ciel de toit : <strong>40€</strong></span>
+                </li>
+              </ul>
+            </div>
         </div>
     </section>
   )
