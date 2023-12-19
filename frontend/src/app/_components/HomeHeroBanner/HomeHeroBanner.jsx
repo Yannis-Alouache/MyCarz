@@ -29,7 +29,7 @@ const HomeHeroBanner = () => {
                     </button>
                 </div>
                 <div className="pl-0 pt-6 lg:col-span-6 col-span-12 flex items-center lg:pl-7 lg:pt-0">
-                    <Image src={HomeBannerCar} alt="" className="w-full" />
+                    <Image src={HomeBannerCar} alt="" className="w-full bounce" />
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@ const CoveringHeroBanner = () => {
                     </button>
                 </div>
                 <div className="col-span-6 pl-7">
-                    <Image alt="" src={CoveringBannerCar} className="w-full" />
+                    <Image alt="" src={CoveringBannerCar} className="w-full bounce" />
                 </div>
             </div>
         </div>

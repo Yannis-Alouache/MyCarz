@@ -33,13 +33,7 @@ const AchatDepotRevente = () => {
     {
       title: "Achat ou Vente",
       price: "Sur devis",
-      services : [
-        "Lavage",
-        "Entretien",
-        "Photo",
-        "Mise en ligne",
-        "Démarche administratif"
-      ],
+      services : [],
       noEuroSign: true
     }
   ]

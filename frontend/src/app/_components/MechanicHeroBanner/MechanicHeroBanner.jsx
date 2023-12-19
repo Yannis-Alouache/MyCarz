@@ -24,7 +24,7 @@ const MechanicHeroBanner = () => {
                     </button>
                 </div>
                 <div className="col-span-6 pl-7">
-                    <Image src={MechanicBannerCar} alt="" className="w-full" />
+                    <Image src={MechanicBannerCar} alt="" className="w-full bounce" />
                 </div>
             </div>
         </div>
