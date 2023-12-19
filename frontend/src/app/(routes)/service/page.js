@@ -12,10 +12,13 @@ import Plaques from "@/app/_assets/plaques.jpg"
 import AssuranceAuto from "@/app/_assets/assuranceAuto.jpg"
 import CarteGrise from "@/app/_assets/carteGrise.jpg"
 import Service from "@/app/_components/Service/Service"
-import OurMission from "@/app/_components/OurMission/OurMission"
-import PricingWrapper from "@/app/_components/PricingSvgWrapper/PricingSvgWrapper"
+import PlaquesCta from "@/app/_assets/plaques.webp" 
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 import OurValues from "@/app/_components/OurValues/OurValues"
+import { RiBankFill } from "react-icons/ri";
+import { IoHeartCircle } from "react-icons/io5";
+import Link from "next/link"
+
 
 const ServicePage = () => {
 
@@ -97,14 +100,35 @@ const ServicePage = () => {
           reverse={false}
         />
 
-        <div className="container mx-auto">
-          <div className="bg-white rounded-2xl">
+        <div className="max-w-screen-xl mx-auto">
+          <div className="bg-white rounded-2xl shadow-md">
             <div className="grid grid-cols-12">
-              <div className="col-span-8">
+              <div className="col-span-8 py-10 px-12">
+                <div>
+                  <div className="flex gap-x-5 text-[#646d8c]">
+                    <p className="flex gap-x-1.5 items-center">
+                      <RiBankFill size={22} />
+                      <span>Habilitation Ministère de l'Intérieur</span>
+                    </p>
+                    <p className="flex gap-x-1.5 items-center">
+                      <IoHeartCircle size={22} color="#ff5f7e" />
+                      <span>97% de satisfaction client</span>
+                    </p>
+                  </div>
 
+                  <h3 className="my-8 text-5xl font-bold">Faites votre carte grise et vos plaques <span className="text-[#1069ef]">en 2 min</span></h3>
+                  <div id="under-text" className="text-[#525a6e]">
+                    <p className="mb-3.5">1ère plateforme d'immatriculation depuis 2009</p>
+                    <p>Nous avons reçu une double habilitation de l'Etat 🇫🇷 pour vous proposer un service d'immatriculation simplifié en ligne.</p>
+                  </div>
+                  <div className="mt-10 flex gap-x-4">
+                    <Link href="https://www.eplaque.fr/?referer=fTIkE6kVuG49" className="bg-white text-[#1069ef] border border-[#1069ef] rounded-full py-3 px-6 font-bold">Commander plaques</Link>
+                    <Link href="https://www.eplaque.fr/?referer=fTIkE6kVuG49" className="bg-[#1069ef] text-white rounded-full py-3 px-6 font-bold">Commander carte grise</Link>
+                  </div>
+                </div>
               </div>
-              <div className="col-span-4">
-                
+              <div className="col-span-4 rounded-r-2xl p-16 flex items-center" style={{backgroundImage: "linear-gradient(209deg,#eefbfb 2%,#cfe1fc 100%);"}}>
+                <Image src={PlaquesCta} />
               </div>
             </div>
           </div>
