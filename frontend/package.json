@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@uidotdev/usehooks": "^2.4.1",
     "next": "13.5.4",
     "next-videos": "^1.4.1",
     "react": "^18",

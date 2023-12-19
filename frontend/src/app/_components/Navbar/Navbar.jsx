@@ -16,7 +16,6 @@ const Navbar = (props) => {
     )
   }
 
-  console.log(isOpen)
 
   return (
     <>
