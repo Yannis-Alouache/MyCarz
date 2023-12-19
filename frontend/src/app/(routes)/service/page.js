@@ -97,6 +97,19 @@ const ServicePage = () => {
           reverse={false}
         />
 
+        <div className="container mx-auto">
+          <div className="bg-white rounded-2xl">
+            <div className="grid grid-cols-12">
+              <div className="col-span-8">
+
+              </div>
+              <div className="col-span-4">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
         <OurValues mainColor="text-gray-700" />
 
         {/* <PricingWrapper pricingInfos={pricingInfos} mainColor="#757575" /> */}

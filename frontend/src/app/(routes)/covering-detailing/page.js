@@ -97,6 +97,7 @@ const Covering = () => {
         />
 
         <div className="container mx-auto mb-8 lg:mb-10">
+          <h2 className="mb-10 text-5xl tracking-tight font-bold text-gray-700 underline">Prix Covering</h2>
           <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-700">Noir</h2>
         </div>
         <div class="container mx-auto relative overflow-x-auto shadow-lg sm:rounded-lg mb-32">
@@ -372,6 +373,9 @@ const Covering = () => {
             </table>
         </div>
 
+        <div className="container mx-auto">
+          <h2 className="mt-16 text-5xl tracking-tight font-bold text-gray-700 underline">Autre Prestation</h2>
+        </div>
         <PricingWrapper pricingInfos={pricingInfos} mainColor="#5392D5" withoutHeaderText={true} />
 
         <OurValues mainColor="text-[#5392D5]" />
