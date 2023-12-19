@@ -14,7 +14,7 @@ const Service = (props) => {
 
     return (
       <div className="relative lg:py-28 py-16">
-        <span className="">{size.width}</span>
+        <span className="hidden">{size.width}</span>
         {/* <Image src={ svg } alt="" className={"absolute z-0 w-auto h-full " + svgClassName } /> */}
         <div className="max-w-screen-xl px-10 w-full mx-auto z-10 relative">
           <div className="grid grid-cols-12 lg:gap-x-10 gap-x-0">
