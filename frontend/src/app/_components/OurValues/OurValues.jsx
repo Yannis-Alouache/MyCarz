@@ -11,14 +11,14 @@ const OurValues = () => {
     <>
         <div className="bg-[#f0f0f091] py-16 mb-20 mt-12">
             <div className="container mx-auto">
-                <div className=" flex relative rounded-2xl bg-white shadow-md">
+                <div className="flex relative rounded-2xl bg-white shadow-md">
                     <div className="absolute right-0 bottom-0">
                         <Image src={OurValuesDeco2} />
                     </div>
-                    <div className="w-2/4">
+                    <div className="lg:w-2/4 hidden">
                         <Image src={OurValuesImage} className="w-full rounded-l-2xl" />
                     </div>
-                    <div className="w-2/4 pl-10 pr-32 text-gray-800 flex flex-col justify-center">
+                    <div className="lg:w-2/4 w-full pl-10 lg:pr-32 pr-10 py-10 text-gray-800 flex flex-col justify-center">
                         <div className="flex gap-x-2 items-center">
                             <Image src={OurValuesDeco1} className="h-4" />
                             <span className="uppercase mb-1">nos valeurs</span>
