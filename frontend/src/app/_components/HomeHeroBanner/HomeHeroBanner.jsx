@@ -22,7 +22,7 @@ const HomeHeroBanner = () => {
                         </span>
                     </h1>
                     <div className="font-bold mb-5">
-                        <p>Vous souhaitez réaliser une réparation,  faire nettoyer votre véhicule, effectuer les démarches pour une carte grise ou poser des vitres teintés, nous proposons une gamme de services complète pour prendre soin de votre véhicule sans vider votre portefeuille.</p>
+                        <p>Vous souhaitez réaliser une réparation, faire nettoyer votre véhicule, effectuer les démarches pour une carte grise ou poser des vitres teintés, nous proposons une gamme de services complète pour prendre soin de votre véhicule sans vider votre portefeuille.</p>
                     </div>
                     <button className="w-full font-extrabold text-2xl text-white rounded-lg px-16 py-5 lg:w-fit" style={{background: "linear-gradient(90deg, #00397B 0%, #0075FF 100%)"}}>
                         Nos Services

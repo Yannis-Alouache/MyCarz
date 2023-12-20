@@ -145,7 +145,7 @@ const Wash = () => {
       <OurValues mainColor="text-[#D65796]" />
 
 
-      <Contact mainColor="#FF69B4" />
+      {/* <Contact mainColor="#FF69B4" /> */}
       <Footer bgColor="linear-gradient(180deg, #FF69B4 0%, #783E5B 100%)" logo={LogoWash} />
     </>
   )

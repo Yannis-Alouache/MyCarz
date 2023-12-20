@@ -100,7 +100,7 @@ const ServicePage = () => {
           reverse={false}
         />
 
-        <div className="max-w-screen-xl mx-auto">
+        {/* <div className="max-w-screen-xl mx-auto">
           <div className="bg-white rounded-2xl shadow-md">
             <div className="grid grid-cols-12">
               <div className="col-span-8 py-10 px-12">
@@ -132,14 +132,14 @@ const ServicePage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <OurValues mainColor="text-gray-700" />
 
         {/* <PricingWrapper pricingInfos={pricingInfos} mainColor="#757575" /> */}
 
 
-        <Contact mainColor="#575757" />
+        {/* <Contact mainColor="#575757" /> */}
         <Footer bgColor="linear-gradient(180deg, #757575 0%, #3E3E3E 100%)" logo={LogoService} />
     </>
   )

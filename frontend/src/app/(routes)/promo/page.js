@@ -14,13 +14,13 @@ const Promo = () => {
       <Navbar logo={Logo} contactBtnClass="border-[#0072FF] bg-transparent" />
 
 
-      <div className='container mx-auto'>
+      <div className='container mx-auto px-6 lg:px-0'>
         <div className='text-center'>
-          <h1 className='text-6xl font-black text-gray-900 pt-24'>Promo d’ouverture !</h1>
+          <h1 className='lg:text-6xl text-5xl font-black text-gray-900 pt-24'>Promo d’ouverture !</h1>
         </div>
         <div className='grid grid-cols-1 gap-y-7 pt-24'>
-          <div className='grid grid-cols-3 gap-x-5'>
-              <div className='bg-[#FF69B4] h-[400px] rounded-3xl p-10 text-white text-5xl font-black'>
+          <div className='grid lg:grid-cols-3 grid-cols-1 gap-x-5 gap-y-3 lg:gap-y-0'>
+              <div className='bg-[#FF69B4] lg:h-[400px] h-full rounded-3xl p-10 text-white text-5xl font-black'>
                 <h3 className='mb-8'>Offre exclusive de lavage auto !</h3>
                 <p className='text-4xl'>Sans RDV en 30 minutes !</p>
               </div>
@@ -32,7 +32,7 @@ const Promo = () => {
           </div>
 
 
-          <div className='grid grid-cols-4 gap-x-5 gap-y-3 text-lg'>
+          <div className='grid lg:grid-cols-4 grid-cols-1 gap-x-5 gap-y-3 text-lg'>
               <div className='bg-white flex items-center font-bold rounded-full gap-x-3 px-5 py-2 shadow'>
                 <Image src={Check} className='h-7 w-auto'/>
                 <span>Service Carte Grise</span>
@@ -55,18 +55,18 @@ const Promo = () => {
               </div>
           </div>
 
-          <div className='grid grid-cols-3 gap-x-5'>
-            <div className='col-span-2 bg-[#0072FF] h-[400px] rounded-3xl'>
+          <div className='grid lg:grid-cols-3 grid-cols-1 gap-y-2 lg:gap-y-0 gap-x-5'>
+            <div className='lg:col-span-2 bg-[#0072FF] h-[400px] rounded-3xl'>
               <iframe className='w-full h-full rounded-3xl' src="https://www.youtube.com/embed/pEipUCculuo" title="🚗💨 MyCarz - 121 Boulevard Gambetta 59100 Roubaix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className='bg-[#FF0000] h-[400px] rounded-3xl p-10 text-white text-5xl font-black'>
+            <div className='bg-[#FF0000] lg:h-[400px] h-full rounded-3xl p-10 text-white text-5xl font-black'>
               <p className='mb-8'>Ne manquez pas cette occasion !</p>
               <p>Offre Valable du 09/10 au 31/10.</p>
             </div>
           </div>
 
-          <div className='grid grid-cols-3 gap-x-5'>
-            <div className='bg-[#00B2FF] h-[400px] rounded-3xl p-10 text-white font-black'>
+          <div className='grid lg:grid-cols-3 grid-cols-1 lg:gap-y-0 gap-y-2 lg:gap-x-5 gap-x-0'>
+            <div className='bg-[#00B2FF] lg:h-[400px] h-full rounded-3xl p-10 text-white font-black'>
               <p className='text-3xl mb-3'>Sans rendez-vous</p>
               <p className='text-5xl mb-10'>121 Boulevard Gambetta, 59150 Roubaix</p>
               <div className='text-2xl'>
@@ -80,8 +80,8 @@ const Promo = () => {
             </div>
           </div>
 
-          <div className='grid grid-cols-3 gap-x-5'>
-            <div className='col-span-2 bg-white h-[400px] rounded-3xl p-10'>
+          <div className='grid lg:grid-cols-3 grid-cols-1 lg:gap-y-0 lg:gap-x-5 gap-y-2 gap-x-0'>
+            <div className='col-span-2 bg-white lg:h-[400px] h-full rounded-3xl lg:shadow-none shadow-md p-10'>
               <h3 className='text-4xl font-black mb-5'>Qui Somme Nous ?</h3>
               <p className='text-2xl font-medium'>Chez MyCarz, nous sommes plus qu’un simple garage. Nous sommes votre partenaire automobile de confiance, niché en plein cœur du centre-ville de Roubaix au 121 Boulevard Gambetta. Notre passion est de prendre soin de votre véhicule et de vous offrir une expérience exceptionnelle avec une gamme complète de services automobiles</p>
             </div>
@@ -91,11 +91,11 @@ const Promo = () => {
             </div>
           </div>
 
-          <div className='grid grid-cols-2 gap-x-5'>
-            <div className='bg-no-repeat bg-contain ounded-3xl h-[1000px]' style={{ backgroundImage: "url(" + mechanicsFlyer.src + ")" }}>
+          <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-x-5 gap-x-0 gap-y-2 lg:gap-y-0 '>
+            <div className='bg-no-repeat bg-contain bg-center ounded-3xl lg:h-[1000px] h-[400px]' style={{ backgroundImage: "url(" + mechanicsFlyer.src + ")" }}>
 
             </div>
-            <div className='bg-white rounded-3xl p-10 h-fit'>
+            <div className='bg-white rounded-3xl p-10 h-fit shadow-md lg:shadow-none'>
               <h3 className='text-4xl font-black mb-5'>Offre Exclusive !</h3>
               <p className='text-2xl font-medium mb-3'>Pour une durée limitée, plongez dans notre promotion spéciale sur l’entretien automobile !</p>
               <p className='text-2xl font-medium mb-3'>Nous vous proposons un changement de disques, plaquettes de freins et une vidange à des tarifs exceptionnels.</p>

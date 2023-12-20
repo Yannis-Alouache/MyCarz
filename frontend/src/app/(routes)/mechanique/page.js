@@ -125,7 +125,7 @@ const Mechanique = () => {
 
       <OurValues mainColor="text-[#0088C3]" />
 
-      <Contact mainColor="#0088C3" />
+      {/* <Contact mainColor="#0088C3" /> */}
       <Footer bgColor="linear-gradient(180deg, #00B2FF 0%, #003248 100%)" logo={LogoMechanic} />
     </>
   )
