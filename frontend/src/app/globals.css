@@ -2,12 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-.bounce {
-    animation: my-bounce 3s infinite ease-in-out;
-}
 
-@keyframes my-bounce {
-    0% { transform: translateY(-5px)  }
-    50% { transform: translateY(10px) }
-    100% { transform: translateY(-5px) }
-}
+@layer utilities {
+
+    .clip {
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .no-clip {
+        clip-path: none;
+    }
+
+    .bounce {
+        animation: my-bounce 3s infinite ease-in-out;
+    }
+
+    @keyframes my-bounce {
+        0% { transform: translateY(-5px)  }
+        50% { transform: translateY(10px) }
+        100% { transform: translateY(-5px) }
+    }
+ 
+ }
