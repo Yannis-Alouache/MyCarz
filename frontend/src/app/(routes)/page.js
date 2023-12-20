@@ -99,7 +99,7 @@ export default function Home() {
 
       <OurValues />
 
-      {/* <Contact mainColor="#00054B" /> */}
+      <Contact mainColor="#00054B" />
 
       <div className="pt-32">
         <Footer bgColor="linear-gradient(180deg, #0075FF 0%, #00428F 100%)" logo={LogoHome} />

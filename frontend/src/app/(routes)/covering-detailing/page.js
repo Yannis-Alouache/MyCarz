@@ -100,93 +100,93 @@ const Covering = () => {
           <h2 className="mb-10 text-5xl tracking-tight font-bold text-gray-700 underline">Prix Covering</h2>
           <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-700">Noir</h2>
         </div>
-        <div class="container mx-auto relative overflow-x-auto shadow-lg sm:rounded-lg mb-32">
-            <table class="w-full text-sm text-left rtl:text-right text-gray-500">
-                <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+        <div className="container mx-auto relative overflow-x-auto shadow-lg sm:rounded-lg mb-32">
+            <table className="w-full text-sm text-left rtl:text-right text-gray-500">
+                <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                     <tr>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           Modèle
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           type smart
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           mini
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           citadine / compact
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           berline / suv
                         </th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="odd:bg-white even:bg-gray-50 border-b">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                    <tr className="odd:bg-white even:bg-gray-50 border-b">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                           Changement couleur complet
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           1 800€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           2 400€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           3 600€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           3 990€
                         </td>
                     </tr>
-                    <tr class="odd:bg-white even:bg-gray-50 border-b">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                    <tr className="odd:bg-white even:bg-gray-50 border-b">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                           Toit
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           220€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           400€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           420€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           450€
                         </td>
                     </tr>
-                    <tr class="odd:bg-white even:bg-gray-50 border-b">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                    <tr className="odd:bg-white even:bg-gray-50 border-b">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                           Rétroviseurs
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           110€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           110€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           110€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           110€
                         </td>
                     </tr>
-                    <tr class="odd:bg-white even:bg-gray-50 border-b">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                    <tr className="odd:bg-white even:bg-gray-50 border-b">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                           Toit et Rétroviseurs
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           290€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           430€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           450€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           470€
                         </td>
                     </tr>
@@ -198,93 +198,93 @@ const Covering = () => {
         <div className="container mx-auto mb-8 lg:mb-10">
           <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-700">Couleur standard</h2>
         </div>
-        <div class="container mx-auto relative overflow-x-auto shadow-lg sm:rounded-lg mb-32">
-            <table class="w-full text-sm text-left rtl:text-right text-gray-500">
-                <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+        <div className="container mx-auto relative overflow-x-auto shadow-lg sm:rounded-lg mb-32">
+            <table className="w-full text-sm text-left rtl:text-right text-gray-500">
+                <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                     <tr>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           Modèle
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           type smart
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           mini
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           citadine / compact
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           berline / suv
                         </th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="odd:bg-white even:bg-gray-50 border-b">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                    <tr className="odd:bg-white even:bg-gray-50 border-b">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                           Changement couleur complet
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           2 300€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           3 100€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           4 300€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           4 590€
                         </td>
                     </tr>
-                    <tr class="odd:bg-white even:bg-gray-50 border-b">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                    <tr className="odd:bg-white even:bg-gray-50 border-b">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                           Toit
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           280€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           500€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           530€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           570€
                         </td>
                     </tr>
-                    <tr class="odd:bg-white even:bg-gray-50 border-b">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                    <tr className="odd:bg-white even:bg-gray-50 border-b">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                           Rétroviseurs
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           130€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           130€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           130€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           130€
                         </td>
                     </tr>
-                    <tr class="odd:bg-white even:bg-gray-50 border-b">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                    <tr className="odd:bg-white even:bg-gray-50 border-b">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                           Toit et Rétroviseurs
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           350€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           540€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           560€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           590€
                         </td>
                     </tr>
@@ -296,76 +296,76 @@ const Covering = () => {
         <div className="container mx-auto mb-8 lg:mb-10">
           <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-700">Carbone</h2>
         </div>
-        <div class="container mx-auto relative overflow-x-auto shadow-lg sm:rounded-lg">
-            <table class="w-full text-sm text-left rtl:text-right text-gray-500">
-                <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+        <div className="container mx-auto relative overflow-x-auto shadow-lg sm:rounded-lg">
+            <table className="w-full text-sm text-left rtl:text-right text-gray-500">
+                <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                     <tr>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           Modèle
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           type smart
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           mini
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           citadine / compact
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           berline / suv
                         </th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="odd:bg-white even:bg-gray-50 border-b">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                    <tr className="odd:bg-white even:bg-gray-50 border-b">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                           Toit
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           780€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           1 400€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           1 500€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           1 600€
                         </td>
                     </tr>
-                    <tr class="odd:bg-white even:bg-gray-50 border-b">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                    <tr className="odd:bg-white even:bg-gray-50 border-b">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                           Rétroviseurs
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           380€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           380€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           380€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           380€
                         </td>
                     </tr>
-                    <tr class="odd:bg-white even:bg-gray-50 border-b">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                    <tr className="odd:bg-white even:bg-gray-50 border-b">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                           Toit et Rétroviseurs
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           990€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           1490€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           1590€
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                           1690€
                         </td>
                     </tr>
