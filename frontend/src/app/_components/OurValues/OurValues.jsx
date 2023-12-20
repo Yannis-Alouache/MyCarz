@@ -15,7 +15,7 @@ const OurValues = () => {
                     <div className="absolute right-0 bottom-0">
                         <Image src={OurValuesDeco2} />
                     </div>
-                    <div className="lg:w-2/4 hidden">
+                    <div className="lg:w-2/4 hidden lg:block">
                         <Image src={OurValuesImage} className="w-full rounded-l-2xl" />
                     </div>
                     <div className="lg:w-2/4 w-full pl-10 lg:pr-32 pr-10 py-10 text-gray-800 flex flex-col justify-center">

@@ -24,7 +24,7 @@ const PricingSvgWrapper = (props) => {
                 )
               })}
             </div>
-            <div className={'mt-10 w-fit bg-white rounded-xl p-10'} style={{borderColor: mainColor, borderWidth: "1px"}}>
+            <div className={'mt-10 lg:w-fit w-full bg-white rounded-xl p-10'} style={{borderColor: mainColor, borderWidth: "1px"}}>
               <ul>
                 <li className="flex items-center space-x-3 pt-2">
                     <span className="font-bold">Options :</span>
