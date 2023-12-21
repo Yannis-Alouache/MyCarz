@@ -54,7 +54,7 @@ const SocialSidebar = () => {
                     <a href="https://www.snapchat.com/add/mycarzfr" className=" transition-all ease-in-out duration-300 hover:opacity-50" target="_blank"><Image src={Snapchat} className="w-[25px] h-[25px]" /></a>
                 </li>
                 <li>
-                    <a href="https://api.whatsapp.com/send?phone=0620081250" className=" transition-all ease-in-out duration-300 hover:opacity-50" target="_blank"><Image src={Snapchat} className="w-[25px] h-[25px]" /></a>
+                    <a href="https://api.whatsapp.com/send?phone=+33620081250" className=" transition-all ease-in-out duration-300 hover:opacity-50" target="_blank"><Image src={Snapchat} className="w-[25px] h-[25px]" /></a>
                 </li>
             </ul>
         </div>
