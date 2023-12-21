@@ -97,11 +97,11 @@ const Wash = () => {
 
   return (
     <>
-      <div className="relative pb-32">
+      <div className="relative lg:pb-32 pb-10">
         <Image src={WashBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#FF69B4]" logo={LogoWash} />
         <WashHeroBanner />
-        <ServiceCarouselNew />
+        {/* <ServiceCarouselNew /> */}
       </div>
       
       <Service
@@ -144,8 +144,7 @@ const Wash = () => {
 
       <OurValues mainColor="text-[#D65796]" />
 
-
-      {/* <Contact mainColor="#FF69B4" /> */}
+      <Contact mainColor="#FF69B4" />
       <Footer bgColor="linear-gradient(180deg, #FF69B4 0%, #783E5B 100%)" logo={LogoWash} />
     </>
   )

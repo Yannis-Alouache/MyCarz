@@ -38,7 +38,7 @@ const AchatDepotRevente = () => {
 
   return (
     <>
-      <div className="relative pb-32">
+      <div className="relative lg:pb-32 pb-10">
         <Image src={BuyBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#F00]" logo={LogoBuy} />
         <BuyHeroBanner />

@@ -6,7 +6,7 @@ import WashBannerCar from "@/app/_assets/WashBannerCar.png"
 
 const WashHeroBanner = () => {
   return (
-    <section className="lg:pt-64 pt-10 z-10 relative mb-20">
+    <section className="lg:pt-64 pt-10 z-10 relative lg:mb-20 mb-5">
         <div className="lg:px-0 px-6 container mx-auto">
             <div className="grid grid-cols-12">
                 <div className="lg:col-span-6 col-span-12 lg:pr-7 pr-0">
