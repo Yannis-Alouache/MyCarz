@@ -22,7 +22,7 @@ const Navbar = (props) => {
         <nav className="bg-transparent border-gray-200 py-2.5 z-10 relative">
             <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
                 <a href="/" className="flex items-center">
-                    <Image src={logo} className="h-10 w-fit" alt="Landwind Logo" />
+                    <Image src={logo} className="lg:h-10 h-7 w-fit" alt="Landwind Logo" />
                 </a>
                 <div className="flex items-center lg:order-2">
                     <div className="hidden mt-2 mr-4 sm:inline-block">
