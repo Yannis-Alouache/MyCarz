@@ -10,8 +10,6 @@ import BuyBannerBgCircle from "@/app/_assets/BuyBannerBgCircle.svg"
 import Footer from "@/app/_components/Footer/Footer"
 import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
 import Service from "@/app/_components/Service/Service"
-import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
-import Pricing from "@/app/_components/Pricing/Pricing"
 import OurValues from "@/app/_components/OurValues/OurValues"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 
@@ -44,7 +42,7 @@ const AchatDepotRevente = () => {
         <Image src={BuyBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#F00]" logo={LogoBuy} />
         <BuyHeroBanner />
-        <ServiceCarouselNew />
+        {/* <ServiceCarouselNew /> */}
       </div>
 
       <Service
