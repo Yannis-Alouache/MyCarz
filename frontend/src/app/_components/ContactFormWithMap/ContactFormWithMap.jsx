@@ -12,14 +12,14 @@ const Contact = (props) => {
     <>
         <div className='container mx-auto lg:px-0 px-6'>
             <div className="grid grid-cols-12 lg:gap-x-10 gap-x-0">
-                <div className="col-span-12 relative h-[300px]">
+                <div className="lg:col-span-4 col-span-12 relative lg:h-full h-[300px]">
                     <video autoPlay loop muted playsInline webkit-playsinline="true" className='absolute top-0 left-0 object-cover w-full lg:h-full h-[300px] rounded-tr-3xl rounded-bl-3xl'>
                         <source src={ContactVideo} type="video/webm" />
                         Votre navigateur ne prend pas en charge les vidéos
                     </video>     
                     {/* <Image src={GoogleMap} alt='' className='rounded-tr-lg rounded-bl-lg' /> */}
                 </div>
-                <div className="col-span-12 flex flex-col justify-center py-12">
+                <div className="lg:col-span-8 col-span-12 flex flex-col justify-center py-12">
                     <h2 className={"lg:text-5xl text-4xl font-extrabold mb-10"} style={{color: mainColor}}>Contactez-nous !</h2>
                     <form className='lg:pb-10 pb-0'>
                         <div className="mb-4">

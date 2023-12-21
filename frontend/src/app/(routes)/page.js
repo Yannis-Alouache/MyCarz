@@ -101,7 +101,7 @@ export default function Home() {
 
       <Contact mainColor="#00054B" />
 
-      <div className="pt-32">
+      <div className="lg:pt-32 pt-10">
         <Footer bgColor="linear-gradient(180deg, #0075FF 0%, #00428F 100%)" logo={LogoHome} />
       </div>
     </>
