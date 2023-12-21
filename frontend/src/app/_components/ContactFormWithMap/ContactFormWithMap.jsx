@@ -20,7 +20,7 @@ const Contact = (props) => {
                     {/* <Image src={GoogleMap} alt='' className='rounded-tr-lg rounded-bl-lg' /> */}
                 </div>
                 <div className="lg:col-span-8 col-span-12 flex flex-col justify-center py-12">
-                    <h2 className={"lg:text-5xl text-4xl font-extrabold mb-10"} style={{color: mainColor}}>Contactez-nous !</h2>
+                    <h2 className={"lg:text-5xl text-3xl font-extrabold mb-10"} style={{color: mainColor}}>Contactez-nous !</h2>
                     <form className='lg:pb-10 pb-0'>
                         <div className="mb-4">
                             <input className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="text" name="name" placeholder='Nom Prénom' />
@@ -34,9 +34,9 @@ const Contact = (props) => {
                         <div className="mb-4">
                             <textarea className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline resize-none" style={{borderColor: mainColor}} type="text" name="message" placeholder='Message' />
                         </div>
-                        <div className="flex items-center justify-between flex-wrap lg:gap-y-0 gap-y-3">
+                        <div className="flex items-center lg:justify-between justify-center flex-wrap lg:gap-y-0 gap-y-3">
                             <input type="submit" value="envoyer" className={'uppercase text-white font-bold lg:w-fit w-full px-10 py-2 rounded-full'} style={{backgroundColor: mainColor}} />
-                            <div className="flex gap-x-10">
+                            <div className="flex lg:gap-x-10 gap-x-5">
                                 <Link href="https://www.tiktok.com/@mycarzfr">
                                     <BiLogoTiktok color={mainColor} className='h-8 w-auto' />
                                 </Link>

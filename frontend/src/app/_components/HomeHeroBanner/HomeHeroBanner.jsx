@@ -13,7 +13,7 @@ const HomeHeroBanner = () => {
                 <div className="lg:col-span-6 col-span-12">
                     <Badge className="mb-3 bg-[#0072FF]" />
                     <span className="font-extrabold">Votre garage automobile à Roubaix</span>
-                    <h1 className="lg:text-[70px] text-5xl leading-none font-extrabold mb-3">
+                    <h1 className="lg:text-[70px] text-4xl leading-none font-extrabold mb-3">
                         Le meilleurs rapport qualité-prix pour vos besoin {" "}
                         <span
                             className="lg:clip-text"
@@ -21,7 +21,7 @@ const HomeHeroBanner = () => {
                             automobiles.
                         </span>
                     </h1>
-                    <div className="font-bold mb-5">
+                    <div className="font-medium mb-5">
                         <p>Vous souhaitez réaliser une réparation, faire nettoyer votre véhicule, effectuer les démarches pour une carte grise ou poser des vitres teintés, nous proposons une gamme de services complète pour prendre soin de votre véhicule sans vider votre portefeuille.</p>
                     </div>
                     <button className="w-full font-extrabold text-2xl text-white rounded-lg px-16 py-5 lg:w-fit" style={{background: "linear-gradient(90deg, #00397B 0%, #0075FF 100%)"}}>
