@@ -15,6 +15,7 @@ import Disquettes from "@/app/_assets/disquettes.jpg"
 import EntretienMoteur from "@/app/_assets/entretienMoteur.jpg"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 import OurValues from "@/app/_components/OurValues/OurValues"
+import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 
 const Mechanique = () => {
   const pricingInfos = [

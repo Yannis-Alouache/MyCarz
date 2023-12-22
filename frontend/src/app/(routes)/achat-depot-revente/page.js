@@ -12,6 +12,7 @@ import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
 import Service from "@/app/_components/Service/Service"
 import OurValues from "@/app/_components/OurValues/OurValues"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
+import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 
 const AchatDepotRevente = () => {
   const pricingInfos = [
