@@ -14,7 +14,7 @@ const Contact = (props) => {
             <div className="grid grid-cols-12 lg:gap-x-10 gap-x-0">
                 <div className="lg:col-span-4 col-span-12 relative lg:h-full h-[300px]">
                     <video autoPlay loop muted playsInline webkit-playsinline="true" className='absolute top-0 left-0 object-cover w-full lg:h-full h-[300px] rounded-tr-3xl rounded-bl-3xl'>
-                        <source src={ContactVideo} type="video/webm" />
+                        <source src={ContactVideo} type="video/mp4" />
                         Votre navigateur ne prend pas en charge les vidéos
                     </video>     
                     {/* <Image src={GoogleMap} alt='' className='rounded-tr-lg rounded-bl-lg' /> */}
