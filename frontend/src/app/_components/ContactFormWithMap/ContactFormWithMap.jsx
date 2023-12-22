@@ -1,3 +1,5 @@
+"use client";
+
 import { BiLogoTiktok, BiLogoSnapchat, BiLogoFacebookCircle, BiLogoInstagramAlt, BiLogoYoutube } from 'react-icons/bi'
 import Link from 'next/link';
 import ContactVideo from "@/app/_assets/contactVideo.mp4"
