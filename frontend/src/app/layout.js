@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
 
         <Banner />
         <SocialSidebar />
-        {/* <WhatsappBadge /> */}
+        <WhatsappBadge />
         {children}
       </body>
     </html>

@@ -75,7 +75,7 @@ const Footer = (props) => {
                 <ul className="text-white font-medium">
                   <li className="flex mb-4 items-center gap-x-3">
                     <BsTelephoneFill className="text-red-600" />
-                    <span>+33 6 20 08 12 50</span>
+                    <span>03 76 11 59 59</span>
                   </li>
                   <li className="flex mb-4 items-center gap-x-3">
                     <MdMail className="text-red-600" />
