@@ -18,7 +18,6 @@ import OurValues from "@/app/_components/OurValues/OurValues"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 import AffiliateBanner from "@/app/_components/AffiliateBanner/AffiliateBanner"
 import React, { useState } from "react";
-import BookForm from "@/app/_components/BookForm/bookForm";
 
 
 const ServicePage = () => {
@@ -104,7 +103,6 @@ const ServicePage = () => {
 
         <AffiliateBanner />
 
-        {/* <BookForm /> */}
 
         <OurValues mainColor="text-gray-700" />
 
