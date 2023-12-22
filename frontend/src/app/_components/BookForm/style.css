@@ -1,0 +1,25 @@
+.customDatePickerWidth, 
+.customDatePickerWidth > div.react-datepicker-wrapper, 
+.customDatePickerWidth > div > div.react-datepicker__input-container
+.customDatePickerWidth > div > div.react-datepicker__input-container input {
+   width: 100%;
+}
+
+.rc-time-picker-input {
+    display: block; 
+    padding: 0.625rem; 
+    height: auto;
+    border-radius: 0.5rem; 
+    border-width: 1px; 
+    border-color: #D1D5DB; 
+    width: 100%; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    color: #111827; 
+    background-color: #F9FAFB; 
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); 
+}
+
+.rc-time-picker-input:focus {
+    outline: none;
+}

@@ -8,7 +8,6 @@ const Contact = () => {
   return (
     <>
         <Navbar contactBtnClass="border-[#1a2541]" logo={LogoHome}/>
-        <ContactBanner />
 
         <div className="mt-32 mb-20">
             <ContactForm mainColor="#1a2541" />
