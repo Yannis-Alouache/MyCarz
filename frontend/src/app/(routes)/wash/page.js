@@ -101,7 +101,7 @@ const Wash = () => {
         <Image src={WashBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#FF69B4]" logo={LogoWash} />
         <WashHeroBanner />
-        {/* <ServiceCarouselNew /> */}
+        <ServiceCarouselNew />
       </div>
       
       <Service

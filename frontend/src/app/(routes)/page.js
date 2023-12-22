@@ -29,7 +29,7 @@ export default function Home() {
         <Image src={HomeBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#0072FF]" logo={LogoHome}/>
         <HomeHeroBanner />
-        {/* <ServiceCarouselNew /> */}
+        <ServiceCarouselNew />
       </div>
       
       <Service

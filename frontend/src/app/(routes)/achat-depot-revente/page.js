@@ -42,7 +42,7 @@ const AchatDepotRevente = () => {
         <Image src={BuyBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#F00]" logo={LogoBuy} />
         <BuyHeroBanner />
-        {/* <ServiceCarouselNew /> */}
+        <ServiceCarouselNew />
       </div>
 
       <Service

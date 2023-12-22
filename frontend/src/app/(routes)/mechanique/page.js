@@ -81,7 +81,7 @@ const Mechanique = () => {
         <Image src={MechanicBannerBgCircle} alt="" className="absolute right-0 z-0" />
         <Navbar contactBtnClass="border-[#00B2FF]" logo={LogoMechanic} />
         <MechanicHeroBanner />
-        {/* <ServiceCarouselNew /> */}
+        <ServiceCarouselNew />
       </div>
 
       <Service

@@ -10,7 +10,7 @@ import Image from "next/image";
 const ServiceCarouselNew = () => {
   return (
     <>
-        <div className="slider">
+        <div className="slider lg:block hidden">
             <div className="slide-track">
                 <div className="slide p-5">
                     <Image src={LogoHome} height={100} width={250} alt="" />
