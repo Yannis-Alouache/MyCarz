@@ -7,6 +7,7 @@ import Badge from "../Badge/Badge"
 
 import HomeBannerCar from "@/app/_assets/HomeBannerCar.png"
 import Reveal from "../Reveal/Reveal"
+import Link from "next/link";
 
 const HomeHeroBanner = () => {
   return (
@@ -28,9 +29,9 @@ const HomeHeroBanner = () => {
                         <div className="font-medium mb-5">
                             <p>Vous souhaitez réaliser une réparation, faire nettoyer votre véhicule, effectuer les démarches pour une carte grise ou poser des vitres teintés, nous proposons une gamme de services complète pour prendre soin de votre véhicule sans vider votre portefeuille.</p>
                         </div>
-                        <button className="w-full font-extrabold text-2xl text-white rounded-lg px-16 py-5 lg:w-fit" style={{background: "linear-gradient(90deg, #00397B 0%, #0075FF 100%)"}}>
+                        <Link href="#services" className="block w-full font-extrabold text-2xl text-white rounded-lg px-16 py-5 lg:w-fit" style={{background: "linear-gradient(90deg, #00397B 0%, #0075FF 100%)"}}>
                             Nos Services
-                        </button>
+                        </Link>
                     </div>
                     <div className="pl-0 pt-6 lg:col-span-6 col-span-12 flex items-center lg:pl-7 lg:pt-0">
                         <Image src={HomeBannerCar} alt="" className="w-full bounce" />

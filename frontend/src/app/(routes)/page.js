@@ -32,70 +32,72 @@ export default function Home() {
         <ServiceCarouselNew />
       </div>
       
-      <Service
-        title="achat / dépôt / vente"
-        link="achat-depot-revente"
-        text="Spécialisés dans l’achat et le dépôt-vente, nous vous offrons des solutions simple et rapide pour acheter ou vendre votre véhicule en étant accompagné."
-        svg={RedWave}
-        svgClassName="right-0 top-0"
-        mainImage={BuyService}
-        mainColor="#FF0000"
-        secondaryColor="#7B0000"
-        showBtn={true}
-        reverse={false}
-      />
+      <div id="services">
+        <Service
+          title="achat / dépôt / vente"
+          link="achat-depot-revente"
+          text="Spécialisés dans l’achat et le dépôt-vente, nous vous offrons des solutions simple et rapide pour acheter ou vendre votre véhicule en étant accompagné."
+          svg={RedWave}
+          svgClassName="right-0 top-0"
+          mainImage={BuyService}
+          mainColor="#FF0000"
+          secondaryColor="#7B0000"
+          showBtn={true}
+          reverse={false}
+        />
 
-      <Service
-        title="mécanique"
-        link="mechanique"
-        text="De la vidange au kit de distribution, nous vous proposons notre expertise pour assurer le bon fonctionnement de votre véhicule sans alourdir votre budget."
-        svg={LightBlueWaveReverse}
-        svgClassName="left-0 top-0"
-        mainImage={MechanicService}
-        mainColor="#00B2FF"
-        secondaryColor="#005B83"
-        showBtn={true}
-        reverse={true}
-      />
+        <Service
+          title="mécanique"
+          link="mechanique"
+          text="De la vidange au kit de distribution, nous vous proposons notre expertise pour assurer le bon fonctionnement de votre véhicule sans alourdir votre budget."
+          svg={LightBlueWaveReverse}
+          svgClassName="left-0 top-0"
+          mainImage={MechanicService}
+          mainColor="#00B2FF"
+          secondaryColor="#005B83"
+          showBtn={true}
+          reverse={true}
+        />
 
-      <Service
-        title="covering / detailling"
-        link="covering-detailing"
-        text="De la personnalisation par covering à la pose de vitre teintée nous mettons en valeur votre véhicule pour un résultat unique."
-        svg={BlueRedWave}
-        svgClassName="right-0 top-0"
-        mainImage={CoveringService}
-        mainColor="#5392D5"
-        secondaryColor="#9E2442"
-        showBtn={true}
-        reverse={false}
-      />
+        <Service
+          title="covering / detailling"
+          link="covering-detailing"
+          text="De la personnalisation par covering à la pose de vitre teintée nous mettons en valeur votre véhicule pour un résultat unique."
+          svg={BlueRedWave}
+          svgClassName="right-0 top-0"
+          mainImage={CoveringService}
+          mainColor="#5392D5"
+          secondaryColor="#9E2442"
+          showBtn={true}
+          reverse={false}
+        />
 
-      <Service
-        title="lavage auto"
-        link="wash"
-        text="Un nettoyage express complet avant une sortie ou un grand nettoyage de printemps, nous sommes la pour vous satisfaire."
-        svg={RoseWaveReverse}
-        svgClassName="left-0 top-0"
-        mainImage={WashService}
-        mainColor="#FF69B4"
-        secondaryColor="#B5477F"
-        showBtn={true}
-        reverse={true}
-      />
+        <Service
+          title="lavage auto"
+          link="wash"
+          text="Un nettoyage express complet avant une sortie ou un grand nettoyage de printemps, nous sommes la pour vous satisfaire."
+          svg={RoseWaveReverse}
+          svgClassName="left-0 top-0"
+          mainImage={WashService}
+          mainColor="#FF69B4"
+          secondaryColor="#B5477F"
+          showBtn={true}
+          reverse={true}
+        />
 
-      <Service
-        title="administratif"
-        link="service"
-        text="De l’obtention de la carte grise à l’assurance auto, en passant par les plaques d’immatriculation, nous sommes présent pour faciliter toute vos démarches."
-        svg={GrayWave}
-        svgClassName="right-0 top-0"
-        mainImage={AdministratifService}
-        mainColor="#757575"
-        secondaryColor="#393939"
-        showBtn={true}
-        reverse={false}
-      />
+        <Service
+          title="administratif"
+          link="service"
+          text="De l’obtention de la carte grise à l’assurance auto, en passant par les plaques d’immatriculation, nous sommes présent pour faciliter toute vos démarches."
+          svg={GrayWave}
+          svgClassName="right-0 top-0"
+          mainImage={AdministratifService}
+          mainColor="#757575"
+          secondaryColor="#393939"
+          showBtn={true}
+          reverse={false}
+        />
+      </div>
 
       <OurValues />
 

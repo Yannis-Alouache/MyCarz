@@ -65,41 +65,43 @@ const ServicePage = () => {
           <ServiceCarouselNew />
         </div>
 
-        <Service
-          title="Cartes grises"
-          text="Facilitez votre vie administrative ! Profitez de notre service rapide et efficace pour l'obtention de votre carte grise, évitant les tracas bureaucratiques et assurant une immatriculation sans souci."
-          svg={GrayWave}
-          svgClassName="right-0 top-0"
-          mainImage={CarteGrise}
-          mainColor="#757575"
-          secondaryColor="#393939"
-          showBtn={false}
-          reverse={false}
-        />
+        <div id="services">
+          <Service
+            title="Cartes grises"
+            text="Facilitez votre vie administrative ! Profitez de notre service rapide et efficace pour l'obtention de votre carte grise, évitant les tracas bureaucratiques et assurant une immatriculation sans souci."
+            svg={GrayWave}
+            svgClassName="right-0 top-0"
+            mainImage={CarteGrise}
+            mainColor="#757575"
+            secondaryColor="#393939"
+            showBtn={false}
+            reverse={false}
+          />
 
-        <Service
-          title="Plaques immatriculation"
-          text="Simplifiez l'immatriculation de votre véhicule avec nos plaques d’immatriculation/ Obtenez vos plaques d’immatriculations sans tracas  en un temps record."
-          svg={GrayWaveReverse}
-          svgClassName="left-0 top-0"
-          mainImage={AssuranceAuto}
-          mainColor="#757575"
-          secondaryColor="#393939"
-          showBtn={false}
-          reverse={true}
-        />
+          <Service
+            title="Plaques immatriculation"
+            text="Simplifiez l'immatriculation de votre véhicule avec nos plaques d’immatriculation/ Obtenez vos plaques d’immatriculations sans tracas  en un temps record."
+            svg={GrayWaveReverse}
+            svgClassName="left-0 top-0"
+            mainImage={AssuranceAuto}
+            mainColor="#757575"
+            secondaryColor="#393939"
+            showBtn={false}
+            reverse={true}
+          />
 
-        <Service
-          title="Assurance auto"
-          text="Protégez votre véhicule en toute tranquillité avec notre service d'assurance auto, collaborant avec des partenaires de confiance pour vous offrir les meilleures options. Bénéficiez de tarifs compétitifs et d'une couverture fiable en quelques étapes simples."
-          svg={GrayWave}
-          svgClassName="right-0 top-0"
-          mainImage={Plaques}
-          mainColor="#757575"
-          secondaryColor="#393939"
-          showBtn={false}
-          reverse={false}
-        />
+          <Service
+            title="Assurance auto"
+            text="Protégez votre véhicule en toute tranquillité avec notre service d'assurance auto, collaborant avec des partenaires de confiance pour vous offrir les meilleures options. Bénéficiez de tarifs compétitifs et d'une couverture fiable en quelques étapes simples."
+            svg={GrayWave}
+            svgClassName="right-0 top-0"
+            mainImage={Plaques}
+            mainColor="#757575"
+            secondaryColor="#393939"
+            showBtn={false}
+            reverse={false}
+          />
+        </div>
 
         <AffiliateBanner />
 

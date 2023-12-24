@@ -1,4 +1,5 @@
 import PricingWithSvg from '../PricingWithSvg/PricingWithSvg'
+import Reveal from '../Reveal/Reveal';
 
 const PricingSvgWrapper = (props) => {
   let { pricingInfos, mainColor } = props; 
@@ -24,40 +25,42 @@ const PricingSvgWrapper = (props) => {
                 )
               })}
             </div>
-            <div className={'mt-10 lg:w-fit w-full bg-white rounded-xl lg:p-10 p-5'} style={{borderColor: mainColor, borderWidth: "1px"}}>
-              <ul className='list-disc'>
-                <li className="flex items-center space-x-3 pt-2">
-                    <span className="font-bold">Options :</span>
-                </li>                
-                <li className="flex items-center space-x-3">
-                    <span>Brillant pneus et lavage passage de roue : <strong>5€</strong></span>
-                </li>
-                <li className="flex items-center space-x-3">
-                    <span>Shampouineuse siège avant OU arrière : <strong>15€</strong></span>
-                </li>
-                <li className="flex items-center space-x-3">
-                    <span>Traitement cuir siège avant OU arrière  : <strong>15€</strong></span>
-                </li>
-                <li className="flex items-center space-x-3">
-                    <span>Traitement cuir siège avant OU arrière  : <strong>15€</strong></span>
-                </li>
-                <li className="flex items-center space-x-3">
-                    <span>Aspiration coffre : <strong>5€</strong></span>
-                </li>
-                <li className="flex items-center space-x-3">
-                    <span>Décontamination ferreuse  : <strong>15€</strong></span>
-                </li>
-                <li className="flex items-center space-x-3">
-                    <span>Teinture moquette et tapis : <strong>20€</strong></span>
-                </li>
-                <li className="flex items-center space-x-3">
-                    <span>Lustrage des chrome : <strong>40€</strong></span>
-                </li>
-                <li className="flex items-center space-x-3">
-                    <span>Nettoyage ciel de toit : <strong>40€</strong></span>
-                </li>
-              </ul>
-            </div>
+            <Reveal>
+              <div className={'mt-10 lg:w-fit w-full bg-white rounded-xl lg:p-10 p-5'} style={{borderColor: mainColor, borderWidth: "1px"}}>
+                <ul className='list-disc'>
+                  <li className="flex items-center space-x-3 pt-2">
+                      <span className="font-bold">Options :</span>
+                  </li>                
+                  <li className="flex items-center space-x-3">
+                      <span>Brillant pneus et lavage passage de roue : <strong>5€</strong></span>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                      <span>Shampouineuse siège avant OU arrière : <strong>15€</strong></span>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                      <span>Traitement cuir siège avant OU arrière  : <strong>15€</strong></span>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                      <span>Traitement cuir siège avant OU arrière  : <strong>15€</strong></span>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                      <span>Aspiration coffre : <strong>5€</strong></span>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                      <span>Décontamination ferreuse  : <strong>15€</strong></span>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                      <span>Teinture moquette et tapis : <strong>20€</strong></span>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                      <span>Lustrage des chrome : <strong>40€</strong></span>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                      <span>Nettoyage ciel de toit : <strong>40€</strong></span>
+                  </li>
+                </ul>
+              </div>
+            </Reveal>
         </div>
     </section>
   )

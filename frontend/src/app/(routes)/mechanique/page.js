@@ -85,41 +85,43 @@ const Mechanique = () => {
         <ServiceCarouselNew />
       </div>
 
-      <Service
-        title="Entretien"
-        text="Ne sous-estimez jamais l’importance des entretiens périodiques. Des filtres en bon état et une huile propre garantissent une meilleure qualité de l’air dans l’habitacle, protègent votre moteur des impuretés et optimisent la consommation de carburant. Confiez votre véhicule à MyCarz pour un entretien rapide  et abordable."
-        svg={LightBlueWave}
-        svgClassName="right-0 top-0"
-        mainImage={Filter}
-        mainColor="#00B2FF"
-        secondaryColor="#005B83"
-        showBtn={false}
-        reverse={false}
-      />
+      <div id="services">
+        <Service
+          title="Entretien"
+          text="Ne sous-estimez jamais l’importance des entretiens périodiques. Des filtres en bon état et une huile propre garantissent une meilleure qualité de l’air dans l’habitacle, protègent votre moteur des impuretés et optimisent la consommation de carburant. Confiez votre véhicule à MyCarz pour un entretien rapide  et abordable."
+          svg={LightBlueWave}
+          svgClassName="right-0 top-0"
+          mainImage={Filter}
+          mainColor="#00B2FF"
+          secondaryColor="#005B83"
+          showBtn={false}
+          reverse={false}
+        />
 
-      <Service
-        title="Réparation"
-        text="Vous souhaitez remplacer un kit de distribution, un embrayage ou un moteur complet ? Chez MyCarz, nos experts peuvent s’occuper de tout les problèmes de votre véhicule, dans le respect des préconisations constructeurs."
-        svg={LightBlueWaveReverse}
-        svgClassName="left-0 top-0"
-        mainImage={Disquettes}
-        mainColor="#00B2FF"
-        secondaryColor="#005B83"
-        showBtn={false}
-        reverse={true}
-      />
+        <Service
+          title="Réparation"
+          text="Vous souhaitez remplacer un kit de distribution, un embrayage ou un moteur complet ? Chez MyCarz, nos experts peuvent s’occuper de tout les problèmes de votre véhicule, dans le respect des préconisations constructeurs."
+          svg={LightBlueWaveReverse}
+          svgClassName="left-0 top-0"
+          mainImage={Disquettes}
+          mainColor="#00B2FF"
+          secondaryColor="#005B83"
+          showBtn={false}
+          reverse={true}
+        />
 
-      <Service
-        title="Diagnostic"
-        text="Vous avez besoin d'un diagnostic, que ce soit électronique ou visuel ? Notre équipement dernier cri nous permet de réaliser tous les types de diagnostics sur votre véhicule, de supprimer les voyants gênants et de vous fournir des informations fiables pour valider les réparations nécessaires."
-        svg={LightBlueWave}
-        svgClassName="right-0 top-0"
-        mainImage={EntretienMoteur}
-        mainColor="#00B2FF"
-        secondaryColor="#005B83"
-        showBtn={false}
-        reverse={false}
-      />
+        <Service
+          title="Diagnostic"
+          text="Vous avez besoin d'un diagnostic, que ce soit électronique ou visuel ? Notre équipement dernier cri nous permet de réaliser tous les types de diagnostics sur votre véhicule, de supprimer les voyants gênants et de vous fournir des informations fiables pour valider les réparations nécessaires."
+          svg={LightBlueWave}
+          svgClassName="right-0 top-0"
+          mainImage={EntretienMoteur}
+          mainColor="#00B2FF"
+          secondaryColor="#005B83"
+          showBtn={false}
+          reverse={false}
+        />
+      </div>
       
       <PricingWrapper pricingInfos={pricingInfos} mainColor="#00B2FF" />
 

@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr">
+    <html style={{scrollBehavior:'smooth'}} lang="fr">
       <body className={inter.className}>
 
         <Banner />
