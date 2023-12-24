@@ -52,7 +52,7 @@ const Contact = (props) => {
                     <div className="lg:col-span-8 col-span-12 flex flex-col justify-center py-12">
                         <h2 className={"lg:text-5xl text-3xl font-extrabold mb-10"} style={{color: mainColor}}>Contactez-nous !</h2>
                         
-                        <form ref={form} className='lg:pb-10 pb-0' onSubmit={handleSubmit(sendEmail)}>
+                        <form method='POST' ref={form} className='lg:pb-10 pb-0' onSubmit={handleSubmit(sendEmail)}>
                             <div className="mb-4">
                                 <input {...register("name")} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="text" placeholder='Nom Prénom' required />
                             </div>
