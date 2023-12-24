@@ -5,13 +5,41 @@ import Link from 'next/link';
 import ContactVideo from "@/app/_assets/contactVideo.mp4"
 import Reveal from '../Reveal/Reveal';
 
+import { useForm } from "react-hook-form";
+import { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
+
 const Contact = (props) => {
 
   let { mainColor } = props
+  const { register, handleSubmit } = useForm();
+  const [data, setData] = useState("");
+  const form = useRef(null);
+
+  const sendEmail = (formData) => {
+    handleSubmit((data) => setData(JSON.stringify(data)));
+
+    emailjs.send('service_gwsd92o', 'template_fh28m67', formData, 'L0xQfyB3KRVNJjUyK')
+      .then((result) => {
+          form.current.reset();
+          console.log(result.text);
+          notify();
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+  
+  const notify = () => toast.success("Message envoyé !");
 
   return (
     <> 
         <Reveal>
+            <ToastContainer />
             <div className='container mx-auto lg:px-0 px-6'>
                 <div className="grid grid-cols-12 lg:gap-x-10 gap-x-0">
                     <div className="lg:col-span-4 col-span-12 relative lg:h-full h-[300px]">
@@ -23,21 +51,22 @@ const Contact = (props) => {
                     </div>
                     <div className="lg:col-span-8 col-span-12 flex flex-col justify-center py-12">
                         <h2 className={"lg:text-5xl text-3xl font-extrabold mb-10"} style={{color: mainColor}}>Contactez-nous !</h2>
-                        <form className='lg:pb-10 pb-0'>
+                        
+                        <form ref={form} className='lg:pb-10 pb-0' onSubmit={handleSubmit(sendEmail)}>
                             <div className="mb-4">
-                                <input className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="text" name="name" placeholder='Nom Prénom' />
+                                <input {...register("name")} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="text" placeholder='Nom Prénom' required />
                             </div>
                             <div className="mb-4">
-                                <input className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor}} type="email" name="email" placeholder='E-mail' />
+                                <input {...register("mail")} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor}} type="email" placeholder='E-mail' required />
                             </div>
                             <div className="mb-4">
-                                <input className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor}} type="phone" name="phone" placeholder='Téléphone' />
+                                <input {...register("phone")} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor}} type="phone" placeholder='Téléphone' required />
                             </div>
                             <div className="mb-4">
-                                <textarea className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline resize-none" style={{borderColor: mainColor}} type="text" name="message" placeholder='Message' />
+                                <textarea {...register("message")} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline resize-none" style={{borderColor: mainColor}} type="text" placeholder='Message' required />
                             </div>
                             <div className="flex items-center lg:justify-between justify-center flex-wrap lg:gap-y-0 gap-y-3">
-                                <input type="submit" value="envoyer" className={'uppercase text-white font-bold lg:w-fit w-full px-10 py-2 rounded-full'} style={{backgroundColor: mainColor}} />
+                                <input type="submit" value="envoyer" className={'cursor-pointer uppercase text-white font-bold lg:w-fit w-full px-10 py-2 rounded-full'} style={{backgroundColor: mainColor}} />
                                 <div className="flex lg:gap-x-10 gap-x-5">
                                     <Link href="https://www.tiktok.com/@mycarzfr">
                                         <BiLogoTiktok color={mainColor} className='h-8 w-auto' />
@@ -57,6 +86,7 @@ const Contact = (props) => {
                                 </div>
                             </div>
                         </form>
+                        <p>{data}</p>
                         <div className='grid lg:grid-cols-2 grid-cols-1 mt-10 lg:text-start text-center'>
                             <div className='lg:mb-0 mb-5'>
                                 <span className='font-extrabold text-xl pb-5 underline decoration-blue-400 decoration-4'>Horaire</span>
