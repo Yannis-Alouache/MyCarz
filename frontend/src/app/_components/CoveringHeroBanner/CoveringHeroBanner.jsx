@@ -13,7 +13,7 @@ const CoveringHeroBanner = () => {
                     <div className="lg:col-span-6 col-span-12">
                         <Badge className="mb-3 bg-gradient-to-b from-blue-400 to-pink-800" />
                         <span className="font-extrabold">Votre garage tout-en-un</span>
-                        <h1 className="lg:text-[80px] text-4xl leading-none font-extrabold mb-3">
+                        <h1 className="lg:text-[80px] text-3xl leading-none font-extrabold mb-3">
                             Covering/Detailing
                         </h1>
                         <div className="font-bold mb-5">
