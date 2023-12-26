@@ -78,7 +78,7 @@ const Promo = () => {
               <div className='lg:col-span-2 bg-[#0072FF] lg:h-[400px] h-[300px] rounded-3xl'>
                 <iframe className='w-full h-full rounded-3xl' src="https://www.youtube.com/embed/pEipUCculuo" title="🚗💨 MyCarz - 121 Boulevard Gambetta 59100 Roubaix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </div>
-              <div className='bg-[#FF0000] lg:h-[400px] h-full rounded-3xl p-10 text-white lg:text-5xl text-4xl font-black'>
+              <div className='bg-[#FF0000] lg:h-[400px] h-full rounded-3xl p-10 text-white lg:text-5xl text-3xl font-black'>
                 <p className='mb-8'>Ne manquez pas cette occasion !</p>
                 <p>Offre Valable du 09/10 au 31/10.</p>
               </div>
@@ -121,7 +121,7 @@ const Promo = () => {
 
               </div>
               <div className='bg-white rounded-3xl p-10 h-fit shadow-md lg:shadow-none'>
-                <h3 className='lg:text-4xl text-3xl font-black mb-5'>Offre Exclusive !</h3>
+                <h3 className='lg:text-4xl text-2xl font-black mb-5'>Offre Exclusive !</h3>
                 <p className='lg:text-2xl text-xl font-medium mb-3'>Pour une durée limitée, plongez dans notre promotion spéciale sur l’entretien automobile !</p>
                 <p className='lg:text-2xl text-xl font-medium mb-3'>Nous vous proposons un changement de disques, plaquettes de freins et une vidange à des tarifs exceptionnels.</p>
                 <p className='lg:text-2xl text-xl font-medium'>Nos experts qualifiés veilleront à prendre soin de votre véhicule, garantissant sécurité et un service de haut niveau.</p>
