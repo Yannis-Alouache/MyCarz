@@ -54,7 +54,7 @@ const Covering = () => {
 
   return (
     <>
-        <div className="relative pb-32">
+        <div className="relative lg:pb-32 pb-10">
           <Image src={CoveringBannerBgCircle} alt="" className="absolute right-0 z-0" />
           <Navbar contactBtnClass="border-[#5392D5]" logo={LogoCovering} />
           <CoveringHeroBanner />
@@ -99,14 +99,14 @@ const Covering = () => {
           />
         </div>
 
-        <div className="container mx-auto mb-8 lg:mb-10">
-          <h2 className="mb-10 text-5xl tracking-tight font-bold text-gray-700 underline">Prix Covering</h2>
-          <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-700">Noir</h2>
+        <div className="container mx-auto mb-8 lg:px-0 px-5 lg:mb-10">
+          <h2 className="mb-10 lg:text-5xl text-3xl tracking-tight font-bold text-gray-700 underline">Prix Covering</h2>
+          <h2 className="mb-4 lg:text-4xl text-2xl tracking-tight font-bold text-gray-700">Noir</h2>
         </div>
 
         <Reveal>
-          <div className="container mx-auto relative overflow-x-auto shadow-lg sm:rounded-lg mb-32">
-              <table className="w-full text-sm text-left rtl:text-right text-gray-500">
+          <div className="container mx-auto relative overflow-x-auto lg:px-0 px-5 mb-32">
+              <table className="shadow-lg sm:rounded-lg w-full text-sm text-left rtl:text-right text-gray-500">
                   <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                       <tr>
                           <th scope="col" className="px-6 py-3">
@@ -201,11 +201,11 @@ const Covering = () => {
         </Reveal>
 
         <Reveal>
-          <div className="container mx-auto mb-8 lg:mb-10">
-            <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-700">Couleur standard</h2>
+          <div className="container mx-auto mb-8 lg:mb-10 lg:px-0 px-5">
+            <h2 className="mb-4 lg:text-4xl text-2xl tracking-tight font-bold text-gray-700">Couleur standard</h2>
           </div>
-          <div className="container mx-auto relative overflow-x-auto shadow-lg sm:rounded-lg mb-32">
-              <table className="w-full text-sm text-left rtl:text-right text-gray-500">
+          <div className="container lg:px-0 px-5 mx-auto relative overflow-x-auto mb-32">
+              <table className="shadow-lg sm:rounded-lg w-full text-sm text-left rtl:text-right text-gray-500">
                   <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                       <tr>
                           <th scope="col" className="px-6 py-3">
@@ -300,11 +300,11 @@ const Covering = () => {
         </Reveal>
 
         <Reveal>
-          <div className="container mx-auto mb-8 lg:mb-10">
-            <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-700">Carbone</h2>
+          <div className="container mx-auto lg:px-0 px-5 mb-8 lg:mb-10">
+            <h2 className="mb-4 lg:text-4xl text-2xl tracking-tight font-bold text-gray-700">Carbone</h2>
           </div>
-          <div className="container mx-auto relative overflow-x-auto shadow-lg sm:rounded-lg">
-              <table className="w-full text-sm text-left rtl:text-right text-gray-500">
+          <div className="container lg:px-0 px-5 mx-auto relative overflow-x-auto">
+              <table className="shadow-lg sm:rounded-lg w-full text-sm text-left rtl:text-right text-gray-500">
                   <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                       <tr>
                           <th scope="col" className="px-6 py-3">
@@ -383,7 +383,7 @@ const Covering = () => {
         </Reveal>
 
         <div className="container mx-auto">
-          <h2 className="mt-16 text-5xl tracking-tight font-bold text-gray-700 underline">Autre Prestation</h2>
+          <h2 className="mt-16 lg:text-start text-center lg:text-5xl text-3xl tracking-tight font-bold text-gray-700 underline">Autre Prestation</h2>
         </div>
         <PricingWrapper pricingInfos={pricingInfos} mainColor="#5392D5" withoutHeaderText={true} />
 

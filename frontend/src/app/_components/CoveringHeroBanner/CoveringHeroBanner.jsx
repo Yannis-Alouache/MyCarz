@@ -7,13 +7,13 @@ import Link from "next/link"
 const CoveringHeroBanner = () => {
   return (
     <Reveal>
-        <section className="lg:pt-64 pt-10 z-10 relative mb-32">
+        <section className="lg:pt-64 pt-10 z-10 relative lg:mb-32 mb-5">
             <div className="lg:px-0 px-6 container mx-auto">
                 <div className="grid grid-cols-12">
                     <div className="lg:col-span-6 col-span-12">
                         <Badge className="mb-3 bg-gradient-to-b from-blue-400 to-pink-800" />
                         <span className="font-extrabold">Votre garage tout-en-un</span>
-                        <h1 className="lg:text-[80px] text-5xl leading-none font-extrabold mb-3">
+                        <h1 className="lg:text-[80px] text-4xl leading-none font-extrabold mb-3">
                             Covering/Detailing
                         </h1>
                         <div className="font-bold mb-5">
