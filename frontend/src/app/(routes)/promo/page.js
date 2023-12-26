@@ -15,18 +15,18 @@ const Promo = () => {
       <Navbar logo={Logo} contactBtnClass="border-[#0072FF] bg-transparent" />
 
 
-      <div className='container mx-auto px-6 lg:px-0'>
+      <div className='container mx-auto px-5 lg:px-0'>
         <Reveal>
           <div className='text-center'>
-            <h1 className='lg:text-6xl text-5xl font-black text-gray-900 pt-24'>Promo d’ouverture !</h1>
+            <h1 className='lg:text-6xl text-3xl font-black text-gray-900 lg:pt-24 pt-10'>Promo d’ouverture !</h1>
           </div>
         </Reveal>
-        <div className='grid grid-cols-1 gap-y-7 pt-24'>
+        <div className='grid grid-cols-1 gap-y-7 lg:pt-24 pt-10'>
           <div className='grid lg:grid-cols-3 grid-cols-1 gap-x-5 gap-y-3 lg:gap-y-0'>
               <Reveal>
-                <div className='bg-[#FF69B4] lg:h-[400px] h-full rounded-3xl p-10 text-white text-5xl font-black'>
+                <div className='bg-[#FF69B4] lg:h-[400px] h-full rounded-3xl p-10 text-white lg:text-5xl text-4xl font-black'>
                   <h3 className='mb-8'>Offre exclusive de lavage auto !</h3>
-                  <p className='text-4xl'>Sans RDV en 30 minutes !</p>
+                  <p className='lg:text-4xl text-3xl'>Sans RDV en 30 minutes !</p>
                 </div>
               </Reveal>
               <Reveal>
