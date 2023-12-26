@@ -30,10 +30,10 @@ const Promo = () => {
                 </div>
               </Reveal>
               <Reveal>
-                <div className="h-[400px] bg-center bg-cover rounded-3xl" style={{backgroundImage: "url(" + happyClient.src + ")"}}></div>
+                <div className="lg:h-[400px] h-[300px] bg-center bg-cover rounded-3xl" style={{backgroundImage: "url(" + happyClient.src + ")"}}></div>
               </Reveal>
               <Reveal>
-                <div className='bg-[#0072FF] rounded-3xl p-10 text-white text-6xl font-black'>
+                <div className='bg-[#0072FF] rounded-3xl p-10 text-white lg:text-6xl text-4xl font-black'>
                   <span>Lavage intérieur / extérieur complet pour 25€ au lieu de 30€</span>  
                 </div>
               </Reveal>
@@ -75,10 +75,10 @@ const Promo = () => {
 
           <Reveal>
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-y-2 lg:gap-y-0 gap-x-5'>
-              <div className='lg:col-span-2 bg-[#0072FF] h-[400px] rounded-3xl'>
+              <div className='lg:col-span-2 bg-[#0072FF] lg:h-[400px] h-[300px] rounded-3xl'>
                 <iframe className='w-full h-full rounded-3xl' src="https://www.youtube.com/embed/pEipUCculuo" title="🚗💨 MyCarz - 121 Boulevard Gambetta 59100 Roubaix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </div>
-              <div className='bg-[#FF0000] lg:h-[400px] h-full rounded-3xl p-10 text-white text-5xl font-black'>
+              <div className='bg-[#FF0000] lg:h-[400px] h-full rounded-3xl p-10 text-white lg:text-5xl text-4xl font-black'>
                 <p className='mb-8'>Ne manquez pas cette occasion !</p>
                 <p>Offre Valable du 09/10 au 31/10.</p>
               </div>
@@ -88,9 +88,9 @@ const Promo = () => {
           <Reveal>
             <div className='grid lg:grid-cols-3 grid-cols-1 lg:gap-y-0 gap-y-2 lg:gap-x-5 gap-x-0'>
               <div className='bg-[#00B2FF] lg:h-[400px] h-full rounded-3xl p-10 text-white font-black'>
-                <p className='text-3xl mb-3'>Sans rendez-vous</p>
-                <p className='text-5xl mb-10'>121 Boulevard Gambetta, 59150 Roubaix</p>
-                <div className='text-2xl'>
+                <p className='lg:text-3xl text-2xl mb-3'>Sans rendez-vous</p>
+                <p className='lg:text-5xl text-4xl mb-10'>121 Boulevard Gambetta, 59150 Roubaix</p>
+                <div className='lg:text-2xl text-base'>
                   <p>Du lundi au jeudi : 10h – 18h</p>
                   <p>Vendredi : 10h à 12h – 14h à 18h</p>
                   <p>Samedi : 10h – 19h</p>
@@ -105,10 +105,10 @@ const Promo = () => {
           <Reveal>
             <div className='grid lg:grid-cols-3 grid-cols-1 lg:gap-y-0 lg:gap-x-5 gap-y-2 gap-x-0'>
               <div className='col-span-2 bg-white lg:h-[400px] h-full rounded-3xl lg:shadow-none shadow-md p-10'>
-                <h3 className='text-4xl font-black mb-5'>Qui Somme Nous ?</h3>
-                <p className='text-2xl font-medium'>Chez MyCarz, nous sommes plus qu’un simple garage. Nous sommes votre partenaire automobile de confiance, niché en plein cœur du centre-ville de Roubaix au 121 Boulevard Gambetta. Notre passion est de prendre soin de votre véhicule et de vous offrir une expérience exceptionnelle avec une gamme complète de services automobiles</p>
+                <h3 className='lg:text-4xl text-2xl font-black mb-5'>Qui Somme Nous ?</h3>
+                <p className='lg:text-2xl text-xl font-medium'>Chez MyCarz, nous sommes plus qu’un simple garage. Nous sommes votre partenaire automobile de confiance, niché en plein cœur du centre-ville de Roubaix au 121 Boulevard Gambetta. Notre passion est de prendre soin de votre véhicule et de vous offrir une expérience exceptionnelle avec une gamme complète de services automobiles</p>
               </div>
-              <div className='bg-[#FF8A00] h-[400px] rounded-3xl p-10'>
+              <div className='bg-[#FF8A00] lg:h-[400px] h-[300px] rounded-3xl p-10'>
                 <div className='w-full h-full bg-no-repeat bg-contain bg-center' style={{ backgroundImage: "url(" + Car3D.src + ")" }}>
                 </div>
               </div>
@@ -121,10 +121,10 @@ const Promo = () => {
 
               </div>
               <div className='bg-white rounded-3xl p-10 h-fit shadow-md lg:shadow-none'>
-                <h3 className='text-4xl font-black mb-5'>Offre Exclusive !</h3>
-                <p className='text-2xl font-medium mb-3'>Pour une durée limitée, plongez dans notre promotion spéciale sur l’entretien automobile !</p>
-                <p className='text-2xl font-medium mb-3'>Nous vous proposons un changement de disques, plaquettes de freins et une vidange à des tarifs exceptionnels.</p>
-                <p className='text-2xl font-medium'>Nos experts qualifiés veilleront à prendre soin de votre véhicule, garantissant sécurité et un service de haut niveau.</p>
+                <h3 className='lg:text-4xl text-3xl font-black mb-5'>Offre Exclusive !</h3>
+                <p className='lg:text-2xl text-xl font-medium mb-3'>Pour une durée limitée, plongez dans notre promotion spéciale sur l’entretien automobile !</p>
+                <p className='lg:text-2xl text-xl font-medium mb-3'>Nous vous proposons un changement de disques, plaquettes de freins et une vidange à des tarifs exceptionnels.</p>
+                <p className='lg:text-2xl text-xl font-medium'>Nos experts qualifiés veilleront à prendre soin de votre véhicule, garantissant sécurité et un service de haut niveau.</p>
               </div>
             </div>
           </Reveal>
