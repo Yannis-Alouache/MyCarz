@@ -108,7 +108,7 @@ const ServicePage = () => {
 
         <OurValues mainColor="text-gray-700" />
 
-        <PricingWrapper pricingInfos={pricingInfos} mainColor="#757575" />
+        {/* <PricingWrapper pricingInfos={pricingInfos} mainColor="#757575" /> */}
 
 
         <Contact mainColor="#575757" />
