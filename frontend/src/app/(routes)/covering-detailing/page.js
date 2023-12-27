@@ -106,22 +106,22 @@ const Covering = () => {
 
         <Reveal>
           <div className="container mx-auto relative overflow-x-auto lg:px-0 px-5 mb-32">
-              <table className="shadow-lg sm:rounded-lg w-full text-sm text-left rtl:text-right text-gray-500">
+              <table className="shadow-lg rounded-lg w-full text-sm text-left rtl:text-right text-gray-500">
                   <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                       <tr>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             Modèle
                           </th>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             type smart
                           </th>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             mini
                           </th>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             citadine / compact
                           </th>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             berline / suv
                           </th>
                       </tr>
@@ -131,16 +131,16 @@ const Covering = () => {
                           <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                             Changement couleur complet
                           </th>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             1 800€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             2 400€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             3 600€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             3 990€
                           </td>
                       </tr>
@@ -148,16 +148,16 @@ const Covering = () => {
                           <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                             Toit
                           </th>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             220€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             400€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             420€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             450€
                           </td>
                       </tr>
@@ -165,16 +165,16 @@ const Covering = () => {
                           <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                             Rétroviseurs
                           </th>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             110€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             110€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             110€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             110€
                           </td>
                       </tr>
@@ -182,16 +182,16 @@ const Covering = () => {
                           <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                             Toit et Rétroviseurs
                           </th>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             290€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             430€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             450€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             470€
                           </td>
                       </tr>
@@ -208,19 +208,19 @@ const Covering = () => {
               <table className="shadow-lg sm:rounded-lg w-full text-sm text-left rtl:text-right text-gray-500">
                   <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                       <tr>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             Modèle
                           </th>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             type smart
                           </th>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             mini
                           </th>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             citadine / compact
                           </th>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             berline / suv
                           </th>
                       </tr>
@@ -230,16 +230,16 @@ const Covering = () => {
                           <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                             Changement couleur complet
                           </th>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             2 300€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             3 100€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             4 300€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             4 590€
                           </td>
                       </tr>
@@ -247,16 +247,16 @@ const Covering = () => {
                           <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                             Toit
                           </th>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             280€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             500€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             530€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             570€
                           </td>
                       </tr>
@@ -264,16 +264,16 @@ const Covering = () => {
                           <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                             Rétroviseurs
                           </th>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             130€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             130€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             130€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             130€
                           </td>
                       </tr>
@@ -281,16 +281,16 @@ const Covering = () => {
                           <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                             Toit et Rétroviseurs
                           </th>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             350€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             540€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             560€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             590€
                           </td>
                       </tr>
@@ -307,19 +307,19 @@ const Covering = () => {
               <table className="shadow-lg sm:rounded-lg w-full text-sm text-left rtl:text-right text-gray-500">
                   <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                       <tr>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             Modèle
                           </th>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             type smart
                           </th>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             mini
                           </th>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             citadine / compact
                           </th>
-                          <th scope="col" className="px-6 py-3">
+                          <th scope="col" className="px-6 py-3 whitespace-nowrap">
                             berline / suv
                           </th>
                       </tr>
@@ -329,16 +329,16 @@ const Covering = () => {
                           <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                             Toit
                           </th>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             780€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             1 400€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             1 500€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             1 600€
                           </td>
                       </tr>
@@ -346,16 +346,16 @@ const Covering = () => {
                           <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                             Rétroviseurs
                           </th>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             380€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             380€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             380€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             380€
                           </td>
                       </tr>
@@ -363,16 +363,16 @@ const Covering = () => {
                           <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                             Toit et Rétroviseurs
                           </th>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             990€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             1490€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             1590€
                           </td>
-                          <td className="px-6 py-4">
+                          <td className="px-6 py-4 whitespace-nowrap">
                             1690€
                           </td>
                       </tr>
