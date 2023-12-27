@@ -14,6 +14,7 @@ import WashPremium from "@/app/_assets/washPremium.jpg"
 import PricingWrapper from "@/app/_components/PricingSvgWrapper/PricingSvgWrapper"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 import OurValues from "@/app/_components/OurValues/OurValues"
+import BookingForm from "@/app/_components/BookingForm/BookingForm"
 
 
 const Wash = () => {
@@ -144,6 +145,7 @@ const Wash = () => {
 
       <PricingWrapper pricingInfos={pricingInfos} mainColor="#D65796" />
 
+      <BookingForm />
       <OurValues mainColor="text-[#D65796]" />
 
       <Contact mainColor="#FF69B4" />

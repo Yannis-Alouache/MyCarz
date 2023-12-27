@@ -27,14 +27,14 @@ const BookingForm = (props) => {
 
     console.log(formData);
     
-    // emailjs.send('service_gwsd92o', 'template_fh28m67', formData, 'L0xQfyB3KRVNJjUyK')
-    //   .then((result) => {
-    //       form.current.reset();
-    //       console.log(result.text);
-    //       notify();
-    //   }, (error) => {
-    //       console.log(error.text);
-    //   });
+    emailjs.send('service_gwsd92o', 'template_hi9rgir', formData, 'L0xQfyB3KRVNJjUyK')
+      .then((result) => {
+          form.current.reset();
+          console.log(result.text);
+          notify();
+      }, (error) => {
+          console.log(error.text);
+      });
   };
   const notify = () => toast.success("Message envoyé !");
 
