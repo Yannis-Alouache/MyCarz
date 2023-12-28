@@ -1,20 +1,52 @@
 import Image from "next/image"
 import WashBannerBgCircle from "@/app/_assets/WashBannerBgCircle.svg"
 import Navbar from "@/app/_components/Navbar/Navbar"
-import LogoWash from "@/app/_assets/LogoWash.png"
+import LogoWash from "@/app/_assets/LogoWash.webp"
 import WashHeroBanner from "@/app/_components/WashHeroBanner/WashHeroBanner"
 import Footer from "@/app/_components/Footer/Footer"
 import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
 import Service from "@/app/_components/Service/Service"
 import RoseWave from "@/app/_assets/RoseWave.svg"
 import RoseWaveReverse from "@/app/_assets/RoseWaveReverse.svg"
-import Express from "@/app/_assets/express.jpg"
-import Ecologique from "@/app/_assets/ecologique.jpg"
-import WashPremium from "@/app/_assets/washPremium.jpg"
+import Express from "@/app/_assets/express.webp"
+import Ecologique from "@/app/_assets/ecologique.webp"
+import WashPremium from "@/app/_assets/washPremium.webp"
 import PricingWrapper from "@/app/_components/PricingSvgWrapper/PricingSvgWrapper"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 import OurValues from "@/app/_components/OurValues/OurValues"
 import BookingForm from "@/app/_components/BookingForm/BookingForm"
+
+export const metadata = {
+  metadataBase: new URL('https://mycarz.fr/'),
+  title: 'Wash - MyCarz',
+  applicationName: 'My Carz',
+  description: '💦 Découvrez MyCarz Wash : notre service de lavage auto express et pas cher à Roubaix. Offrez à votre véhicule une propreté éclatante et une finition impeccable! 🚘',
+  creator: 'Yannis Alouache',
+  publisher: 'Yannis Alouache',
+  authors: [{name: "Yannis Alouache", url: "https://yannis-alouache.netlify.app/"}],
+  keywords: ["Garage Roubaix", "Lavage Auto Roubaix"],
+  alternates: {
+    canonical: '/wash',
+  },
+  openGraph: {
+    title: 'Accueil - MyCarz',
+    description: '💦 Découvrez MyCarz Wash : notre service de lavage auto express et pas cher à Roubaix. Offrez à votre véhicule une propreté éclatante et une finition impeccable! 🚘',
+    url: "/wash",
+    siteName: "My Carz",
+    locale: "fr_FR",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true
+    },
+  },
+}
 
 
 const Wash = () => {
@@ -148,7 +180,7 @@ const Wash = () => {
       <BookingForm />
       <OurValues mainColor="text-[#D65796]" />
 
-      <Contact mainColor="#FF69B4" />
+      <Contact mainColor="#a34373" tagColor="#FF69B4" />
       <Footer bgColor="linear-gradient(180deg, #FF69B4 0%, #783E5B 100%)" logo={LogoWash} />
     </>
   )

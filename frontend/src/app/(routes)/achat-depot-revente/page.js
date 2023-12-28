@@ -2,10 +2,10 @@ import BuyHeroBanner from "@/app/_components/BuyHeroBanner/BuyHeroBanner"
 import Navbar from "@/app/_components/Navbar/Navbar"
 import RedWave from "@/app/_assets/RedWave.svg"
 import RedWaveReverse from "@/app/_assets/RedWaveReverse.svg"
-import FastBuy from "@/app/_assets/FastBuy.png"
-import BuyService from '@/app/_assets/BuyService.png';
+import FastBuy from "@/app/_assets/FastBuy.webp"
+import BuyService from '@/app/_assets/BuyService.webp';
 import Image from "next/image"
-import LogoBuy from "@/app/_assets/LogoBuy.png"
+import LogoBuy from "@/app/_assets/LogoBuy.webp"
 import BuyBannerBgCircle from "@/app/_assets/BuyBannerBgCircle.svg"
 import Footer from "@/app/_components/Footer/Footer"
 import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
@@ -13,6 +13,38 @@ import Service from "@/app/_components/Service/Service"
 import OurValues from "@/app/_components/OurValues/OurValues"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
+
+export const metadata = {
+  metadataBase: new URL('https://mycarz.fr/'),
+  title: 'Accueil - MyCarz',
+  applicationName: 'My Carz',
+  description: "🚗 Explorez l'achat, dépôt et revente chez MyCarz à Roubaix. Simplifiez vos transactions auto avec notre service fiable et transparent. 🔁",
+  creator: 'Yannis Alouache',
+  publisher: 'Yannis Alouache',
+  authors: [{name: "Yannis Alouache", url: "https://yannis-alouache.netlify.app/"}],
+  keywords: ["Garage Roubaix", "Lavage Auto Roubaix"],
+  alternates: {
+    canonical: '/achat-depot-revente',
+  },
+  openGraph: {
+    title: 'Accueil - MyCarz',
+    description: "🚗 Explorez l'achat, dépôt et revente chez MyCarz à Roubaix. Simplifiez vos transactions auto avec notre service fiable et transparent. 🔁",
+    url: "/achat-depot-revente",
+    siteName: "My Carz",
+    locale: "fr_FR",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true
+    },
+  },
+}
 
 const AchatDepotRevente = () => {
   const pricingInfos = [
@@ -90,7 +122,7 @@ const AchatDepotRevente = () => {
 
       <PricingWrapper pricingInfos={pricingInfos} mainColor={"#FF0000"} />
 
-      <Contact mainColor="#620000" />
+      <Contact mainColor="#620000" tagColor="#FF0000" />
       <Footer bgColor="linear-gradient(180deg, #F00 0%, #7D0000 100%)" logo={LogoBuy} />
     </>
   )

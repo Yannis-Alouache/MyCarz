@@ -1,15 +1,15 @@
 import Image from "next/image"
 import Navbar from "@/app/_components/Navbar/Navbar"
-import LogoCovering from "@/app/_assets/LogoCovering.png"
+import LogoCovering from "@/app/_assets/LogoCovering.webp"
 import CoveringBannerBgCircle from "@/app/_assets/CoveringBannerBgCircle.svg"
 import CoveringHeroBanner from "@/app/_components/CoveringHeroBanner/CoveringHeroBanner"
 import Service from "@/app/_components/Service/Service"
 
 import BlueRedWave from "@/app/_assets/BlueRedWave.svg"
 import BlueRedWaveReverse from "@/app/_assets/BlueRedWaveReverse.svg"
-import Basique from "@/app/_assets/basique.jpg"
-import Complet from "@/app/_assets/complet.jpg"
-import Premium from "@/app/_assets/premium.jpg"
+import Basique from "@/app/_assets/basique.webp"
+import Complet from "@/app/_assets/complet.webp"
+import Premium from "@/app/_assets/premium.webp"
 import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
 import Footer from "@/app/_components/Footer/Footer"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
@@ -389,7 +389,7 @@ const Covering = () => {
 
         <OurValues mainColor="text-[#5392D5]" />
 
-        <Contact mainColor="#192C41" />
+        <Contact mainColor="#192C41" tagColor="#192C41" />
 
         <Footer bgColor="linear-gradient(180deg, #5392D5 10%, #4E1120 100%)" logo={LogoCovering} />
 

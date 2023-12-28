@@ -1,12 +1,44 @@
 import Navbar from '@/app/_components/Navbar/Navbar'
-import Logo from "@/app/_assets/LogoHome.png"
-import happyClient from "@/app/_assets/happyClient.jpg"
+import Logo from "@/app/_assets/LogoHome.webp"
+import happyClient from "@/app/_assets/happyClient.webp"
 import Check from "@/app/_assets/check.svg"
-import Car3D from "@/app/_assets/Car3D.png"
+import Car3D from "@/app/_assets/Car3D.webp"
 import Image from 'next/image'
-import mechanicsFlyer from "@/app/_assets/mechanicsFlyer.png"
+import mechanicsFlyer from "@/app/_assets/mechanicsFlyer.webp"
 import Footer from '@/app/_components/Footer/Footer'
 import Reveal from '@/app/_components/Reveal/Reveal'
+
+export const metadata = {
+  metadataBase: new URL('https://mycarz.fr/'),
+  title: 'Promo - MyCarz',
+  applicationName: 'My Carz',
+  description: "🔥 Découvrez les promos exclusives MyCarz ! Profitez d'offres exceptionnelles sur nos services auto et donnez un coup de jeune à votre véhicule à prix réduit. 🚗",
+  creator: 'Yannis Alouache',
+  publisher: 'Yannis Alouache',
+  authors: [{name: "Yannis Alouache", url: "https://yannis-alouache.netlify.app/"}],
+  keywords: ["Garage Roubaix", "Lavage Auto Roubaix"],
+  alternates: {
+    canonical: '/promo',
+  },
+  openGraph: {
+    title: 'Promo - MyCarz',
+    description: "🔥 Découvrez les promos exclusives MyCarz ! Profitez d'offres exceptionnelles sur nos services auto et donnez un coup de jeune à votre véhicule à prix réduit. 🚗",
+    url: "/promo",
+    siteName: "My Carz",
+    locale: "fr_FR",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true
+    },
+  },
+}
 
 
 const Promo = () => {

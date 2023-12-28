@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Badge from "../Badge/Badge"
 
-import ServiceBannerCar from "@/app/_assets/ServiceBannerCar.png"
+import ServiceBannerCar from "@/app/_assets/ServiceBannerCar.webp"
 import Reveal from "../Reveal/Reveal"
 import Link from "next/link"
 
@@ -21,7 +21,7 @@ const ServiceHeroBanner = () => {
                             <p>De la gestion de paperasse à l’assurance, en passant par les plaques d’immatriculation, nous
                                 facilitons vos démarches tout en préservant votre sérénité financière.</p>
                         </div>
-                        <Link href="#services" className="block lg:w-fit w-full font-extrabold text-2xl text-white rounded-lg px-16 py-5"
+                        <Link href="#services" className="flex justify-center lg:block lg:w-fit w-full font-extrabold text-2xl text-white rounded-lg px-16 py-5"
                             style={{background: "linear-gradient(90deg, #757575 0%, #757575 0.01%, #464646 100%)"}}>
                             Nos Services
                         </Link>

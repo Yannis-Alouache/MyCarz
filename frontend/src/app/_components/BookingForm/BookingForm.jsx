@@ -62,9 +62,9 @@ const BookingForm = (props) => {
         <Reveal>
             <ToastContainer />
             <div className='mx-auto max-w-screen-xl flex justify-center lg:px-0 px-6'>
-                <div className="flex flex-col w-2/3 lg:flex-row lg:items-center">
+                <div className="flex flex-col lg:w-2/3 w-full lg:flex-row lg:items-center">
                     <div className="flex-1 flex flex-col  py-12">
-                        <h2 className={"lg:text-5xl text-3xl font-extrabold text-center mb-12"} style={{color: mainColor}}>Réserver un rendez-vous !</h2>
+                        <h2 className={"lg:text-5xl text-2xl font-extrabold text-center mb-12"} style={{color: mainColor}}>Réserver un rendez-vous !</h2>
                         <form method='POST' ref={form} className='lg:pb-10 pb-0' onSubmit={handleSubmit(sendEmail)}>
                             <div className="mb-4">
                                 <input {...register("name")} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="text" placeholder='Nom Prénom' required />
@@ -77,7 +77,7 @@ const BookingForm = (props) => {
                                 <input {...register("heure")} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="time" placeholder='Heure' required />
                             </div>
                             <span className='font-medium text-medium text-gray-700'>Choisissez une prestation :</span>
-                            <div className="flex mt-4 mb-8">
+                            <div className="flex lg:justify-start justify-center mt-4 mb-8">
                                 <button type='button' onClick={handleExpress} className={"border cursor-pointer border-gray-300 rounded-full px-4 py-2 mr-2 hover:text-white font-bold hover:bg-[#FF69B4] " + (expressSelected ? "bg-[#FF69B4] text-white" : "bg-gray-200 text-gray-700") }>Nettoyage Express</button>
                                 <button type='button' onClick={handleConfort} className={"border cursor-pointer border-gray-300 rounded-full px-4 py-2 mr-2 hover:text-white font-bold hover:bg-[#FF69B4] " + (confortSelected ? "bg-[#FF69B4] text-white" : "bg-gray-200 text-gray-700") }>Nettoyage Confort</button>
                                 <button type='button' onClick={handleLuxe} className={"border cursor-pointer border-gray-300 rounded-full px-4 py-2 mr-2 hover:text-white font-bold hover:bg-[#FF69B4] " + (luxeSelected ? "bg-[#FF69B4] text-white" : "bg-gray-200 text-gray-700") }>Nettoyage Luxe</button>

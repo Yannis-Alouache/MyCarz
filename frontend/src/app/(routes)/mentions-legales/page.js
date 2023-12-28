@@ -1,5 +1,5 @@
 import Navbar from '@/app/_components/Navbar/Navbar'
-import LogoHome from "@/app/_assets/LogoHome.png"
+import LogoHome from "@/app/_assets/LogoHome.webp"
 import Footer from '@/app/_components/Footer/Footer'
 import LegalImageBanner from '@/app/_components/LegalImageBanner/LegalImageBanner'
 

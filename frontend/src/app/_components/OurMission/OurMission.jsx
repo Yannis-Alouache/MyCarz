@@ -1,4 +1,4 @@
-import OurMissionIllustration from "@/app/_assets/OurMission.png"
+import OurMissionIllustration from "@/app/_assets/OurMission.webp"
 import Check from "@/app/_assets/check.svg"
 import Image from "next/image"
 

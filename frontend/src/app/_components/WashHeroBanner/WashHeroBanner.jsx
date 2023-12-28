@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Badge from "../Badge/Badge"
 
-import WashBannerCar from "@/app/_assets/WashBannerCar.png"
+import WashBannerCar from "@/app/_assets/WashBannerCar.webp"
 import Reveal from "../Reveal/Reveal"
 import Link from "next/link"
 
@@ -21,7 +21,7 @@ const WashHeroBanner = () => {
                         <div className="font-bold mb-5">
                             <p>Un nettoyage express complet avant une sortie ou un grand nettoyage de printemps, nous sommes la pour vous satisfaire.</p>
                         </div>
-                        <Link href="#services" className="block lg:w-fit w-full font-extrabold text-2xl text-white rounded-lg px-16 py-5"
+                        <Link href="#services" className="flex justify-center lg:block lg:w-fit w-full font-extrabold text-2xl text-white rounded-lg px-16 py-5"
                             style={{background: "linear-gradient(90deg, #FF69B4 0%, #FF69B4 0.01%, #C14E88 100%)"}}>
                             Nos Services
                         </Link>

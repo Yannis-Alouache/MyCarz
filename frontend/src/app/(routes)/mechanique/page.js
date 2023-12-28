@@ -2,7 +2,7 @@ import Image from "next/image"
 
 import MechanicBannerBgCircle from "@/app/_assets/MechanicBannerBgCircle.svg"
 import Navbar from "@/app/_components/Navbar/Navbar"
-import LogoMechanic from "@/app/_assets/LogoMechanic.png"
+import LogoMechanic from "@/app/_assets/LogoMechanic.webp"
 import MechanicHeroBanner from "@/app/_components/MechanicHeroBanner/MechanicHeroBanner"
 import Footer from "@/app/_components/Footer/Footer"
 import Contact from "@/app/_components/ContactFormWithMap/ContactFormWithMap"
@@ -10,12 +10,44 @@ import Service from "@/app/_components/Service/Service"
 import LightBlueWave from "@/app/_assets/LightBlueWave.svg"
 import LightBlueWaveReverse from "@/app/_assets/LightBlueWaveReverse.svg"
 
-import Filter from "@/app/_assets/filtres.jpg"
-import Disquettes from "@/app/_assets/disquettes.jpg"
-import EntretienMoteur from "@/app/_assets/entretienMoteur.jpg"
+import Filter from "@/app/_assets/filtres.webp"
+import Disquettes from "@/app/_assets/disquettes.webp"
+import EntretienMoteur from "@/app/_assets/entretienMoteur.webp"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 import OurValues from "@/app/_components/OurValues/OurValues"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
+
+export const metadata = {
+  metadataBase: new URL('https://mycarz.fr/'),
+  title: 'Méchanique - MyCarz',
+  applicationName: 'My Carz',
+  description: "🔧 Besoin d'une mécanique légère? Confiez votre véhicule à MyCarz à Roubaix pour des interventions rapides et de qualité. Roulez sereinement! 🚗",
+  creator: 'Yannis Alouache',
+  publisher: 'Yannis Alouache',
+  authors: [{name: "Yannis Alouache", url: "https://yannis-alouache.netlify.app/"}],
+  keywords: ["Garage Roubaix", "Lavage Auto Roubaix"],
+  alternates: {
+    canonical: '/mechanique',
+  },
+  openGraph: {
+    title: 'Méchanique - MyCarz',
+    description: "🔧 Besoin d'une mécanique légère? Confiez votre véhicule à MyCarz à Roubaix pour des interventions rapides et de qualité. Roulez sereinement! 🚗",
+    url: "/mechanique",
+    siteName: "My Carz",
+    locale: "fr_FR",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true
+    },
+  },
+}
 
 const Mechanique = () => {
   const pricingInfos = [
@@ -127,7 +159,7 @@ const Mechanique = () => {
 
       <OurValues mainColor="text-[#0088C3]" />
 
-      <Contact mainColor="#0088C3" />
+      <Contact mainColor="#0088C3" tagColor="#2563EB" />
       <Footer bgColor="linear-gradient(180deg, #00B2FF 0%, #003248 100%)" logo={LogoMechanic} />
     </>
   )

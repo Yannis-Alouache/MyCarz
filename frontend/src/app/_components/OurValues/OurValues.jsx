@@ -1,8 +1,8 @@
-import OurValuesImage from "@/app/_assets/ourValues.png"
+import OurValuesImage from "@/app/_assets/ourValues.webp"
 import Check from "@/app/_assets/check.svg"
 
-import OurValuesDeco1 from "@/app/_assets/ourValuesDeco.png"
-import OurValuesDeco2 from "@/app/_assets/ourValuesDeco2.png"
+import OurValuesDeco1 from "@/app/_assets/ourValuesDeco.webp"
+import OurValuesDeco2 from "@/app/_assets/ourValuesDeco2.webp"
 
 import Image from "next/image"
 import Reveal from "../Reveal/Reveal"

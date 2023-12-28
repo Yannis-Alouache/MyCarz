@@ -1,5 +1,5 @@
-import ContactImage from "@/app/_assets/contactImage.jpg"
-import Deco from "@/app/_assets/ourValuesDeco2.png"
+import ContactImage from "@/app/_assets/contactImage.webp"
+import Deco from "@/app/_assets/ourValuesDeco2.webp"
 import Image from "next/image"
 
 const ContactBanner = () => {

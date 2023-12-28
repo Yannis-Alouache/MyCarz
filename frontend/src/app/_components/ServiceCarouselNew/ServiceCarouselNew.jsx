@@ -1,10 +1,10 @@
 import "./style.css";
-import LogoHome from "./_assets/LogoHome.png";
-import LogoBuy from "./_assets/LogoBuy.png";
-import LogoCovering from "./_assets/LogoCovering.png";
-import LogoMechanic from "./_assets/LogoMechanic.png";
-import LogoService from "./_assets/LogoService.png";
-import LogoWash from "./_assets/LogoWash.png";
+import LogoHome from "./_assets/LogoHome.webp";
+import LogoBuy from "./_assets/LogoBuy.webp";
+import LogoCovering from "./_assets/LogoCovering.webp";
+import LogoMechanic from "./_assets/LogoMechanic.webp";
+import LogoService from "./_assets/LogoService.webp";
+import LogoWash from "./_assets/LogoWash.webp";
 import Image from "next/image";
 
 const ServiceCarouselNew = () => {

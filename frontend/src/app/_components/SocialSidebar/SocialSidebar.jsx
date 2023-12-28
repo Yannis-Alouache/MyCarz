@@ -1,10 +1,10 @@
-import TikTok from "@/app/_assets/tiktok-logo.png";
-import Instagram from "@/app/_assets/instagram-logo.png"
-import Linkedin from "@/app/_assets/linkedin-logo.png"
-import Facebook from "@/app/_assets/facebook-logo.png"
-import Youtube from "@/app/_assets/youtube-logo.png"
-import Whatsapp from "@/app/_assets/whatsapp-logo.png"
-import Snapchat from "@/app/_assets/snapchat-logo.png"
+import TikTok from "@/app/_assets/tiktok-logo.webp";
+import Instagram from "@/app/_assets/instagram-logo.webp"
+import Linkedin from "@/app/_assets/linkedin-logo.webp"
+import Facebook from "@/app/_assets/facebook-logo.webp"
+import Youtube from "@/app/_assets/youtube-logo.webp"
+import Whatsapp from "@/app/_assets/whatsapp-logo.webp"
+import Snapchat from "@/app/_assets/snapchat-logo.webp"
 import Image from "next/image";
 
 const SocialSidebar = () => {

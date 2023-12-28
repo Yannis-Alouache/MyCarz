@@ -16,7 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = (props) => {
 
-  let { mainColor } = props
+  let { mainColor, tagColor } = props
   const { register, handleSubmit } = useForm();
   const [data, setData] = useState("");
   const form = useRef(null);
@@ -86,10 +86,9 @@ const Contact = (props) => {
                                 </div>
                             </div>
                         </form>
-                        <p>{data}</p>
                         <div className='grid lg:grid-cols-2 grid-cols-1 mt-10 lg:text-start text-center'>
                             <div className='lg:mb-0 mb-5'>
-                                <span className='font-extrabold text-xl pb-5 underline decoration-blue-400 decoration-4'>Horaire</span>
+                                <span className={'font-extrabold text-xl pb-5 underline decoration-4'} style={{textDecorationColor: tagColor}}>Horaire</span>
                                 <div className='flex flex-col mt-5'>
                                     <span className='font-bold'>Lundi - Jeudi</span>
                                     <span>10h - 18h</span>
@@ -105,17 +104,17 @@ const Contact = (props) => {
                                 </div>
                             </div>
                             <div>
-                            <div className="flex flex-col mt-5 lg:items-start items-center" style={{color: mainColor}}>
+                            <div className="flex flex-col mt-5 lg:items-start items-center">
                                 <span className='font-extrabold text-xl'>E-mail</span>
-                                <Link className='bg-[#0072FF] w-fit px-5 py-1 rounded-full text-white font-bold' href="mailto:contact@mycarz.fr">contact@mycarz.fr</Link>
+                                <Link className={'w-fit px-5 py-1 rounded-full text-white font-bold'} style={{backgroundColor: tagColor}} href="mailto:contact@mycarz.fr">contact@mycarz.fr</Link>
                             </div>
-                            <div className="flex flex-col mt-5 lg:items-start items-center" style={{color: mainColor}}>
+                            <div className="flex flex-col mt-5 lg:items-start items-center">
                                 <span className='font-extrabold text-xl'>Téléphone</span>
-                                <Link className='bg-[#0072FF] w-fit px-5 py-1 rounded-full text-white font-bold' href='tel:0376115959'>03 76 11 59 59</Link>
+                                <Link className={'w-fit px-5 py-1 rounded-full text-white font-bold'} style={{backgroundColor: tagColor}} href='tel:0376115959'>03 76 11 59 59</Link>
                             </div>
-                            <div className="flex flex-col mt-5 lg:items-start items-center" style={{color: mainColor}}>
+                            <div className="flex flex-col mt-5 lg:items-start items-center">
                                 <span className='font-extrabold text-xl'>Adresse</span>
-                                <Link className='bg-[#0072FF] w-fit px-5 py-1 rounded-full text-white font-bold' href="https://maps.app.goo.gl/RC5kyvMhERw5egmCA">121 Boulevard Gambetta à Roubaix</Link>
+                                <Link className={'w-fit px-5 py-1 rounded-full text-white font-bold'} style={{backgroundColor: tagColor}} href="https://maps.app.goo.gl/RC5kyvMhERw5egmCA">121 Boulevard Gambetta à Roubaix</Link>
                             </div>
                             </div>
                         </div>

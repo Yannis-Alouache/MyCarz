@@ -1,7 +1,7 @@
 import Badge from "../Badge/Badge"
 import Image from "next/image"
 
-import MechanicBannerCar from "@/app/_assets/MechanicBannerCar.png"
+import MechanicBannerCar from "@/app/_assets/MechanicBannerCar.webp"
 import Reveal from "../Reveal/Reveal"
 import Link from "next/link"
 
@@ -21,7 +21,7 @@ const MechanicHeroBanner = () => {
                             <p>Votre expert en mécanique automobile.</p>
                             <p>De la vidange au kit de distribution, nous vous proposons notre expertise pour assurer le bon fonctionnement de votre véhicule sans alourdir votre budget.</p>
                         </div>
-                        <Link href="#services" className="block font-extrabold lg:w-fit w-full text-2xl text-white rounded-lg px-16 py-5"
+                        <Link href="#services" className="flex justify-center lg:block font-extrabold lg:w-fit w-full text-2xl text-white rounded-lg px-16 py-5"
                             style={{background: "linear-gradient(90deg, #005B83 0%, #00618B 0.01%, #00B2FF 100%)"}}>
                             Nos Services
                         </Link>

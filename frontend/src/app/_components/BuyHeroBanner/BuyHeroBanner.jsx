@@ -1,6 +1,6 @@
 import Badge from "../Badge/Badge"
 import Image from "next/image"
-import BuyBannerCar from "@/app/_assets/BuyBannerCar.png"
+import BuyBannerCar from "@/app/_assets/BuyBannerCar.webp"
 import Reveal from "../Reveal/Reveal"
 import Link from "next/link"
 

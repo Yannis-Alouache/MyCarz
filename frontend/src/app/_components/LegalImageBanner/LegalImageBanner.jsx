@@ -1,4 +1,4 @@
-import Legal from "@/app/_assets/Legal.jpg";
+import Legal from "@/app/_assets/Legal.webp";
 
 const LegalImageBanner = (props) => {
   let { title } = props;

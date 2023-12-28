@@ -1,5 +1,5 @@
 import Image from "next/image"
-import CoveringBannerCar from "@/app/_assets/CoveringBannerCar.png"
+import CoveringBannerCar from "@/app/_assets/CoveringBannerCar.webp"
 import Badge from "../Badge/Badge"
 import Reveal from "../Reveal/Reveal"
 import Link from "next/link"
@@ -20,7 +20,7 @@ const CoveringHeroBanner = () => {
                             <p>Votre spécialiste en covering et detailing automobile.</p>
                             <p>De la personnalisation par covering à la pose de vitre teintée nous mettons en valeur votre véhicule pour un résultat unique.</p>
                         </div>
-                        <Link href="#services" className="block lg:w-fit w-full font-extrabold text-2xl text-white rounded-lg px-16 py-5"
+                        <Link href="#services" className="flex justify-center lg:block lg:w-fit w-full font-extrabold text-2xl text-white rounded-lg px-16 py-5"
                             style={{background: "linear-gradient(90deg, #5392D5 0%, #00618B 0.01%, #9E2442 100%)"}}>
                             Nos Services
                         </Link>
