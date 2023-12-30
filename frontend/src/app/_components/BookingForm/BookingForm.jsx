@@ -1,7 +1,7 @@
 "use client";
 import Reveal from '../Reveal/Reveal';
 import { useForm } from "react-hook-form";
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -73,7 +73,7 @@ const BookingForm = (props) => {
                                 <input {...register("phone")} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor}} type="phone" placeholder='Téléphone' required />
                             </div>
                             <div className="mb-4 grid grid-cols-2 gap-x-6">
-                                <input {...register("date")} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="date" placeholder='Date' required />
+                                <input {...register("date")} min={new Date().toISOString().split('T')[0]} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="date" placeholder='Date' required />
                                 <input {...register("heure")} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="time" placeholder='Heure' required />
                             </div>
                             <span className='font-medium text-medium text-gray-700'>Choisissez une prestation :</span>
