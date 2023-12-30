@@ -16,16 +16,26 @@ const BookingForm = (props) => {
   const [expressSelected, setExpressSelected] = useState(false);
   const [confortSelected, setConfortSelected] = useState(false);
   const [luxeSelected, setLuxeSelected] = useState(false);
+  const [error, setError] = useState("");
 
   const sendEmail = (formData) => {
     console.log(formData)
+    
     handleSubmit((data) => setData(JSON.stringify(data)));
     
     if (expressSelected) formData.prestation = "Express";
     if (confortSelected) formData.prestation = "Confort";
     if (luxeSelected) formData.prestation = "Luxe";
 
-    console.log(formData);
+    // IF DAY SELECTED IN FORM IS A WEEKEND
+    if ( new Date(formData.date).getDay() == 0 || new Date(formData.date).getDay() == 6 )
+    {
+        setError("Veuillez selectionnez une date hors week-end.");
+        return;
+    }
+    setError("");
+
+    formData.date = new Date(formData.date).toLocaleDateString('fr-FR');
     
     emailjs.send('service_gwsd92o', 'template_hi9rgir', formData, 'L0xQfyB3KRVNJjUyK')
       .then((result) => {
@@ -36,9 +46,8 @@ const BookingForm = (props) => {
           console.log(error.text);
       });
   };
+
   const notify = () => toast.success("Message envoyé !");
-
-
   const handleExpress = () => {
     if (confortSelected) setConfortSelected(false);
     if (luxeSelected) setLuxeSelected(false);
@@ -65,6 +74,13 @@ const BookingForm = (props) => {
                 <div className="flex flex-col lg:w-2/3 w-full lg:flex-row lg:items-center">
                     <div className="flex-1 flex flex-col  py-12">
                         <h2 className={"lg:text-5xl text-2xl font-extrabold text-center mb-12"} style={{color: mainColor}}>Réserver un rendez-vous !</h2>
+                        
+                        {error.length > 0  && 
+                            <div class="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50" role="alert">
+                                {error}
+                            </div>
+                        }
+                        
                         <form method='POST' ref={form} className='lg:pb-10 pb-0' onSubmit={handleSubmit(sendEmail)}>
                             <div className="mb-4">
                                 <input {...register("name")} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="text" placeholder='Nom Prénom' required />
@@ -74,7 +90,7 @@ const BookingForm = (props) => {
                             </div>
                             <div className="mb-4 grid grid-cols-2 gap-x-6">
                                 <input {...register("date")} min={new Date().toISOString().split('T')[0]} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="date" placeholder='Date' required />
-                                <input {...register("heure")} className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="time" placeholder='Heure' required />
+                                <input {...register("heure")} min="10:00" max="18:00" className="appearance-none border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" style={{borderColor: mainColor, color: mainColor}} type="time" placeholder='Heure' required />
                             </div>
                             <span className='font-medium text-medium text-gray-700'>Choisissez une prestation :</span>
                             <div className="flex lg:justify-start justify-center mt-4 mb-8">
