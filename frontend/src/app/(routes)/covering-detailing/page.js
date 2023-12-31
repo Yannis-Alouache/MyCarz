@@ -201,7 +201,7 @@ const Covering = () => {
           </div>
           <div className="flex lg:px-0 px-5 mt-3 lg:hidden">
             <div className="flex text-gray-800 items-center gap-x-2">
-              <span className="text-sm">Swiper vers la gauche pour voir la suite</span>
+              <span className="text-sm">Swipez vers la gauche pour voir la suite</span>
               <IoIosArrowRoundForward size={25} className="text-gray-800" />
             </div>
           </div>
@@ -307,7 +307,7 @@ const Covering = () => {
           </div>
           <div className="flex lg:px-0 px-5 mt-3 lg:hidden">
             <div className="flex text-gray-800 items-center gap-x-2">
-              <span className="text-sm">Swiper vers la gauche pour voir la suite</span>
+              <span className="text-sm">Swipez vers la gauche pour voir la suite</span>
               <IoIosArrowRoundForward size={25} className="text-gray-800" />
             </div>
           </div>
@@ -396,7 +396,7 @@ const Covering = () => {
           </div>
           <div className="flex lg:px-0 px-5 mt-3 lg:hidden">
             <div className="flex text-gray-800 items-center gap-x-2">
-              <span className="text-sm">Swiper vers la gauche pour voir la suite</span>
+              <span className="text-sm">Swipez vers la gauche pour voir la suite</span>
               <IoIosArrowRoundForward size={25} className="text-gray-800" />
             </div>
           </div>
