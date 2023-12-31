@@ -4,6 +4,7 @@ import LogoCovering from "@/app/_assets/LogoCovering.webp"
 import CoveringBannerBgCircle from "@/app/_assets/CoveringBannerBgCircle.svg"
 import CoveringHeroBanner from "@/app/_components/CoveringHeroBanner/CoveringHeroBanner"
 import Service from "@/app/_components/Service/Service"
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 import BlueRedWave from "@/app/_assets/BlueRedWave.svg"
 import BlueRedWaveReverse from "@/app/_assets/BlueRedWaveReverse.svg"
@@ -105,7 +106,7 @@ const Covering = () => {
         </div>
 
         <Reveal>
-          <div className="container mx-auto relative overflow-x-auto lg:px-0 px-5 mb-32">
+          <div className="container mx-auto relative overflow-x-auto lg:px-0 px-5">
               <table className="shadow-lg rounded-lg w-full text-sm text-left rtl:text-right text-gray-500">
                   <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                       <tr>
@@ -198,13 +199,20 @@ const Covering = () => {
                   </tbody>
               </table>
           </div>
+          <div className="flex lg:px-0 px-5 mt-3 lg:hidden">
+            <div className="flex text-gray-800 items-center gap-x-2">
+              <span className="text-sm">Swiper vers la gauche pour voir la suite</span>
+              <IoIosArrowRoundForward size={25} className="text-gray-800" />
+            </div>
+          </div>
+          <div className="mb-32" />
         </Reveal>
 
         <Reveal>
           <div className="container mx-auto mb-8 lg:mb-10 lg:px-0 px-5">
             <h2 className="mb-4 lg:text-4xl text-2xl tracking-tight font-bold text-gray-700">Couleur standard</h2>
           </div>
-          <div className="container lg:px-0 px-5 mx-auto relative overflow-x-auto mb-32">
+          <div className="container lg:px-0 px-5 mx-auto relative overflow-x-auto">
               <table className="shadow-lg sm:rounded-lg w-full text-sm text-left rtl:text-right text-gray-500">
                   <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                       <tr>
@@ -297,6 +305,13 @@ const Covering = () => {
                   </tbody>
               </table>
           </div>
+          <div className="flex lg:px-0 px-5 mt-3 lg:hidden">
+            <div className="flex text-gray-800 items-center gap-x-2">
+              <span className="text-sm">Swiper vers la gauche pour voir la suite</span>
+              <IoIosArrowRoundForward size={25} className="text-gray-800" />
+            </div>
+          </div>
+          <div className="mb-32" />
         </Reveal>
 
         <Reveal>
@@ -379,7 +394,13 @@ const Covering = () => {
                   </tbody>
               </table>
           </div>
-
+          <div className="flex lg:px-0 px-5 mt-3 lg:hidden">
+            <div className="flex text-gray-800 items-center gap-x-2">
+              <span className="text-sm">Swiper vers la gauche pour voir la suite</span>
+              <IoIosArrowRoundForward size={25} className="text-gray-800" />
+            </div>
+          </div>
+          <div className="mb-10" />
         </Reveal>
 
         <div className="container mx-auto">
