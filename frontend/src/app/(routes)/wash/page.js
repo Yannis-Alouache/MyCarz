@@ -54,7 +54,7 @@ const Wash = () => {
     {
       title: "Express",
       catchPhrase: "30-45min",
-      price: "28",
+      price: "30",
       services : [
         {text: "Intérieur", included: true},
         {text: "Extérieur", included: true},
