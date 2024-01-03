@@ -19,7 +19,7 @@ const HomeHeroBanner = () => {
                         <Badge className="mb-3 bg-[#0072FF]" />
                         <span className="font-extrabold">Votre garage automobile à Roubaix</span>
                         <h1 className="lg:text-[70px] text-4xl leading-none font-extrabold mb-3">
-                            Le meilleurs rapport qualité-prix pour vos besoin {" "}
+                            Le meilleur rapport qualité-prix pour vos besoins {" "}
                             <span
                                 className="lg:clip-text"
                             >
@@ -27,7 +27,7 @@ const HomeHeroBanner = () => {
                             </span>
                         </h1>
                         <div className="font-medium mb-5">
-                            <p>Vous souhaitez réaliser une réparation, faire nettoyer votre véhicule, effectuer les démarches pour une carte grise ou poser des vitres teintés, nous proposons une gamme de services complète pour prendre soin de votre véhicule sans vider votre portefeuille.</p>
+                            <p>Vous souhaitez réaliser une réparation, faire nettoyer votre véhicule, effectuer les démarches pour une carte grise ou poser des vitres teintées, nous proposons une gamme de services complète pour prendre soin de votre véhicule sans vider votre portefeuille.</p>
                         </div>
                         <Link href="#services" className="flex justify-center lg:block w-full font-extrabold text-2xl text-white rounded-lg px-16 py-5 lg:w-fit" style={{background: "linear-gradient(90deg, #00397B 0%, #0075FF 100%)"}}>
                             Nos Services

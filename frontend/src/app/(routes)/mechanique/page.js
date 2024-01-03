@@ -132,7 +132,7 @@ const Mechanique = () => {
 
         <Service
           title="Réparation"
-          text="Vous souhaitez remplacer un kit de distribution, un embrayage ou un moteur complet ? Chez MyCarz, nos experts peuvent s’occuper de tout les problèmes de votre véhicule, dans le respect des préconisations constructeurs."
+          text="Vous souhaitez remplacer un kit de distribution, un embrayage ou un moteur complet ? Chez MyCarz, nos experts peuvent s’occuper de tous les problèmes de votre véhicule, dans le respect des préconisations constructeurs."
           svg={LightBlueWaveReverse}
           svgClassName="left-0 top-0"
           mainImage={Disquettes}

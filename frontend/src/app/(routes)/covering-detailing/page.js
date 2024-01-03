@@ -89,7 +89,7 @@ const Covering = () => {
 
           <Service
             title="Vitre teinté"
-            text="De l’obtention de la carte grise à l’assurance auto, en passant par les plaques d’immatriculation, nous sommes présent pour faciliter toute vos démarches."
+            text="De l’obtention de la carte grise à l’assurance auto, en passant par les plaques d’immatriculation, nous sommes présent pour faciliter toutes vos démarches."
             svg={BlueRedWave}
             svgClassName="right-0 top-0"
             mainImage={Premium}

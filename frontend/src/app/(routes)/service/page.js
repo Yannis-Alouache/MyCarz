@@ -108,7 +108,7 @@ const ServicePage = () => {
 
           <Service
             title="Plaques immatriculation"
-            text="Simplifiez l'immatriculation de votre véhicule avec nos plaques d’immatriculation/ Obtenez vos plaques d’immatriculations sans tracas  en un temps record."
+            text="Simplifiez l'immatriculation de votre véhicule avec nos plaques d’immatriculation. Obtenez vos plaques d’immatriculation sans tracas en un temps record."
             svg={GrayWaveReverse}
             svgClassName="left-0 top-0"
             mainImage={AssuranceAuto}

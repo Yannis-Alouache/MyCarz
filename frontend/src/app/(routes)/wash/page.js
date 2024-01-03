@@ -140,7 +140,7 @@ const Wash = () => {
       <div id="services">
         <Service
           title="express"
-          text="Vous êtes pressé mais votre voiture mérite tout de même le meilleur. Optez pour notre service de lavage express. En 30min, notre équipe utilise des produits de qualité et des techniques éprouvées pour redonner à votre véhicule tout son éclat."
+          text="Vous êtes pressé mais votre voiture mérite tout de même le meilleur. Optez pour notre service de lavage express. En 30 minutes, notre équipe utilise des produits de qualité et des techniques éprouvées pour redonner à votre véhicule tout son éclat."
           svg={RoseWave}
           svgClassName="right-0 top-0"
           mainImage={Express}
@@ -164,7 +164,7 @@ const Wash = () => {
 
         <Service
           title="premium"
-          text="Pour ceux qui veulent le summum de la propreté, notre service de lavage à la main est la solution idéale. Chaque recoin de votre voiture reçoit l’attention personnalisée de nos experts, pour un résultat sans égale. Et contrairement à ce que l’on pourrait penser, le luxe n’a pas à être hors de prix."
+          text="Pour ceux qui veulent le summum de la propreté, notre service de lavage à la main est la solution idéale. Chaque recoin de votre voiture reçoit l’attention personnalisée de nos experts, pour un résultat sans égal. Et contrairement à ce que l’on pourrait penser, le luxe n’a pas à être hors de prix."
           svg={RoseWave}
           svgClassName="right-0 top-0"
           mainImage={WashPremium}

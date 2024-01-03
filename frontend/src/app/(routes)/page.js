@@ -64,7 +64,7 @@ export default function Home() {
         <Service
           title="achat / dépôt / vente"
           link="achat-depot-revente"
-          text="Spécialisés dans l’achat et le dépôt-vente, nous vous offrons des solutions simple et rapide pour acheter ou vendre votre véhicule en étant accompagné."
+          text="Spécialisés dans l’achat et le dépôt-vente, nous vous offrons des solutions simples et rapides pour acheter ou vendre votre véhicule en étant accompagnés."
           svgClassName="right-0 top-0"
           mainImage={BuyService}
           mainColor="#FF0000"
@@ -100,7 +100,7 @@ export default function Home() {
         <Service
           title="lavage auto"
           link="wash"
-          text="Un nettoyage express complet avant une sortie ou un grand nettoyage de printemps, nous sommes la pour vous satisfaire."
+          text="Un nettoyage express complet avant une sortie ou un grand nettoyage de printemps, nous sommes là pour vous satisfaire."
           svgClassName="left-0 top-0"
           mainImage={WashService}
           mainColor="#FF69B4"
@@ -112,7 +112,7 @@ export default function Home() {
         <Service
           title="administratif"
           link="service"
-          text="De l’obtention de la carte grise à l’assurance auto, en passant par les plaques d’immatriculation, nous sommes présent pour faciliter toute vos démarches."
+          text="De l’obtention de la carte grise à l’assurance auto, en passant par les plaques d’immatriculation, nous sommes présents pour faciliter toutes vos démarches."
           svgClassName="right-0 top-0"
           mainImage={AdministratifService}
           mainColor="#757575"

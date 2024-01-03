@@ -138,7 +138,7 @@ const Promo = () => {
             <div className='grid lg:grid-cols-3 grid-cols-1 lg:gap-y-0 lg:gap-x-5 gap-y-2 gap-x-0'>
               <div className='col-span-2 bg-white lg:h-[400px] h-full rounded-3xl lg:shadow-none shadow-md p-10'>
                 <h3 className='lg:text-4xl text-2xl font-black mb-5'>Qui Somme Nous ?</h3>
-                <p className='lg:text-2xl text-xl font-medium'>Chez MyCarz, nous sommes plus qu’un simple garage. Nous sommes votre partenaire automobile de confiance, niché en plein cœur du centre-ville de Roubaix au 121 Boulevard Gambetta. Notre passion est de prendre soin de votre véhicule et de vous offrir une expérience exceptionnelle avec une gamme complète de services automobiles</p>
+                <p className='lg:text-2xl text-xl font-medium'>Chez MyCarz, nous sommes plus qu’un simple garage. Nous sommes votre partenaire automobile de confiance, niché en plein cœur du centre-ville de Roubaix au 121 Boulevard Gambetta. Notre passion est de prendre soin de votre véhicule et de vous offrir une expérience exceptionnelle avec une gamme complète de services automobiles.</p>
               </div>
               <div className='bg-[#FF8A00] lg:h-[400px] h-[300px] rounded-3xl p-10'>
                 <div className='w-full h-full bg-no-repeat bg-contain bg-center' style={{ backgroundImage: "url(" + Car3D.src + ")" }}>

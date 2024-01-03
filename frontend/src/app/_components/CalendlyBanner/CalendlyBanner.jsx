@@ -1,12 +1,12 @@
 import { RiBankFill } from "react-icons/ri";
 import { IoHeartCircle } from "react-icons/io5";
 import Link from "next/link"
-import Cg from "@/app/_assets/cg.webp" 
+import PlaquesCta from "@/app/_assets/plaques.webp" 
 import Image from "next/image"
 import Reveal from "../Reveal/Reveal";
 
 
-const AffiliateBanner = () => {
+const CalendlyBanner = () => {
   return (
     <Reveal>
         <div className="lg:max-w-screen-xl px-5 mx-auto">
@@ -27,7 +27,7 @@ const AffiliateBanner = () => {
 
                         <h3 className="my-8 lg:text-5xl text-3xl lg:text-start text-center font-bold">Faites votre carte grise et vos plaques <span className="text-[#1069ef]">en 2 min</span></h3>
                         <div className="lg:hidden flex col-span-12 lg:col-span-4 rounded-2xl p-16 items-center mb-4" style={{backgroundImage: "linear-gradient(209deg,#eefbfb 2%,#cfe1fc 100%);"}}>
-                        <Image src={Cg} />
+                        <Image src={PlaquesCta} />
                         </div>
                         <div id="under-text" className="text-[#525a6e] lg:text-start text-center">
                         <p className="mb-3.5">1ère plateforme d'immatriculation depuis 2009</p>
@@ -40,7 +40,7 @@ const AffiliateBanner = () => {
                     </div>
                     </div>
                     <div className="lg:flex hidden col-span-12 lg:col-span-4 rounded-r-2xl p-16 items-center" style={{backgroundImage: "linear-gradient(209deg,#eefbfb 2%,#cfe1fc 100%);"}}>
-                        <Image src={Cg} />
+                    <Image src={PlaquesCta} />
                     </div>
                 </div>
             </div>
@@ -49,4 +49,4 @@ const AffiliateBanner = () => {
   )
 }
 
-export default AffiliateBanner
+export default CalendlyBanner

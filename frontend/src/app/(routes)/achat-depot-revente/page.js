@@ -81,7 +81,7 @@ const AchatDepotRevente = () => {
       <div id="services">
         <Service
           title="achat"
-          text="Vous souhaitez acheter un véhicule en toute sérénité ? Notre équipe vous propose à la vente des arrivage réguliers de véhicule, entretenus et sous garantie."
+          text="Vous souhaitez acheter un véhicule en toute sérénité ? Notre équipe vous propose à la vente des arrivages régulier de véhicules entretenus et sous garantie."
           svg={RedWave}
           svgClassName="right-0 top-0"
           mainImage={FastBuy}
