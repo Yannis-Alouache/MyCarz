@@ -13,6 +13,7 @@ import Service from "@/app/_components/Service/Service"
 import OurValues from "@/app/_components/OurValues/OurValues"
 import PricingWrapper from "@/app/_components/PricingWrapper/PricingWrapper"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
+import BuyAffiliateBanner from "@/app/_components/BuyAffiliateBanner/BuyAffiliateBanner"
 
 export const metadata = {
   metadataBase: new URL('https://mycarz.fr/'),
@@ -121,6 +122,7 @@ const AchatDepotRevente = () => {
       <OurValues mainColor="text-red-800" />
 
       <PricingWrapper pricingInfos={pricingInfos} mainColor={"#FF0000"} />
+      <BuyAffiliateBanner />
 
       <Contact mainColor="#620000" tagColor="#FF0000" />
       <Footer bgColor="linear-gradient(180deg, #F00 0%, #7D0000 100%)" logo={LogoBuy} />

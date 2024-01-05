@@ -14,7 +14,7 @@ import WashPremium from "@/app/_assets/washPremium.webp"
 import PricingWrapper from "@/app/_components/PricingSvgWrapper/PricingSvgWrapper"
 import ServiceCarouselNew from "@/app/_components/ServiceCarouselNew/ServiceCarouselNew"
 import OurValues from "@/app/_components/OurValues/OurValues"
-import BookingForm from "@/app/_components/BookingForm/BookingForm"
+import CalendlyBanner from "@/app/_components/CalendlyBanner/CalendlyBanner"
 
 export const metadata = {
   metadataBase: new URL('https://mycarz.fr/'),
@@ -177,7 +177,7 @@ const Wash = () => {
 
       <PricingWrapper pricingInfos={pricingInfos} mainColor="#D65796" />
 
-      <BookingForm />
+      <CalendlyBanner />
       <OurValues mainColor="text-[#D65796]" />
 
       <Contact mainColor="#a34373" tagColor="#FF69B4" />
