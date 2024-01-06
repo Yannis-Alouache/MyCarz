@@ -73,8 +73,8 @@ const AchatDepotRevente = () => {
   return (
     <>
       <div className="relative lg:pb-32 pb-10">
-        <Image src={BuyBannerBgCircle} alt="" className="absolute right-0 z-0" />
-        <Navbar contactBtnClass="border-[#F00]" logo={LogoBuy} />
+        <Image src={BuyBannerBgCircle} alt="Cercle décoratif achat depot vente" className="absolute right-0 z-0" />
+        <Navbar contactBtnClass="border-[#F00]" alt="Logo MyCarz Achat Dépôt Vente" logo={LogoBuy} />
         <BuyHeroBanner />
         <ServiceCarouselNew />
       </div>
@@ -86,6 +86,7 @@ const AchatDepotRevente = () => {
           svg={RedWave}
           svgClassName="right-0 top-0"
           mainImage={FastBuy}
+          alt="une personne tenant une clé de voiture"
           mainColor="#FF0000"
           secondaryColor="#7B0000"
           showBtn={false}
@@ -99,6 +100,7 @@ const AchatDepotRevente = () => {
           svg={RedWaveReverse}
           svgClassName="left-0 bottom-0"
           mainImage={BuyService}
+          alt="une personne qui remet une clé de voiture"
           mainColor="#FF0000"
           secondaryColor="#7B0000"
           showBtn={false}
@@ -112,6 +114,7 @@ const AchatDepotRevente = () => {
           svg={RedWave}
           svgClassName="right-0 bottom-0"
           mainImage={BuyService}
+          alt="une personne qui remet une clé de voiture"
           mainColor="#FF0000"
           secondaryColor="#7B0000"
           showBtn={false}

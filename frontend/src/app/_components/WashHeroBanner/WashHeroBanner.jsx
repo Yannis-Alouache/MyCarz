@@ -27,7 +27,7 @@ const WashHeroBanner = () => {
                         </Link>
                     </div>
                     <div className="pt-6 lg:col-span-6 col-span-12 lg:pl-7 pl-0">
-                        <Image src={WashBannerCar} alt="" className="w-full bounce" />
+                        <Image src={WashBannerCar} alt="une voiture bleue avec des bandes noires" className="w-full bounce" />
                     </div>
                 </div>
             </div>

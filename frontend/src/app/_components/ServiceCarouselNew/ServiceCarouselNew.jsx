@@ -13,42 +13,42 @@ const ServiceCarouselNew = () => {
         <div className="slider lg:block hidden">
             <div className="slide-track">
                 <div className="slide p-5">
-                    <Image src={LogoHome} height={100} width={250} alt="" />
+                    <Image src={LogoHome} height={100} width={250} alt="Logo MyCarz Principal" />
                 </div>
                 <div className="slide p-5">
-                    <Image src={LogoBuy} height="100" width="250" alt="" />
+                    <Image src={LogoBuy} height="100" width="250" alt="Logo MyCarz Achat Dépôt Vente" />
                 </div>
                 <div className="slide p-5">
-                    <Image src={LogoMechanic} height="100" width="250" alt="" />
+                    <Image src={LogoMechanic} height="100" width="250" alt="Logo MyCarz Méchanique" />
                 </div>
                 <div className="slide p-5">
-                    <Image src={LogoCovering} height="100" width="250" alt="" />
+                    <Image src={LogoCovering} height="100" width="250" alt="Logo MyCarz Covering Detailling" />
                 </div>
                 <div className="slide p-5">
-                    <Image src={LogoWash} height="100" width="250" alt="" />
+                    <Image src={LogoWash} height="100" width="250" alt="Logo MyCarz Lavage Auto" />
                 </div>
                 <div className="slide p-5">
-                    <Image src={LogoService} height="100" width="250" alt="" />
+                    <Image src={LogoService} height="100" width="250" alt="Logo MyCarz Service" />
                 </div>
 
 
                 <div className="slide p-5">
-                    <Image src={LogoHome} height={100} width={250} alt="" />
+                    <Image src={LogoHome} height={100} width={250} alt="Logo MyCarz Principal" />
                 </div>
                 <div className="slide p-5">
-                    <Image src={LogoBuy} height="100" width="250" alt="" />
+                    <Image src={LogoBuy} height="100" width="250" alt="Logo MyCarz Achat Dépôt Vente" />
                 </div>
                 <div className="slide p-5">
-                    <Image src={LogoMechanic} height="100" width="250" alt="" />
+                    <Image src={LogoMechanic} height="100" width="250" alt="Logo MyCarz Méchanique" />
                 </div>
                 <div className="slide p-5">
-                    <Image src={LogoCovering} height="100" width="250" alt="" />
+                    <Image src={LogoCovering} height="100" width="250" alt="Logo MyCarz Covering Detailling" />
                 </div>
                 <div className="slide p-5">
-                    <Image src={LogoWash} height="100" width="250" alt="" />
+                    <Image src={LogoWash} height="100" width="250" alt="Logo MyCarz Lavage Auto" />
                 </div>
                 <div className="slide p-5">
-                    <Image src={LogoService} height="100" width="250" alt="" />
+                    <Image src={LogoService} height="100" width="250" alt="Logo MyCarz Service" />
                 </div>
             </div>
         </div>

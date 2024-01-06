@@ -54,8 +54,8 @@ export default function Home() {
   return (
     <>
       <div className="relative lg:pb-32 pb-10">
-        <Image src={HomeBannerBgCircle} alt="" className="absolute right-0 z-0" />
-        <Navbar contactBtnClass="border-[#0072FF]" logo={LogoHome}/>
+        <Image src={HomeBannerBgCircle} alt="Cercle décoratif accueil" className="absolute right-0 z-0" />
+        <Navbar contactBtnClass="border-[#0072FF]" alt="Logo MyCarz Principal" logo={LogoHome}/>
         <HomeHeroBanner />
         <ServiceCarouselNew />
       </div>
@@ -67,6 +67,7 @@ export default function Home() {
           text="Spécialisés dans l’achat et le dépôt-vente, nous vous offrons des solutions simples et rapides pour acheter ou vendre votre véhicule en étant accompagnés."
           svgClassName="right-0 top-0"
           mainImage={BuyService}
+          alt="une personne qui remet une clé de voiture"
           mainColor="#FF0000"
           secondaryColor="#7B0000"
           showBtn={true}
@@ -79,6 +80,7 @@ export default function Home() {
           text="De la vidange au kit de distribution, nous vous proposons notre expertise pour assurer le bon fonctionnement de votre véhicule sans alourdir votre budget."
           svgClassName="left-0 top-0"
           mainImage={MechanicService}
+          alt="une personne sous une voiture"
           mainColor="#00B2FF"
           secondaryColor="#005B83"
           showBtn={true}
@@ -91,6 +93,7 @@ export default function Home() {
           text="De la personnalisation par covering à la pose de vitre teintée nous mettons en valeur votre véhicule pour un résultat unique."
           svgClassName="right-0 top-0"
           mainImage={CoveringService}
+          alt="une personne portant des gants et travaillant sur une voiture"
           mainColor="#5392D5"
           secondaryColor="#9E2442"
           showBtn={true}
@@ -103,6 +106,7 @@ export default function Home() {
           text="Un nettoyage express complet avant une sortie ou un grand nettoyage de printemps, nous sommes là pour vous satisfaire."
           svgClassName="left-0 top-0"
           mainImage={WashService}
+          alt="une personne passant l'aspirateur sur le siège d'une voiture"
           mainColor="#FF69B4"
           secondaryColor="#B5477F"
           showBtn={true}
@@ -115,6 +119,7 @@ export default function Home() {
           text="De l’obtention de la carte grise à l’assurance auto, en passant par les plaques d’immatriculation, nous sommes présents pour faciliter toutes vos démarches."
           svgClassName="right-0 top-0"
           mainImage={AdministratifService}
+          alt="une personne signant un formulaire de prêt automobile"
           mainColor="#757575"
           secondaryColor="#393939"
           showBtn={true}

@@ -16,7 +16,7 @@ const CalendlyBanner = () => {
                     <div>
                         <h3 className="my-8 lg:text-5xl text-3xl lg:text-start text-center font-bold">Réservez un créneau <span className="text-[#FF69B4]">en 2 min</span></h3>
                         <div className="lg:hidden flex col-span-12 lg:col-span-4 rounded-2xl p-16 items-center mb-4" style={{backgroundImage: "linear-gradient(209deg,#eefbfb 2%,#FF69B4 100%);"}}>
-                            <Image src={Calendar} />
+                            <Image alt="un calendrier avec une coche" src={Calendar} />
                         </div>
                         <div id="under-text" className="text-[#525a6e] lg:text-start text-center">
                             <p className="mb-3.5">Offrez à votre voiture le soin qu'elle mérite avec MyCarz. Réservez votre rendez-vous en ligne dès maintenant pour un lavage automobile simple, rapide et efficace. Faites briller votre véhicule en quelques clics avec MyCarz !</p>
@@ -27,7 +27,7 @@ const CalendlyBanner = () => {
                     </div>
                     </div>
                     <div className="lg:flex hidden col-span-12 lg:col-span-4 rounded-r-2xl p-16 items-center" style={{backgroundColor: "#facde4"}}>
-                    <Image src={Calendar} />
+                    <Image alt="un calendrier avec une coche" src={Calendar} />
                     </div>
                 </div>
             </div>

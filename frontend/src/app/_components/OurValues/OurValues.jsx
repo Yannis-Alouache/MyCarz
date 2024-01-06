@@ -15,14 +15,14 @@ const OurValues = () => {
                 <div className="container mx-auto">
                     <div className="flex relative rounded-2xl bg-white shadow-md">
                         <div className="absolute right-0 bottom-0">
-                            <Image src={OurValuesDeco2} />
+                            <Image alt="une ligne rouge, blanche et noire" src={OurValuesDeco2} />
                         </div>
                         <div className="lg:w-2/4 hidden lg:block">
-                            <Image src={OurValuesImage} className="w-full rounded-l-2xl" />
+                            <Image alt="une personne en salopette qui regarde une voiture" src={OurValuesImage} className="w-full rounded-l-2xl" />
                         </div>
                         <div className="lg:w-2/4 w-full pl-10 lg:pr-32 pr-10 py-10 text-gray-800 flex flex-col justify-center">
                             <div className="flex gap-x-2 items-center lg:justify-start justify-center">
-                                <Image src={OurValuesDeco1} className="h-4" />
+                                <Image alt="une ligne rouge, blanche et noire" src={OurValuesDeco1} className="h-4" />
                                 <span className="uppercase mb-1">nos valeurs</span>
                             </div>
                             <h2 className='lg:text-3xl text-2xl mb-10 font-bold lg:text-start text-center'>Le meilleurs rapport qualité prix</h2>
@@ -34,19 +34,19 @@ const OurValues = () => {
 
                             <div className="grid lg:grid-cols-2 grid-cols-1 gap-y-3 mt-5 lg:gap-x-0 gap-x-2 font-medium">
                                 <div className="flex lg:gap-x-6 gap-x-3 items-center justify-center lg:justify-start">
-                                    <Image alt="" src={Check} />
+                                    <Image alt="coche verte" src={Check} />
                                     <span>Rapidité</span>
                                 </div>
                                 <div className="flex lg:gap-x-6 gap-x-3 items-center justify-center lg:justify-start">
-                                    <Image alt="" src={Check} />
+                                    <Image alt="coche verte" src={Check} />
                                     <span>Abordable</span>
                                 </div>
                                 <div className="flex lg:gap-x-6 gap-x-3 items-center justify-center lg:justify-start">
-                                    <Image alt="" src={Check} />
+                                    <Image alt="coche verte" src={Check} />
                                     <span>Transparence</span>
                                 </div>
                                 <div className="flex lg:gap-x-6 gap-x-3 items-center justify-center lg:justify-start">
-                                    <Image alt="" src={Check} />
+                                    <Image alt="coche verte" src={Check} />
                                     <span>Qualité</span>
                                 </div>
                             </div>

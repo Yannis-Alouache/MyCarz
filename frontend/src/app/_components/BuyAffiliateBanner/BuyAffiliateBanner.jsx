@@ -15,7 +15,7 @@ const BuyAffiliateBanner = () => {
                     <div>
                         <h3 className="my-8 lg:text-5xl text-3xl lg:text-start text-center font-bold">Estimez et vendez votre véhicule <span className="text-[#F00]">en ligne</span></h3>
                         <div className="lg:hidden flex col-span-12 lg:col-span-4 rounded-2xl p-16 items-center mb-4" style={{backgroundImage: "linear-gradient(209deg,#F00 2%,#FF69B4 100%);"}}>
-                            <Image src={Handshake} />
+                            <Image alt="deux mains de bande dessinée qui se serrent" src={Handshake} />
                         </div>
                         <div id="under-text" className="text-[#525a6e] lg:text-start text-center">
                             <p className="mb-3.5">Vendez votre voiture en toute simplicité avec MyCarz. Remplissez notre formulaire en ligne dès maintenant et transformez votre expérience de vente automobile.</p>
@@ -26,7 +26,7 @@ const BuyAffiliateBanner = () => {
                     </div>
                     </div>
                     <div className="lg:flex hidden col-span-12 lg:col-span-4 rounded-r-2xl p-16 items-center" style={{backgroundColor: "#ff4747"}}>
-                    <Image src={Handshake} />
+                    <Image alt="deux mains de bande dessinée qui se serrent" src={Handshake} />
                     </div>
                 </div>
             </div>

@@ -56,8 +56,8 @@ const Covering = () => {
   return (
     <>
         <div className="relative lg:pb-32 pb-10">
-          <Image src={CoveringBannerBgCircle} alt="" className="absolute right-0 z-0" />
-          <Navbar contactBtnClass="border-[#5392D5]" logo={LogoCovering} />
+          <Image src={CoveringBannerBgCircle} alt="un cercle bleu et violet" className="absolute right-0 z-0" />
+          <Navbar contactBtnClass="border-[#5392D5]" alt="Logo MyCarz Covering Detailling" logo={LogoCovering} />
           <CoveringHeroBanner />
           <ServiceCarouselNew />
         </div>
@@ -69,6 +69,7 @@ const Covering = () => {
             svg={BlueRedWave}
             svgClassName="right-0 top-0"
             mainImage={Basique}
+            alt="une personne qui nettoie une voiture"
             mainColor="#5392D5"
             secondaryColor="#9E2442"
             showBtn={false}
@@ -81,6 +82,7 @@ const Covering = () => {
             svg={BlueRedWaveReverse}
             svgClassName="left-0 top-0"
             mainImage={Complet}
+            alt="une personne portant un masque et des gants polissant une voiture rouge"
             mainColor="#5392D5"
             secondaryColor="#9E2442"
             showBtn={false}
@@ -93,6 +95,7 @@ const Covering = () => {
             svg={BlueRedWave}
             svgClassName="right-0 top-0"
             mainImage={Premium}
+            alt="une personne debout sur un stand près d'une voiture"
             mainColor="#5392D5"
             secondaryColor="#9E2442"
             showBtn={false}

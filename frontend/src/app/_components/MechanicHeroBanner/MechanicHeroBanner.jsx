@@ -27,7 +27,7 @@ const MechanicHeroBanner = () => {
                         </Link>
                     </div>
                     <div className="lg:col-span-6 col-span-12 lg:pl-7 pl-0 pt-10 lg:pt-0">
-                        <Image src={MechanicBannerCar} alt="" className="w-full bounce" />
+                        <Image src={MechanicBannerCar} alt="une voiture bleue avec une ombre en dessous" className="w-full bounce" />
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ import LegalImageBanner from '@/app/_components/LegalImageBanner/LegalImageBanne
 const PolitiqueConfidentialite = () => {
   return (
     <>
-      <Navbar contactBtnClass="border-[#6E260E]" logo={LogoHome} />
+      <Navbar contactBtnClass="border-[#6E260E]" alt="Logo MyCarz Principal" logo={LogoHome} />
       <LegalImageBanner title="Politique de confidentialité" />
       <div className='max-w-screen-lg mx-auto mb-20'>
         <h4 className='font-bold mb-2'>1. Préambule</h4>

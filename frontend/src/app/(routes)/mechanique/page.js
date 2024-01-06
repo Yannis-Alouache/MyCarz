@@ -111,8 +111,8 @@ const Mechanique = () => {
   return (
     <>
       <div className="relative lg:pb-32 pb-10">
-        <Image src={MechanicBannerBgCircle} alt="" className="absolute right-0 z-0" />
-        <Navbar contactBtnClass="border-[#00B2FF]" logo={LogoMechanic} />
+        <Image src={MechanicBannerBgCircle} alt="Cercle décoratif méchanique" className="absolute right-0 z-0" />
+        <Navbar contactBtnClass="border-[#00B2FF]" alt="Logo MyCarz Méchanique" logo={LogoMechanic} />
         <MechanicHeroBanner />
         <ServiceCarouselNew />
       </div>
@@ -124,6 +124,7 @@ const Mechanique = () => {
           svg={LightBlueWave}
           svgClassName="right-0 top-0"
           mainImage={Filter}
+          alt="une personne travaillant sur une voiture"
           mainColor="#00B2FF"
           secondaryColor="#005B83"
           showBtn={false}
@@ -136,6 +137,7 @@ const Mechanique = () => {
           svg={LightBlueWaveReverse}
           svgClassName="left-0 top-0"
           mainImage={Disquettes}
+          alt="une personne travaillant sur les frein d'une voiture"
           mainColor="#00B2FF"
           secondaryColor="#005B83"
           showBtn={false}
@@ -148,6 +150,7 @@ const Mechanique = () => {
           svg={LightBlueWave}
           svgClassName="right-0 top-0"
           mainImage={EntretienMoteur}
+          alt="un gros plan d'un moteur de voiture"
           mainColor="#00B2FF"
           secondaryColor="#005B83"
           showBtn={false}

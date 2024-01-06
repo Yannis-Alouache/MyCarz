@@ -65,7 +65,6 @@ const Wash = () => {
         {text: "Nettoyage Coffre", included: false},
         {text: "Shampouineuse Siège", included: false},
         {text: "Teinture Tapis Noir", included: false},
-        {text: "Parfum d’ambiance", included: false},
         {text: "Destructeur D’odeur", included: false},
         {text: "Speed Polish", included: false},
         {text: "Shampoing Brillance Extrême", included: false},
@@ -90,7 +89,6 @@ const Wash = () => {
         {text: "Nettoyage Coffre", included: true},
         {text: "Shampouineuse Siège", included: true},
         {text: "Teinture Tapis Noir", included: true},
-        {text: "Parfum d’ambiance", included: true},
         {text: "Destructeur D’odeur", included: true},
         {text: "Speed Polish", included: false},
         {text: "Shampoing Brillance Extrême", included: false},
@@ -115,7 +113,6 @@ const Wash = () => {
         {text: "Nettoyage Coffre", included: true},
         {text: "Shampouineuse Siège", included: true},
         {text: "Teinture Tapis Noir", included: true},
-        {text: "Parfum d’ambiance", included: true},
         {text: "Destructeur D’odeur", included: true},
         {text: "Speed Polish", included: true},
         {text: "Shampoing Brillance Extrême", included: true},
@@ -131,8 +128,8 @@ const Wash = () => {
   return (
     <>
       <div className="relative lg:pb-32 pb-10">
-        <Image src={WashBannerBgCircle} alt="" className="absolute right-0 z-0" />
-        <Navbar contactBtnClass="border-[#FF69B4]" logo={LogoWash} />
+        <Image src={WashBannerBgCircle} alt="Cercle décoratif lavage auto" className="absolute right-0 z-0" />
+        <Navbar contactBtnClass="border-[#FF69B4]" alt="Logo MyCarz Lavage Auto" logo={LogoWash} />
         <WashHeroBanner />
         <ServiceCarouselNew />
       </div>
@@ -144,6 +141,7 @@ const Wash = () => {
           svg={RoseWave}
           svgClassName="right-0 top-0"
           mainImage={Express}
+          alt="une personne nettoyant une voiture avec une serviette bleue"
           mainColor="#FF69B4"
           secondaryColor="#B5477F"
           showBtn={false}
@@ -156,6 +154,7 @@ const Wash = () => {
           svg={RoseWaveReverse}
           svgClassName="left-0 top-0"
           mainImage={Ecologique}
+          alt="une personne passant l'aspirateur sur un siège de voiture"
           mainColor="#FF69B4"
           secondaryColor="#B5477F"
           showBtn={false}
@@ -168,6 +167,7 @@ const Wash = () => {
           svg={RoseWave}
           svgClassName="right-0 top-0"
           mainImage={WashPremium}
+          alt="une personne qui nettoie une voiture"
           mainColor="#FF69B4"
           secondaryColor="#B5477F"
           showBtn={false}

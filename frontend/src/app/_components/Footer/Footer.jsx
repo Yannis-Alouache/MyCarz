@@ -15,8 +15,8 @@ const Footer = (props) => {
         <div className="mx-auto container px-10 xl:px-0">
           <div className="md:flex md:justify-between xl:pt-32 xl:pb-20 pt-12 pb-10">
             <div className="mb-6 md:mb-0 xl:block w-96 hidden">
-              <a href="https://falconmarketing.fr/">
-                <Image src={logo} className="h-12 w-auto mb-3" alt="FlowBite Logo" />
+              <a href="https://mycarz.fr/">
+                <Image src={logo} className="h-12 w-auto mb-3" alt="MyCarz Logo Principal" />
               </a>
               <span className="text-white">Votre solution rapide et abordable pour tous vos besoins automobiles.</span>
             </div>

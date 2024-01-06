@@ -87,8 +87,8 @@ const ServicePage = () => {
   return (
     <>
         <div className='relative lg:pb-32 pb-0'>
-          <Image src={ServiceBannerBgCircle} alt="" className="absolute right-0 z-0" />
-          <Navbar contactBtnClass="border-[#757575]" logo={LogoService} />
+          <Image src={ServiceBannerBgCircle} alt="Cercle décoratif service" className="absolute right-0 z-0" />
+          <Navbar contactBtnClass="border-[#757575]" alt="Logo MyCarz Service" logo={LogoService} />
           <ServiceHeroBanner />
           <ServiceCarouselNew />
         </div>
@@ -100,6 +100,7 @@ const ServicePage = () => {
             svg={GrayWave}
             svgClassName="right-0 top-0"
             mainImage={CarteGrise}
+            alt="un stylo sur un presse-papiers"
             mainColor="#757575"
             secondaryColor="#393939"
             showBtn={false}
@@ -112,6 +113,7 @@ const ServicePage = () => {
             svg={GrayWaveReverse}
             svgClassName="left-0 top-0"
             mainImage={AssuranceAuto}
+            alt="une personne qui remplit un formulaire d'assurance auto"
             mainColor="#757575"
             secondaryColor="#393939"
             showBtn={false}
@@ -124,6 +126,7 @@ const ServicePage = () => {
             svg={GrayWave}
             svgClassName="right-0 top-0"
             mainImage={Plaques}
+            alt="une personne portant une plaque d'immatriculation"
             mainColor="#757575"
             secondaryColor="#393939"
             showBtn={false}

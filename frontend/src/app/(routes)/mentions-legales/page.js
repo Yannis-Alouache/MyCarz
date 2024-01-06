@@ -6,7 +6,7 @@ import LegalImageBanner from '@/app/_components/LegalImageBanner/LegalImageBanne
 const MentionsLegales = () => {
   return (
     <>
-      <Navbar contactBtnClass="border-[#6E260E]" logo={LogoHome} />
+      <Navbar contactBtnClass="border-[#6E260E]" alt="Logo MyCarz Principal" logo={LogoHome} />
       <LegalImageBanner title="Mentions légales" />
       <div className='max-w-screen-lg mx-auto mb-20'>
         <h4 className='font-bold mb-2'>1. Editeur du site</h4>

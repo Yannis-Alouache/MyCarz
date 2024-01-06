@@ -27,7 +27,7 @@ const AffiliateBanner = () => {
 
                         <h3 className="my-8 lg:text-5xl text-3xl lg:text-start text-center font-bold">Faites votre carte grise et vos plaques <span className="text-[#1069ef]">en 2 min</span></h3>
                         <div className="lg:hidden flex col-span-12 lg:col-span-4 rounded-2xl p-16 items-center mb-4" style={{backgroundImage: "linear-gradient(209deg,#eefbfb 2%,#cfe1fc 100%);"}}>
-                        <Image src={Cg} />
+                        <Image src={Cg} alt="Un Certificat de Carte Grise" />
                         </div>
                         <div id="under-text" className="text-[#525a6e] lg:text-start text-center">
                         <p className="mb-3.5">1ère plateforme d'immatriculation depuis 2009</p>
@@ -40,7 +40,7 @@ const AffiliateBanner = () => {
                     </div>
                     </div>
                     <div className="lg:flex hidden col-span-12 lg:col-span-4 rounded-r-2xl p-16 items-center" style={{backgroundImage: "linear-gradient(209deg,#eefbfb 2%,#cfe1fc 100%);"}}>
-                        <Image src={Cg} />
+                        <Image src={Cg} alt="Un Certificat de Carte Grise" />
                     </div>
                 </div>
             </div>

@@ -44,7 +44,7 @@ export const metadata = {
 const Promo = () => {
   return (
     <div className='bg-[#F5F5F7]'>
-      <Navbar logo={Logo} contactBtnClass="border-[#0072FF] bg-transparent" />
+      <Navbar logo={Logo} alt="Logo MyCarz Principal" contactBtnClass="border-[#0072FF] bg-transparent" />
 
 
       <div className='container mx-auto px-5 lg:px-0'>
@@ -75,31 +75,31 @@ const Promo = () => {
           <div className='grid lg:grid-cols-4 grid-cols-1 gap-x-5 gap-y-3 text-lg'>
             <Reveal>
               <div className='bg-white flex items-center font-bold rounded-full gap-x-3 px-5 py-2 shadow'>
-                <Image src={Check} className='h-7 w-auto'/>
+                <Image src={Check} alt="vérification verte" className='h-7 w-auto'/>
                 <span>Service Carte Grise</span>
               </div>
             </Reveal>
             <Reveal>
               <div className='bg-white flex items-center font-bold rounded-full gap-x-3 px-5 py-2 shadow'>
-                <Image src={Check} className='h-7 w-auto'/>
+                <Image src={Check} alt='vérification verte' className='h-7 w-auto'/>
                 <span>Lavage express</span>
               </div>
             </Reveal>
             <Reveal>
               <div className='bg-white flex items-center font-bold rounded-full gap-x-3 px-5 py-2 shadow'>
-                <Image src={Check} className='h-7 w-auto'/>
+                <Image src={Check} alt="vérification verte" className='h-7 w-auto'/>
                 <span>Mécanique</span>
               </div>
             </Reveal>
             <Reveal>
               <div className='bg-white flex items-center font-bold rounded-full gap-x-3 px-5 py-2 shadow'>
-                <Image src={Check} className='h-7 w-auto'/>
+                <Image src={Check} alt="vérification verte" className='h-7 w-auto'/>
                 <span>Covering</span>
               </div>
             </Reveal>
             <Reveal>
               <div className='bg-white flex items-center font-bold rounded-full gap-x-3 px-5 py-2 shadow'>
-                <Image src={Check} className='h-7 w-auto'/>
+                <Image src={Check} alt="vérification verte" className='h-7 w-auto'/>
                 <span>Achat-Vente et Depot vente</span>
               </div>
             </Reveal>
@@ -108,7 +108,7 @@ const Promo = () => {
           <Reveal>
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-y-2 lg:gap-y-0 gap-x-5'>
               <div className='lg:col-span-2 bg-[#0072FF] lg:h-[400px] h-[300px] rounded-3xl'>
-                <iframe className='w-full h-full rounded-3xl' src="https://www.youtube.com/embed/pEipUCculuo" title="🚗💨 MyCarz - 121 Boulevard Gambetta 59100 Roubaix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe className='w-full h-full rounded-3xl' src="https://www.youtube.com/embed/pEipUCculuo" title="🚗💨 MyCarz - 121 Boulevard Gambetta 59100 Roubaix" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </div>
               <div className='bg-[#FF0000] lg:h-[400px] h-full rounded-3xl p-10 text-white lg:text-5xl text-3xl font-black'>
                 <p className='mb-8'>Ne manquez pas cette occasion !</p>
@@ -129,7 +129,7 @@ const Promo = () => {
                 </div>
               </div>
               <div className='col-span-2 h-[400px] rounded-3xl shadow'>
-                <iframe className='rounded-3xl' width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=mycarz%20roubaix+(My%20Carz%20Roubaix)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                <iframe className='rounded-3xl' width="100%" height="100%" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=mycarz%20roubaix+(My%20Carz%20Roubaix)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
               </div>
             </div>
           </Reveal>

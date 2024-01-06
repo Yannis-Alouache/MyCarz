@@ -34,7 +34,7 @@ const HomeHeroBanner = () => {
                         </Link>
                     </div>
                     <div className="pl-0 pt-6 lg:col-span-6 col-span-12 flex items-center lg:pl-7 lg:pt-0">
-                        <Image src={HomeBannerCar} alt="" className="w-full bounce" />
+                        <Image src={HomeBannerCar} alt="une voiture bleue et blanche avec des bandes blanches" className="w-full bounce" />
                     </div>
                 </div>
             </div>
