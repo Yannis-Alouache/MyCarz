@@ -44,22 +44,22 @@ const Footer = (props) => {
                 </h2>
                 <ul className="text-white font-medium">
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline">Achat Dépôt Revente</Link>
+                    <Link href="/achat-depot-revente" className="hover:underline">Achat Dépôt Revente</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline">Mécanique</Link>
+                    <Link href="/mechanique" className="hover:underline">Mécanique</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline">Covering</Link>
+                    <Link href="/covering-detailing" className="hover:underline">Covering</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline">Wash</Link>
+                    <Link href="/wash" className="hover:underline">Wash</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline">Service</Link>
+                    <Link href="/service" className="hover:underline">Service</Link>
                   </li>
                   <li className="mb-4">
-                    <Link href="/nos-valeurs" className="hover:underline">Promo</Link>
+                    <Link href="/promo" className="hover:underline">Promo</Link>
                   </li>
                   <li className="mb-4">
                     <Link href="/mentions-legales" className="hover:underline">Mentions légales</Link>
